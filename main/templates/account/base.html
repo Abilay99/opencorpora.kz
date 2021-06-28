@@ -1,0 +1,26 @@
+{% extends '../base.html' %}
+
+{% load i18n %}
+{% block head_title %}{% endblock %}
+{% block extra_head %}
+{% endblock %}
+{% block header %}
+{% endblock %}
+{% block body %}
+{% if messages %}
+<div style="float:right;" class="alert alert-info text-center mt-5 mr-5 ml-5" role="alert">
+    <h4 class="alert-heading">{% trans 'Messages:' %}</h4>
+    {% for message in messages %}
+    <hr>
+    <p class="mb-0">{{message}}</p>
+    <hr>
+    {% endfor %}
+</div>
+{% endif %}
+<div class="container">
+  {% block content %}
+  {% endblock %}
+</div>
+{% endblock %}
+{% block extra_body %}
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load account socialaccount %}
+{% load static %}
+{% block head_title %}{% trans "Sign In" %}{% endblock %}
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'main/css/login.css' %}">
+{% endblock %}
+{% block header %}
+<span class="navbar-text ml-auto">{% trans "Sign In" %}</span>
+{% endblock %}
+{% block content %}
+  <div class="row">
+    <div class="col-lg-7 col-xl-6 mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class="card-body">
+          <h5 class="card-title text-center">{% trans "Sign In" %}</h5>
+          <form class="login form-signin" method="post" action="{% url 'account_login' %}">
+            {% csrf_token %}
+            <div class="form-label-group">
+              <input name="login" type="text" id="id_login" autocomplete="username" class="form-control" placeholder="Username" required autofocus>
+              <label for="id_login">{% trans 'Username' %}</label>
+            </div>
+            <div class="form-label-group">
+              <input name="password" type="password" id="id_password" autocomplete="current-password" class="form-control" placeholder="Password" required>
+              <label for="id_password">{% trans 'Password' %}</label>
+            </div>
+            <div class="form-check text-center">
+              <input type="checkbox" name="remember" class="form-check-input" id="id_remember">
+              <label class="form-check-label" for="id_remember">{% trans 'Remember me.' %}</label>
+            </div>
+            <hr>
+            <div class="form-label-group text-center">
+            <a href="{% url 'account_reset_password' %}" class="button secondaryAction">{% trans "Forgot Password?" %}</a>
+            </div>
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+            {% endif %}
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">{% trans "Sign In" %}</button>
+            <p class="d-block text-center mt-2 small">{% blocktrans %}If you have not created an account yet, then please 
+            <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
+            <hr class="my-4">
+            <button onclick="var a = document.createElement('a'); a.style.display = 'none'; a.setAttribute('href', '/accounts/google/login/?process=login'); a.click();" class="btn btn-lg btn-google btn-block text-uppercase" type="button"><i class="fab fa-google mr-2"></i>
+            {% blocktrans %}Sign in with Google{% endblocktrans %}
+            </button>
+            <button onclick="var a = document.createElement('a'); a.style.display = 'none'; a.setAttribute('href', '/accounts/vk/login/?process=login'); a.click();" class="btn btn-lg btn-vk btn-block text-uppercase" type="button"><i class="fab fa-vk mr-2"></i>
+            {% blocktrans %}Sign in with VK{% endblocktrans %}
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+{% block extra_body %}
+{% endblock %}

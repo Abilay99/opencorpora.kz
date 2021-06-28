@@ -1,0 +1,47 @@
+{% extends '../base.html' %}
+{% load bootstrap4 %}
+{% load static %}
+{% load i18n %}
+
+{% block head_title %}{% trans 'About Us' %}{% endblock %}
+
+{% block extra_head %}
+<style>
+    p{
+        text-indent: 20px;
+        text-align: justify;
+    }
+    #ul{
+        list-style-type: disc;
+    }
+</style>
+{%endblock%}
+
+{% block header %}
+<span class="navbar-text ml-auto">
+{% trans 'About Us' %} 
+</span>
+{%endblock%}
+
+{% block content %}
+<div class="container">
+    <div class="alert alert-info p-5 m-5" role="alert">
+    <h4 class="alert-heading text-center">{% trans 'About Us' %}</h4>
+{% blocktrans %}
+<p>From 2018 to 2021, extensive work of scientific and technical nature was carried out on the project. The results of this diploma project cover a wide range of tasks in the field of intelligent information retrieval, such as modeling the presentation of documents, designing the architecture of search engines, classifying texts, semantic analysis of texts, derivation of keywords (phrases). increase the productivity of data collection and processing through texts, automatic synthesis of texts, the use of new distributed methods and technologies.</p>
+<p>A complete system of classification of suffixes and suffixes of the Kazakh language was developed for the analysis and segmentation of data. Determined limit state machines are designed for all parts of speech using all possible options for the addition of suffixes and suffixes to the Kazakh language. A lexical-free algorithm was created using a classification system developed for the completion of the Kazakh language. The special features of the created algorithm are its speed and very easy repetition.</p>
+<p>For the collection and processing of large data, a fixed case model and system have been developed, the features of which are advanced modules of data processing (tokenization, lemmatization, morphological analysis). Kazakh language. Software of algorithms (automatic assembly, classification and processing by various parameters) was implemented and processed, classified data in the Kazakh language were obtained.</p>
+<p>Development of various practical software for the analysis and processing of natural language text for the processing and analysis of unstructured and unstructured big data using the methods of artificial intelligence, thereby creating tools for semantic analysis. This module includes:</p>
+<ul id="ul">
+<li>a modified approach to the production of keywords and phrases in the Kazakh language texts;</li>
+<li>Algorithm of text semantic analysis based on machine learning using the method of Word2Vec;</li>
+<li>method of summarizing texts in the Kazakh language. Concept analysis based on the Vectors Space model, along with modified keyword output and machine learning, is a tool for automatically summarizing text.</li>
+</ul>
+<p>According to the results of the project for 2018-2021, 3 editions were published.</p>
+{% endblocktrans  %}
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_body %}
+{% endblock %}

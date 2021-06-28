@@ -1,0 +1,77 @@
+{% load bootstrap4 %}
+{% load static %}
+{% load i18n %}
+{% load i18n_switcher %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="{% static 'admin/images/favicon.ico' %}" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>OpenCorporaKaz - {% block head_title %}{% trans 'Kazakh Open Corpora' %}{% endblock %}</title>
+		<link rel="shortcut icon" href="{% static 'admin/images/favicon.ico' %}" />
+		<link rel="stylesheet" type="text/css" href="{% static 'main/css/reset.css' %}">
+    {% bootstrap_css %}
+    {% bootstrap_javascript jquery='min' %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/forall.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/pagination_blue.css' %}" />
+    {% block extra_head %}
+    {% endblock %}
+<body>
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="{% url 'index' %}">
+          <img src="{% static 'main/images/logo.png' %}" alt="logo.png" height="45px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          {% block header %}
+          {% endblock %}
+          <ul class="navbar-nav ml-auto">
+            {% if user.is_authenticated %}
+            <span class="navbar-text">{{ user.username }}</span>
+            <li class="nav-item"><a class="nav-link" href="{% url 'account_logout' %}">{% trans 'Log out' %}</a></li>
+            {% else %}
+            <li class="nav-item"><a class="nav-link" href="{% url 'account_login' %}">{% trans 'Sign In' %}</a></li>
+            {% endif %}
+            <li class="nav-item"><a class="nav-link" href="{{ request|switch_i18n:'en' }}">ENG</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ request|switch_i18n:'kk' }}">ҚАЗ</a></li>  
+            <li class="nav-item"><a class="nav-link" href="{{ request|switch_i18n:'ru' }}">РУС</a></li>  
+          </ul>
+         
+        </div>
+        
+      </nav>
+    </div>
+  </header>
+  {% block body %}
+    {% block content %}
+    {% endblock %}
+  {% endblock %}
+  <footer>
+    <div id="footer">
+      <ul>
+          <li style="float:left"><a href="{% url 'index' %}">{% trans 'Home' %}</a></li>
+          <li style="float:left"><a href="{% url 'exec' %}">{% trans 'Online execute' %}</a></li>
+          {% if user.is_authenticated %}
+          <li style="float:left"><a href="{% url 'corpora' %}">{% trans 'Corpora API' %}</a></li>
+          <li style="float:left"><a href="{% url 'genres' %}">{% trans 'Genres API' %}</a></li>
+          {% endif %}
+          {% if user.is_superuser %}
+          <li style="float:left"><a href="/admin/">{% trans 'Administration' %}</a></li>
+          {% endif %}
+          <li style="float:right"><a href="{% url 'about' %}">{% trans 'About Us' %}</a></li>
+          <li style="float:right"><a href="{% url 'privacy' %}">{% trans 'Privacy & Terms' %}</a></li>
+      </ul>
+    </div>
+  </footer>
+  {% block extra_body %}
+  {% endblock %}
+</body>
+</html>

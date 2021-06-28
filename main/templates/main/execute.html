@@ -1,0 +1,65 @@
+{% extends '../base.html' %}
+{% load bootstrap4 %}
+{% load static %}
+{% load i18n %}
+{% load i18n_switcher %}
+
+{% block head_title %}{% trans 'Online NLP proccessing' %}{% endblock %}
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'main/css/load.css' %}" />
+{% endblock %}
+{% block header %}
+<span class="navbar-text ml-auto">
+    {% trans 'Online NLP proccessing on the text' %} 
+</span>
+{% endblock %}
+
+{% block content %}
+<div class="wrap">
+    <div class="loading">
+      <div class="bounceball"></div>
+      <div class="load">{% trans 'Loading' %}</div>
+    </div>
+</div>
+{% if user.is_authenticated %}
+<div class="container mt-2 pb-5">
+    <div class="pb-5">
+        <form class="form">
+            <div class="form-group mb-1">
+                <label for="text">{% trans 'Input text' %}</label>
+                <textarea name="text" id="text" class="form-control" aria-describedby="textHelp" placeholder="{% trans 'Enter same text... or drop text file' %}"></textarea>
+                <small id="textHelp" class="form-text text-muted">{% trans 'Your text must contain at least 1000 characters and the file size must be no more than 1MB.'%}</small>
+            </div>
+            <div class="form-group w-100">
+                <button type="button" onclick="sendexec($('#text'));" style="float: right;" class="btn btn-primary mr-5 bord" id="submit" >{% trans 'Submit' %}</button>
+            </div>
+        </form>
+    </div>
+    <div id="result" style="display: none;">
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">{% trans 'Annotation'%}</h4>
+            <code id="annotation"></code>
+        </div>
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">{% trans 'Keywords'%}</h4>
+            <code id="keywords"></code>
+        </div>
+        <div id="annotation" class="alert alert-success" role="alert">
+            <h4 class="alert-heading">{% trans 'Lemmatization'%}</h4>
+            <code id="lemma"></code>
+        </div>
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">{% trans 'Morphological analysis'%}</h4>
+            <code id="morph"></code>
+        </div>
+    </div>
+</div>
+{% else %}
+<h3 class="warning">{% trans 'Oops. Sorry you can you must be registered' %}</h3></h3>
+{% endif %}
+{% block extra_body %}
+<script type="text/javascript" src="{% static 'main/js/dropanddrag.js' %}"></script>
+<script type="text/javascript" src="{% static 'main/js/main.js' %}"></script>
+<div class="doload"></div>
+{% endblock %}
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "account/base.html" %}
+{% load i18n %}
+{% load static %}
+{% block head_title %}{% trans "Signup" %}{% endblock %}
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'main/css/login.css' %}">
+{% endblock %}
+{% block header %}
+<span class="navbar-text ml-auto">{% trans "Sign Up" %}</span>
+{% endblock %}
+{% block content %}
+  <div class="row">
+    <div class="col-lg-7 col-xl-6 mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class="card-body">
+          <h5 class="card-title text-center">{% trans "Signup" %}</h5>
+          <form class="signup form-signin" id="signup_form" method="post" action="{% url 'account_signup' %}">
+            {% csrf_token %}
+            <div class="form-label-group">
+              <input name="username" type="text" id="id_username" class="form-control" placeholder="Username" required autofocus>
+              <label for="id_username">{% trans 'Username' %}</label>
+            </div>
+
+            <div class="form-label-group">
+              <input name="email" type="email" id="id_email" class="form-control" placeholder="Email address" required>
+              <label for="id_email">{% trans 'Email address' %}</label>
+            </div>
+            
+            <hr>
+
+            <div class="form-label-group">
+              <input name="password1" type="password" id="id_password1" class="form-control" placeholder="Password" required>
+              <label for="id_password1">{% trans 'Password' %}</label>
+            </div>
+            
+            <div class="form-label-group">
+              <input name="password2" type="password" id="id_password2" class="form-control" placeholder="Password" required>
+              <label for="id_password2">{% trans 'Confirm password' %}</label>
+            </div>
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+            {% endif %}
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">{% trans "Sign Up" %}</button>
+            <p class="d-block text-center mt-2 small">{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+            <hr class="my-4">
+            <button onclick="var a = document.createElement('a'); a.style.display = 'none'; a.setAttribute('href', '/accounts/google/login/?process=login'); a.click();" class="btn btn-lg btn-google btn-block text-uppercase" type="button"><i class="fab fa-google mr-2"></i>
+            {% blocktrans %}Sign up with Google{% endblocktrans %}
+            </button>
+            <button onclick="var a = document.createElement('a'); a.style.display = 'none'; a.setAttribute('href', '/accounts/vk/login/?process=login'); a.click();" class="btn btn-lg btn-vk btn-block text-uppercase" type="button"><i class="fab fa-vk mr-2"></i>
+            {% blocktrans %}Sign up with VK{% endblocktrans %}
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

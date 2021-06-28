@@ -1,0 +1,241 @@
+
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}*/
+body, html{
+	margin: 0;
+    padding: 0;
+	background-color: white;
+	font-family: "times new roman";
+	color: black;
+}
+
+	
+
+.warning{
+	margin-top: 8em;
+	text-align: center;
+}
+/*.global {
+	position: relative;
+    width: 100%;
+    min-width: 980px;
+    padding: 0;
+    flex-direction: column;
+    height: 100%;
+}*/
+img {
+    vertical-align: baseline;
+    border-style: none;
+}
+.navbar-text{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.form-group textarea{
+	height: 480px;
+	overflow-y: auto;
+	font-size: 14px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: justify;
+}
+header{
+	/*background: transparent linear-gradient(123deg, #76FCFF 0%, #F966F8 52%, #E8BBA2 100%) 0% 0% no-repeat padding-box;
+    background-attachment: fixed;*/
+	background-color: white;
+	padding: 0 40px;
+    border-bottom: 1px solid #E4E4E4;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 2;
+}
+header .nav-item{
+	text-transform: uppercase;
+	margin-left: 1em;
+}
+
+a{
+	color: #b4ad9e;
+}
+a:hover{
+	color: #898783
+}
+header .navbar-light{
+	background-color: #fff;
+}
+header .nav-item a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+	transform: scale(0);
+	transition: all .5s;
+}
+
+header .nav-item a:hover::after{
+	transform: scale(1);
+}
+.modal-open .modal{
+	overflow-y: hidden !important;
+}
+.modal-dialog{
+    overflow-y: inherit !important;
+}
+.modal-body{
+  height: 450px;
+  overflow-y: auto;
+}
+.secmodal{
+  	/*width: 73%;*/
+  	top: 15%;
+	overflow: hidden;
+}
+.secmodal1{
+	padding-top: 4%;
+  	margin-left: 2%;
+  	width: 31%;
+}
+.secmodal2{
+	padding-top: 4%;
+  	margin-left: 34%;
+  	width: 31%;
+}
+.secmodal3{
+	padding-top: 4%;
+  	margin-left: 67%;
+  	width: 31%;
+}
+.form-inline .form-control{
+	width: 400px;
+}
+.bord{
+	border-bottom-left-radius: 25px; 
+	border-bottom-right-radius: 25px; 
+	border-top-left-radius: 25px; 
+	border-top-right-radius: 25px;
+}
+.bord1{
+	border-radius: 10px; 
+    padding: 5px 8px 5px 8px;
+}
+
+.sectionheader{
+	width: auto;
+    height: auto;
+}
+.logo{
+	padding-right: 170px ;
+}
+
+.sectionright{
+    position: fixed;
+    margin-left: 70%; 
+    padding: 1em;
+}
+.sectionbody{
+    position: relative; 
+    width: 73%;
+	z-index: 1;
+}
+
+
+#container {
+	padding-left: 20%;
+	width: 80%;
+	padding-bottom: 50px;
+}
+#container p:first-child {
+	margin-top: 10px;
+}
+.result {
+	margin-top: 15px;
+	padding: 15px;
+	border: 1px solid #E4E4E4;
+	border-radius: 15px;
+}
+.result:hover {
+	box-shadow: inset 0px 0px 7px rgba(0,0,0,0.3);
+}
+.result a:first-child {
+	font-size: 18px;
+	text-decoration: none;
+	color: #1A0DAB;
+}
+.result a:first-child:visited {
+	color: #660099;
+}
+.result a:first-child:hover {
+	text-decoration: underline;
+}
+.result p:nth-child(3) { /*link*/
+	display: inline-block;
+	color: #006621;
+	font-size: 14px;
+}
+.result a:nth-child(4) { /*website title*/
+	display: inline-block;
+	text-decoration: none;
+	color: #777777;
+}
+.result a:nth-child(4):hover {
+	color: black;
+}
+.result p {
+	margin: 2px;
+}
+.result p span{
+	color: #70757a;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.result p:nth-child(5) {
+	cursor: pointer;
+	text-justify: inter-word;
+	text-align: justify;
+}
+
+footer li a {
+	display: block;
+	float:right;
+	padding:0.5em;
+	margin-left:0.05em;
+	margin-right:0.05em;
+	margin-top:1.5em;
+	color:gray;
+	text-align: center;
+	margin:auto;
+	text-decoration: none;
+}
+footer ul li{
+	list-style-type: none;
+	text-decoration: none;
+}
+#footer {
+	z-index: 3;
+	position: fixed;
+	width:100%;
+	bottom: 0;
+	background-color: #f7f7f7;
+	padding: 0, 10px, 0, 10px;
+	text-decoration: none;
+}
+
+footer ul li a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+	transform: scale(0);
+	transition: all .5s;
+}
+footer ul li a:hover{
+	text-decoration: none;
+}
+footer ul li a:hover::after{
+	transform: scale(1);
+}
+			

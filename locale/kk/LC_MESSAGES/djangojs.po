@@ -1,0 +1,216 @@
+# This file is distributed under the same license as the Django package.
+#
+# Translators:
+# Nurlan Rakhimzhanov <nurlan.rakhimzhanov@gmail.com>, 2011
+msgid ""
+msgstr ""
+"Project-Id-Version: django\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 11:50+0200\n"
+"PO-Revision-Date: 2017-09-19 16:41+0000\n"
+"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
+"Language-Team: Kazakh (http://www.transifex.com/django/django/language/kk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, javascript-format
+msgid "Available %s"
+msgstr "%s бар"
+
+#, javascript-format
+msgid ""
+"This is the list of available %s. You may choose some by selecting them in "
+"the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr "Бұл барлық қол жетімді %s тізімі. Олардың кейбірін төмендегі өрісте белгілеп, "
+"\"Таңдау\" батырмасын басу арқылы немесе екі рет шерту арқылы таңдауға болады."
+
+#, javascript-format
+msgid "Type into this box to filter down the list of available %s."
+msgstr "%s тізімін сүзу үшін осы өріске теруді бастаңыз."
+
+msgid "Filter"
+msgstr "Сүзгіш"
+
+msgid "Choose all"
+msgstr "Барлығын таңдау"
+
+#, javascript-format
+msgid "Click to choose all %s at once."
+msgstr "%s барлығын таңдау үшін осында басыңыз."
+
+msgid "Choose"
+msgstr "Таңдау"
+
+msgid "Remove"
+msgstr "Өшіру(жою)"
+
+#, javascript-format
+msgid "Chosen %s"
+msgstr " %s таңдалған"
+
+#, javascript-format
+msgid ""
+"This is the list of chosen %s. You may remove some by selecting them in the "
+"box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr "Бұл белгіленген %s тізімі. Олардың кейбірін төмендегі өрісте белгілеп, "
+"\"Жою\" батырмасын басу арқылы немесе екі рет шерту арқылы жоюыңызға болады."
+
+msgid "Remove all"
+msgstr "Барлығын жою"
+
+#, javascript-format
+msgid "Click to remove all chosen %s at once."
+msgstr "%s барлығын жою үшін осында басыңыз."
+
+msgid "%(sel)s of %(cnt)s selected"
+msgid_plural "%(sel)s of %(cnt)s selected"
+msgstr[0] "%(cnt)s-ң %(sel)s-ы(і) таңдалды"
+msgstr[1] "%(cnt)s-ң %(sel)s-ы(і) таңдалды"
+
+msgid ""
+"You have unsaved changes on individual editable fields. If you run an "
+"action, your unsaved changes will be lost."
+msgstr ""
+"Сіздің төмендегі өзгермелі алаңдарда(fields) өзгерістеріңіз бар. Егер артық "
+"әрекет жасасаңызб сіз өзгерістеріңізді жоғалтасыз."
+
+msgid ""
+"You have selected an action, but you haven't saved your changes to "
+"individual fields yet. Please click OK to save. You'll need to re-run the "
+"action."
+msgstr ""
+"Сіз өз өзгерістеріңізді сақтамай, әрекет жасадыңыз. Өтініш, сақтау үшін ОК "
+"батырмасын басыңыз және өз әрекетіңізді қайта жасап көріңіз. "
+
+msgid ""
+"You have selected an action, and you haven't made any changes on individual "
+"fields. You're probably looking for the Go button rather than the Save "
+"button."
+msgstr ""
+"Сіз Сақтау батырмасына қарағанда, Go(Алға) батырмасын іздеп отырған "
+"боларсыз, себебі ешқандай өзгеріс жасамай, әрекет жасадыңыз."
+
+msgid "Now"
+msgstr "Қазір"
+
+msgid "Midnight"
+msgstr "Түн жарым"
+
+msgid "6 a.m."
+msgstr "Таңғы 6"
+
+msgid "Noon"
+msgstr "Талтүс"
+
+msgid "6 p.m."
+msgstr "Кешкі 6"
+
+#, javascript-format
+msgid "Note: You are %s hour ahead of server time."
+msgid_plural "Note: You are %s hours ahead of server time."
+msgstr[0] "Назар аударыңыз: Сіздің локальді уақытыңыз, "
+"сервердің уақытынан %s сағатқа алдыда"
+msgstr[1] "Назар аударыңыз: Сіздің локальді уақытыңыз, "
+"сервердің уақытынан %s сағатқа алдыда"
+
+#, javascript-format
+msgid "Note: You are %s hour behind server time."
+msgid_plural "Note: You are %s hours behind server time."
+msgstr[0] "Назар аударыңыз: Сіздің локальді уақытыңыз, "
+"сервердің уақытынан %s сағатқа артта"
+msgstr[1] "Назар аударыңыз: Сіздің локальді уақытыңыз, "
+"сервердің уақытынан %s сағатқа артта"
+
+msgid "Choose a Time"
+msgstr "Уақытты таңдаңыз"
+
+msgid "Choose a time"
+msgstr "Уақытты таңда"
+
+msgid "Cancel"
+msgstr "Болдырмау"
+
+msgid "Today"
+msgstr "Бүгін"
+
+msgid "Choose a Date"
+msgstr "Күнді таңдаңыз"
+
+msgid "Yesterday"
+msgstr "Кеше"
+
+msgid "Tomorrow"
+msgstr "Ертең"
+
+msgid "January"
+msgstr "Қаңтар"
+
+msgid "February"
+msgstr "Ақпан"
+
+msgid "March"
+msgstr "Наурыз"
+
+msgid "April"
+msgstr "Сәуір"
+
+msgid "May"
+msgstr "Мамыр"
+
+msgid "June"
+msgstr "Маусым"
+
+msgid "July"
+msgstr "Шілде"
+
+msgid "August"
+msgstr "Тамыз"
+
+msgid "September"
+msgstr "Қыркүйек"
+
+msgid "October"
+msgstr "Қазан"
+
+msgid "November"
+msgstr "Қараша"
+
+msgid "December"
+msgstr "Желтоқсан"
+
+msgctxt "one letter Sunday"
+msgid "S"
+msgstr "Ж"
+
+msgctxt "one letter Monday"
+msgid "M"
+msgstr "Д"
+
+msgctxt "one letter Tuesday"
+msgid "T"
+msgstr "С"
+
+msgctxt "one letter Wednesday"
+msgid "W"
+msgstr "С"
+
+msgctxt "one letter Thursday"
+msgid "T"
+msgstr "Б"
+
+msgctxt "one letter Friday"
+msgid "F"
+msgstr "Ж"
+
+msgctxt "one letter Saturday"
+msgid "S"
+msgstr "С"
+
+msgid "Show"
+msgstr "Көрсету"
+
+msgid "Hide"
+msgstr "Жасыру"

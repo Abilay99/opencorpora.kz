@@ -1,0 +1,2136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-16 23:05+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: main/apps.py:13
+msgid "Main"
+msgstr "Основной"
+
+#: main/models.py:13 main/models.py:35 main/models.py:139
+msgid "name"
+msgstr "Название"
+
+#: main/models.py:16
+msgid "authorization group"
+msgstr "Группа авторизации"
+
+#: main/models.py:17
+msgid "authorization groups"
+msgstr "Группы авторизации"
+
+#: main/models.py:23 main/models.py:68
+msgid "group"
+msgstr "Группа"
+
+#: main/models.py:24 main/models.py:80
+msgid "permission"
+msgstr "Разрешение"
+
+#: main/models.py:27
+msgid "Authorization group permission"
+msgstr "Разрешения группы авторизации"
+
+#: main/models.py:28
+msgid "Authorization group permissions"
+msgstr "Разрешение группы авторизации"
+
+#: main/models.py:36 main/models.py:115
+msgid "content type"
+msgstr "Тип содержимого"
+
+#: main/models.py:37
+msgid "code name"
+msgstr "Кодовое имя"
+
+#: main/models.py:40
+msgid "Authorization permission"
+msgstr "Разрешение авторизации"
+
+#: main/models.py:41
+msgid "Authorization permissions"
+msgstr "Разрешения авторизации"
+
+#: main/models.py:48
+msgid "password"
+msgstr "Пароль"
+
+#: main/models.py:49
+msgid "last login"
+msgstr "Последний Войти"
+
+#: main/models.py:50
+msgid "is superuser"
+msgstr "Суперпользователь"
+
+#: main/models.py:51
+msgid "username"
+msgstr "Имя пользователя"
+
+#: main/models.py:52
+msgid "first name"
+msgstr "Имя"
+
+#: main/models.py:53
+msgid "last name"
+msgstr "Фамилия"
+
+#: main/models.py:54
+msgid "email address"
+msgstr "Адрес электронной почты"
+
+#: main/models.py:55
+msgid "is staff"
+msgstr "Персонал"
+
+#: main/models.py:56
+msgid "is active"
+msgstr "Активен"
+
+#: main/models.py:57
+msgid "date joined"
+msgstr "Дата присоединения"
+
+#: main/models.py:60
+msgid "Authorization user"
+msgstr "Авторизация пользователя"
+
+#: main/models.py:61
+msgid "Authorization users"
+msgstr "Авторизация пользователей"
+
+#: main/models.py:67 main/models.py:79 main/models.py:116
+msgid "user"
+msgstr "Пользователь"
+
+#: main/models.py:71
+msgid "Authorization user group"
+msgstr "Группа пользователей авторизации"
+
+#: main/models.py:72
+msgid "Authorization user groups"
+msgstr "Группы пользователей авторизации"
+
+#: main/models.py:83
+msgid "Authorization user permission"
+msgstr "Разрешение авторизации пользователя"
+
+#: main/models.py:84
+msgid "Authorization user permissions"
+msgstr "Разрешения пользователей авторизации"
+
+#: main/models.py:91
+msgid "Title"
+msgstr "Заголовок"
+
+#: main/models.py:92
+msgid "Text"
+msgstr "Текст"
+
+#: main/models.py:93 main/templates/main/execute.html:48
+#: main/templates/main/index.html:46 main/templates/main/index.html:120
+msgid "Lemmatization"
+msgstr "Лемматизация"
+
+#: main/models.py:94 main/templates/main/execute.html:52
+#: main/templates/main/index.html:66 main/templates/main/index.html:124
+msgid "Morphological analysis"
+msgstr "Морфологический анализ"
+
+#: main/models.py:96 main/models.py:169
+msgid "Genre"
+msgstr "Жанр"
+
+#: main/models.py:97
+msgid "Key words"
+msgstr "Ключевые слова"
+
+#: main/models.py:98 main/templates/main/execute.html:40
+msgid "Annotation"
+msgstr "Аннотации"
+
+#: main/models.py:100
+msgid "URL address"
+msgstr "URL-адрес"
+
+#: main/models.py:102 main/models.py:103
+msgid "Corpora"
+msgstr "Корпус"
+
+#: main/models.py:110
+msgid "action time"
+msgstr "время действия"
+
+#: main/models.py:111
+msgid "object id"
+msgstr "идентификатор объекта"
+
+#: main/models.py:112
+msgid "object representation"
+msgstr "представление объекта"
+
+#: main/models.py:113
+msgid "action flag"
+msgstr "флаг действия"
+
+#: main/models.py:114
+msgid "change message"
+msgstr "изменить сообщение"
+
+#: main/models.py:119
+msgid "Django admin logs"
+msgstr "Журналы администратора Django"
+
+#: main/models.py:120
+msgid "Django admin log"
+msgstr "Журнал администратора Django"
+
+#: main/models.py:126
+msgid "app label"
+msgstr "ярлык приложения"
+
+#: main/models.py:127
+msgid "model"
+msgstr "модель"
+
+#: main/models.py:130
+msgid "Django content types"
+msgstr "Типы содержимого Django"
+
+#: main/models.py:131
+msgid "Django content type"
+msgstr "Тип содержимого Django"
+
+#: main/models.py:138
+msgid "app"
+msgstr "Приложение"
+
+#: main/models.py:140
+msgid "applied"
+msgstr "Применяемый"
+
+#: main/models.py:143
+msgid "Django migrations"
+msgstr "Миграции Django"
+
+#: main/models.py:144
+msgid "Django migration"
+msgstr "Django migration"
+
+#: main/models.py:150
+msgid "session key"
+msgstr "ключ сеанса"
+
+#: main/models.py:151
+msgid "session data"
+msgstr "данные сеанса"
+
+#: main/models.py:152
+msgid "expire date"
+msgstr "Дата истечения срока годности"
+
+#: main/models.py:155
+msgid "Django sessions"
+msgstr "Сессии Django"
+
+#: main/models.py:156
+msgid "Django session"
+msgstr "Django сессия"
+
+#: main/models.py:162 opencorpora/settings.py:171
+msgid "Russian"
+msgstr "Русский"
+
+#: main/models.py:163 opencorpora/settings.py:170
+msgid "Kazakh"
+msgstr "Казахский"
+
+#: main/models.py:164 opencorpora/settings.py:169
+msgid "English"
+msgstr "Английский"
+
+#: main/models.py:168 main/templates/main/index.html:87
+msgid "Genres"
+msgstr "Жанры"
+
+#: main/templates/account/account_inactive.html:5
+#: main/templates/account/account_inactive.html:8
+msgid "Account Inactive"
+msgstr "Аккаунт не активен"
+
+#: main/templates/account/account_inactive.html:10
+msgid "This account is inactive."
+msgstr "Этот аккаунт не активен."
+
+#: main/templates/account/base.html:12
+msgid "Messages:"
+msgstr "Сообщение:"
+
+#: main/templates/account/email.html:5 main/templates/account/email.html:8
+
+msgid "E-mail Addresses"
+msgstr "Адрес электронной почты:"
+
+#: main/templates/account/email.html:10
+msgid "The following e-mail addresses are associated with your account:"
+msgstr "С вашей учетной записью связаны следующие адреса электронной почты:"
+
+#: main/templates/account/email.html:24
+msgid "Verified"
+msgstr "Проверено"
+
+#: main/templates/account/email.html:26
+msgid "Unverified"
+msgstr "Непроверенный"
+
+#: main/templates/account/email.html:28
+msgid "Primary"
+msgstr "Основной"
+
+#: main/templates/account/email.html:34
+msgid "Make Primary"
+msgstr "Сделать основным"
+
+#: main/templates/account/email.html:35
+msgid "Re-send Verification"
+msgstr "Отправить подтверждение"
+
+#: main/templates/account/email.html:36
+#: main/templates/socialaccount/connections.html:35
+msgid "Remove"
+msgstr "Удалить"
+
+#: main/templates/account/email.html:43
+msgid "Warning:"
+msgstr "Предупреждение:"
+
+#: main/templates/account/email.html:43
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+"В настоящее время у вас не настроен адрес электронной почты. Вам "
+"действительно стоит добавить адрес электронной почты, чтобы вы могли "
+"получать уведомления, сбрасывать пароль и т. д."
+
+#: main/templates/account/email.html:48
+
+msgid "Add E-mail Address"
+msgstr "Адрес электронной почты:"
+
+#: main/templates/account/email.html:53
+msgid "Add E-mail"
+msgstr "Добавить электронную почту"
+
+#: main/templates/account/email.html:63
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr "Вы действительно хотите удалить выбранный адрес электронной почты?"
+
+#: main/templates/account/email/base_message.txt:1
+
+msgid "Hello from %(site_name)s!"
+msgstr "Команда сайта %(site_name)s"
+
+#: main/templates/account/email/base_message.txt:5
+#, python-format
+msgid ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+"Спасибо за использование %(site_name)s!\n"
+"%(site_domain)s"
+
+#: main/templates/account/email/email_confirmation_message.txt:5
+#, python-format
+msgid ""
+"You're receiving this e-mail because user %(user_display)s has given your e-"
+"mail address to register an account on %(site_domain)s.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s"
+msgstr ""
+"Вы получили это электронное письмо, потому что пользователь %(user_display)s "
+"предоставил ваш адрес электронной почты для регистрации учетной записи на "
+"%(site_domain)s.\n"
+"\n"
+"Чтобы убедиться, что это правильно, перейдите по адресу %(activate_url)s."
+
+#: main/templates/account/email/email_confirmation_subject.txt:3
+msgid "Please Confirm Your E-mail Address"
+msgstr "Пожалуйста, подтвердите свой адрес электронной почты"
+
+#: main/templates/account/email/password_reset_key_message.txt:4
+msgid ""
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+msgstr ""
+"Вы получили это письмо, потому что вы или кто-то другой запросил пароль для "
+"вашей учетной записи.\n"
+"Его можно спокойно проигнорировать, если вы не запрашивали сброс пароля. "
+"Щелкните ссылку ниже, чтобы сбросить пароль."
+
+#: main/templates/account/email/password_reset_key_message.txt:9
+#, python-format
+msgid "In case you forgot, your username is %(username)s."
+msgstr "Если вы забыли, ваше имя пользователя %(username)s."
+
+#: main/templates/account/email/password_reset_key_subject.txt:3
+
+msgid "Password Reset E-mail"
+msgstr "Восстановление пароля"
+
+#: main/templates/account/email_confirm.html:6
+#: main/templates/account/email_confirm.html:10
+
+msgid "Confirm E-mail Address"
+msgstr "Адрес электронной почты:"
+
+#: main/templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+"Подтвердите, что <a href=\"mailto:%(email)s\">%(email)s</a> - это адрес "
+"электронной почты пользователя %(user_display)s."
+
+#: main/templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr "Подтверждать"
+
+#: main/templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+"Срок действия ссылки для подтверждения по электронной почте истек или она "
+"недействительна. Пожалуйста, <a href=\"%(email_url)s\"> отправьте новый "
+"запрос на подтверждение по электронной почте </a>"
+
+#: main/templates/account/login.html:6 main/templates/account/login.html:11
+#: main/templates/account/login.html:18 main/templates/account/login.html:40
+#: main/templates/base.html:41
+msgid "Sign In"
+msgstr "Войти"
+
+#: main/templates/account/login.html:23 main/templates/account/signup.html:21
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: main/templates/account/login.html:27 main/templates/account/signup.html:33
+
+msgid "Password"
+msgstr "Пароль"
+
+#: main/templates/account/login.html:31
+msgid "Remember me."
+msgstr "Запомни меня."
+
+#: main/templates/account/login.html:35
+#: main/templates/account/password_change.html:14
+
+msgid "Forgot Password?"
+msgstr "Подтвердите пароль:"
+
+#: main/templates/account/login.html:41
+msgid ""
+"If you have not created an account yet, then please \n"
+"            <a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+"Если вы еще не создали учетную запись, \n"
+"сначала <a href=\"%(signup_url)s\">зарегистрируйтесь</a>."
+
+#: main/templates/account/login.html:45
+msgid "Sign in with Google"
+msgstr "Войти с Google аккаунт"
+
+#: main/templates/account/login.html:48
+msgid "Sign in with VK"
+msgstr "Войти с VK аккаунт"
+
+#: main/templates/account/logout.html:6 main/templates/account/logout.html:11
+#: main/templates/account/logout.html:21
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: main/templates/account/logout.html:15
+msgid "Are you sure you want to sign out?"
+msgstr "Вы уверены, что хотите выйти?"
+
+#: main/templates/account/messages/cannot_delete_primary_email.txt:2
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr ""
+"Вы не можете удалить свой основной адрес электронной почты (%(email)s)."
+
+#: main/templates/account/messages/email_confirmation_sent.txt:2
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr "Электронное письмо с подтверждением отправлено на %(email)s."
+
+#: main/templates/account/messages/email_confirmed.txt:2
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr "Вы подтвердили %(email)s."
+
+#: main/templates/account/messages/email_deleted.txt:2
+#, python-format
+msgid "Removed e-mail address %(email)s."
+msgstr "Удален адрес электронной почты %(email)s."
+
+# Official django translate !edited Abilay
+# This file is distributed under the same license as the Django package.
+#
+# Translators:
+# Ivan Ivaschenko <defuz.net@gmail.com>, 2013
+# Denis Darii <denis.darii@gmail.com>, 2011
+# Dimmus <dmitri.chudinov@gmail.com>, 2011
+# Eugene <eugene.mechanism@gmail.com>, 2016-2017
+# crazyzubr <hjcnbckfd@gmail.com>, 2020
+# Sergey <inoks@mail.ru>, 2016
+# Jannis Leidel <jannis@leidel.info>, 2011
+# SeryiMysh <vital@dorokhin.kz>, 2020
+# Алексей Борискин <sun.void@gmail.com>, 2012-2015
+# Дмитрий <nerosketch@gmail.com>, 2019
+# Дмитрий Шатера <mr.bobsans@gmail.com>, 2018
+# "Project-Id-Version: django\n"
+# "Report-Msgid-Bugs-To: \n"
+# "POT-Creation-Date: 2020-07-14 19:53+0200\n"
+# "PO-Revision-Date: 2020-07-21 09:32+0000\n"
+# "Last-Translator: crazyzubr <hjcnbckfd@gmail.com>\n"
+# "Language-Team: Russian (http://www.transifex.com/django/django/language/"
+# "ru/)\n"
+# "MIME-Version: 1.0\n"
+# "Content-Type: text/plain; charset=UTF-8\n"
+# "Content-Transfer-Encoding: 8bit\n"
+# "Language: ru\n"
+# "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+# "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+# "%100>=11 && n%100<=14)? 2 : 3);\n"
+#: main/templates/account/messages/logged_in.txt:4
+msgid "Successfully signed in as %(name)s."
+msgstr "Успешно удалены %(count)d %(items)s."
+
+#: main/templates/account/messages/logged_out.txt:2
+msgid "You have signed out."
+msgstr "Вы вышли из аккаунта."
+
+#: main/templates/account/messages/password_changed.txt:2
+msgid "Password successfully changed."
+msgstr "Пароль успешно изменен."
+
+#: main/templates/account/messages/password_set.txt:2
+msgid "Password successfully set."
+msgstr "Пароль успешно установлен."
+
+#: main/templates/account/messages/primary_email_set.txt:2
+msgid "Primary e-mail address set."
+msgstr "Установлен основной адрес электронной почты."
+
+#: main/templates/account/messages/unverified_primary_email.txt:2
+msgid "Your primary e-mail address must be verified."
+msgstr "Ваш основной адрес электронной почты должен быть подтвержден."
+
+#: main/templates/account/password_change.html:5
+#: main/templates/account/password_change.html:8
+#: main/templates/account/password_change.html:13
+#: main/templates/account/password_reset_from_key.html:4
+#: main/templates/account/password_reset_from_key.html:7
+#: main/templates/account/password_reset_from_key_done.html:4
+#: main/templates/account/password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr "Измени пароль"
+
+#: main/templates/account/password_reset.html:6
+#: main/templates/account/password_reset.html:10
+#: main/templates/account/password_reset_done.html:6
+#: main/templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr "Восстановление пароля"
+
+#: main/templates/account/password_reset.html:15
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+"Забыли свой пароль? Введите ниже свой адрес электронной почты, и мы отправим "
+"вам электронное письмо, позволяющее изменить его.Забыли пароль? Введите свой "
+"адрес электронной почты ниже, и мы вышлем вам инструкцию, как установить "
+"новый пароль."
+
+#: main/templates/account/password_reset.html:20
+msgid "Reset My Password"
+msgstr "Восстановить мой пароль"
+
+#: main/templates/account/password_reset.html:23
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr "Свяжитесь с нами, если у вас возникнут проблемы со сбросом пароля."
+
+#: main/templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+"Мы отправили вам электронное письмо. Свяжитесь с нами, если вы не получите "
+"его в течение нескольких минут."
+
+#: main/templates/account/password_reset_from_key.html:7
+msgid "Bad Token"
+msgstr "Плохой токен"
+
+#: main/templates/account/password_reset_from_key.html:11
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+"Ссылка для сброса пароля недействительна, возможно, потому, что она уже "
+"использовалась. Запросите <a href=\"%(passwd_reset_url)s\">сброс нового "
+"пароля<a>.Неверная ссылка для восстановления пароля. Возможно, ей уже "
+"воспользовались. Пожалуйста, попробуйте восстановить пароль еще раз."
+
+#: main/templates/account/password_reset_from_key.html:17
+msgid "change password"
+msgstr "Измени пароль"
+
+#: main/templates/account/password_reset_from_key.html:20
+#: main/templates/account/password_reset_from_key_done.html:8
+
+msgid "Your password is now changed."
+msgstr "Ваш пароль был изменен."
+
+#: main/templates/account/password_set.html:5
+#: main/templates/account/password_set.html:8
+#: main/templates/account/password_set.html:13
+msgid "Set Password"
+msgstr "Новый пароль:"
+
+#: main/templates/account/signup.html:4 main/templates/account/signup.html:16
+#: main/templates/socialaccount/signup.html:5
+msgid "Signup"
+msgstr "Зарегистрироваться"
+
+#: main/templates/account/signup.html:9 main/templates/account/signup.html:43
+#: main/templates/socialaccount/signup.html:8
+#: main/templates/socialaccount/signup.html:19
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+#: main/templates/account/signup.html:26
+msgid "Email address"
+msgstr "Адрес электронной почты"
+
+#: main/templates/account/signup.html:38
+msgid "Confirm password"
+msgstr "Подтвердить пароль"
+
+#: main/templates/account/signup.html:44
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+"Уже есть аккаунт? Затем <a href=\"%(login_url)s\"> войдите в систему </a>"
+
+#: main/templates/account/signup.html:47
+msgid "Sign up with Google"
+msgstr "Регистрация с помощью Google"
+
+#: main/templates/account/signup.html:50
+msgid "Sign up with VK"
+msgstr "Регистрация с помощью Google"
+
+#: main/templates/account/signup_closed.html:5
+#: main/templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr "Регистрация закрыта"
+
+#: main/templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr "Сожалеем, но регистрация в настоящее время закрыта."
+
+#: main/templates/account/snippets/already_logged_in.html:5
+msgid "Note"
+msgstr "Примечание"
+
+#: main/templates/account/snippets/already_logged_in.html:5
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr "вы уже вошли в систему как %(user_display)s."
+
+#: main/templates/account/verification_sent.html:5
+#: main/templates/account/verification_sent.html:8
+#: main/templates/account/verified_email_required.html:5
+#: main/templates/account/verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr "Проверьте свой адрес электронной почты"
+
+#: main/templates/account/verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+"Мы отправили вам электронное письмо для проверки. Перейдите по "
+"предоставленной ссылке, чтобы завершить процесс регистрации. Свяжитесь с "
+"нами, если вы не получите его в течение нескольких минут."
+
+#: main/templates/account/verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+"Эта часть сайта требует от нас подтверждения того,\n"
+"что вы являетесь тем, кем себя называете. Для этого мы требуем,\n"
+"чтобы вы подтвердили право собственности на свой адрес электронной почты."
+
+#: main/templates/account/verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+"Мы отправили вам электронное письмо для\n"
+"проверка. Щелкните ссылку в этом электронном письме. Пожалуйста\n"
+"свяжитесь с нами, если вы не получите его в течение нескольких минут."
+
+#: main/templates/account/verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+"<strong>Примечание.</strong> вы все равно можете <a href=\"%(email_url)s"
+"\">изменить свой электронный почтовый адрес</a>."
+
+#: main/templates/base.html:13 main/templates/main/index.html:6
+msgid "Kazakh Open Corpora"
+msgstr "Открытый корпус казахского языка"
+
+#: main/templates/base.html:39 templates/admin/base_site.html:32
+msgid "Log out"
+msgstr "Выйти"
+
+#: main/templates/base.html:60
+msgid "Home"
+msgstr "Начало"
+
+#: main/templates/base.html:61
+msgid "Online execute"
+msgstr "Онлайн обработка"
+
+#: main/templates/base.html:63
+msgid "Corpora API"
+msgstr "Corpora API"
+
+#: main/templates/base.html:64
+msgid "Genres API"
+msgstr "Genres API"
+
+#: main/templates/base.html:67
+msgid "Administration"
+msgstr "Администрирование"
+
+#: main/templates/base.html:69 main/templates/main/about.html:6
+#: main/templates/main/about.html:22 main/templates/main/about.html:29
+msgid "About Us"
+msgstr "О нас"
+
+#: main/templates/base.html:70 main/templates/main/privacy.html:6
+#: main/templates/main/privacy.html:23 main/templates/main/privacy.html:29
+msgid "Privacy & Terms"
+msgstr "Защита & Условия"
+
+#: main/templates/main/about.html:30
+msgid ""
+"\n"
+"<p>From 2018 to 2021, extensive work of scientific and technical nature was "
+"carried out on the project. The results of this diploma project cover a wide "
+"range of tasks in the field of intelligent information retrieval, such as "
+"modeling the presentation of documents, designing the architecture of search "
+"engines, classifying texts, semantic analysis of texts, derivation of "
+"keywords (phrases). increase the productivity of data collection and "
+"processing through texts, automatic synthesis of texts, the use of new "
+"distributed methods and technologies.</p>\n"
+"<p>A complete system of classification of suffixes and suffixes of the "
+"Kazakh language was developed for the analysis and segmentation of data. "
+"Determined limit state machines are designed for all parts of speech using "
+"all possible options for the addition of suffixes and suffixes to the Kazakh "
+"language. A lexical-free algorithm was created using a classification system "
+"developed for the completion of the Kazakh language. The special features of "
+"the created algorithm are its speed and very easy repetition.</p>\n"
+"<p>For the collection and processing of large data, a fixed case model and "
+"system have been developed, the features of which are advanced modules of "
+"data processing (tokenization, lemmatization, morphological analysis). "
+"Kazakh language. Software of algorithms (automatic assembly, classification "
+"and processing by various parameters) was implemented and processed, "
+"classified data in the Kazakh language were obtained.</p>\n"
+"<p>Development of various practical software for the analysis and processing "
+"of natural language text for the processing and analysis of unstructured and "
+"unstructured big data using the methods of artificial intelligence, thereby "
+"creating tools for semantic analysis. This module includes:</p>\n"
+"<ul id=\"ul\">\n"
+"<li>a modified approach to the production of keywords and phrases in the "
+"Kazakh language texts;</li>\n"
+"<li>Algorithm of text semantic analysis based on machine learning using the "
+"method of Word2Vec;</li>\n"
+"<li>method of summarizing texts in the Kazakh language. Concept analysis "
+"based on the Vectors Space model, along with modified keyword output and "
+"machine learning, is a tool for automatically summarizing text.</li>\n"
+"</ul>\n"
+"<p>According to the results of the project for 2018-2021, 3 editions were "
+"published.</p>\n"
+msgstr ""
+"\n"
+"<p>С 2018 по 2021 год над проектом велась большая работа научно-технического характера. Результаты этого дипломного проекта охватывают широкий круг задач в области интеллектуального поиска информации, таких как моделирование представления документов, проектирование архитектуры поисковых систем, классификация текстов, семантический анализ текстов, вывод ключевых слов (фраз). повышение производительности сбора и обработки данных с помощью текстов, автоматический синтез текстов, использование новых распределенных методов и технологий.</p>\n"
+"<p>Для анализа и сегментации данных разработана полная система классификации суффиксов и суффиксов казахского языка. Автомат детерминированных предельных состояний предназначен для всех частей речи с использованием всех возможных вариантов добавления суффиксов и суффиксов к казахскому языку. Был создан безлексический алгоритм с использованием системы классификации, разработанной для пополнения казахского языка. Особенностью созданного алгоритма является его скорость и простота повторения.</p>\n"
+"<p>Для сбора и обработки больших данных была разработана фиксированная кейс-модель и система, особенностями которой являются расширенные модули обработки данных (токенизация, лемматизация, морфологический анализ). Казахский язык. Реализовано и обработано программное обеспечение алгоритмов (автоматический сбор, классификация и обработка по различным параметрам), получены секретные данные на казахском языке.</p>\n"
+"<p>Разработка различного практического программного обеспечения для анализа и обработки текста на естественном языке для обработки и анализа неструктурированных и неструктурированных больших данных с использованием методов искусственного интеллекта, тем самым создавая инструменты семантического анализа. Этот модуль включает:</p>\n"
+"<ul id=\"ul\">\n"
+"<li>модифицированный подход к производству ключевых слов и фраз в текстах на казахском языке;</li>\n"
+"<li>Алгоритм семантического анализа текста на основе машинного обучения с использованием метода Word2Vec;</li>\n"
+"<li>метод обобщения текстов на казахском языке. Анализ концепции, основанный на модели Vectors Space, наряду с измененным выводом ключевых слов и машинным обучением, представляет собой инструмент для автоматического обобщения текста.</li>\n"
+"</ul>\n"
+"<p>По результатам проекта за 2018-2021 годы вышло 3 выпуска.</p>\n"
+
+#: main/templates/main/execute.html:7
+msgid "Online NLP proccessing"
+msgstr "Обработка процесса NLP"
+
+#: main/templates/main/execute.html:13
+msgid "Online NLP proccessing on the text"
+msgstr "Онлайн обработка процесс на NLP текст"
+
+#: main/templates/main/execute.html:21
+msgid "Loading"
+msgstr "Загрузка"
+
+#: main/templates/main/execute.html:29
+msgid "Input text"
+msgstr "Ввод текста"
+
+#: main/templates/main/execute.html:30
+msgid "Enter same text... or drop text file"
+msgstr "Введите текст... или перетащите текстовый файл"
+
+#: main/templates/main/execute.html:31
+msgid ""
+"Your text must contain at least 1000 characters and the file size must be no "
+"more than 1MB."
+msgstr "Ваш текст должен содержать не менее 1000 символов, а размер файла не должен превышать 1 МБ."
+
+#: main/templates/main/execute.html:34
+msgid "Submit"
+msgstr "Отправить"
+
+#: main/templates/main/execute.html:44
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: main/templates/main/execute.html:58
+msgid "Oops. Sorry you can you must be registered"
+msgstr "Ой. Извините, вы должны зарегистрироваться"
+
+#: main/templates/main/index.html:12
+msgid "e.g.:"
+msgstr "Например:"
+
+#: main/templates/main/index.html:16
+msgid "Search"
+msgstr "Найти"
+
+#: main/templates/main/index.html:26 main/templates/main/index.html:116
+msgid "Tokenization"
+msgstr "Токенизация"
+
+#: main/templates/main/index.html:36 main/templates/main/index.html:56
+#: main/templates/main/index.html:76
+msgid "Close"
+msgstr "Закрыть"
+
+#: main/templates/main/index.html:37 main/templates/main/index.html:57
+#: main/templates/main/index.html:77
+msgid "Download"
+msgstr "Скачать"
+
+#: main/templates/main/index.html:84
+msgid "Filters"
+msgstr "Фильтры"
+
+#: main/templates/main/index.html:91
+msgid "Sections"
+msgstr "Разделы"
+
+#: main/templates/main/index.html:136
+#, python-format
+msgid " About %(countitem)s results (%(dttime)s seconds.)"
+msgstr "Результатов: примерно %(countitem)s (%(dttime)s сек.)"
+
+#: main/templates/main/index.html:139
+msgid "Oops. Sorry Corpora Not Found!!!"
+msgstr "Ой. К сожалению, корпус не найден !!!"
+
+#: main/templates/main/privacy.html:30
+#, python-format
+msgid ""
+"\n"
+"<p>Last updated: June 16, 2021</p>\n"
+"<p>This Privacy Policy describes Our policies and procedures on the "
+"collection, use and disclosure of Your information when You use the Service "
+"and tells You about Your privacy rights and how the law protects You.</p>\n"
+"<p>We use Your Personal data to provide and improve the Service. By using "
+"the Service, You agree to the collection and use of information in "
+"accordance with this Privacy Policy. This Privacy Policy has been created "
+"with the help of the <a href=\"https://www.freeprivacypolicy.com/free-"
+"privacy-policy-generator/\" target=\"_blank\">Privacy Policy Generator</a>.</"
+"p>\n"
+"<h1>Interpretation and Definitions</h1>\n"
+"<h2>Interpretation</h2>\n"
+"<p>The words of which the initial letter is capitalized have meanings "
+"defined under the following conditions. The following definitions shall have "
+"the same meaning regardless of whether they appear in singular or in plural."
+"</p>\n"
+"<h2>Definitions</h2>\n"
+"<p>For the purposes of this Privacy Policy:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Account</strong> means a unique account created for You to access "
+"our Service or parts of our Service.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Company</strong> (referred to as either &quot;the Company&quot;, "
+"&quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers "
+"to Al-Farabi Kazakh National University, Almaty, Al-Farabi 71.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Cookies</strong> are small files that are placed on Your "
+"computer, mobile device or any other device by a website, containing the "
+"details of Your browsing history on that website among its many uses.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Country</strong> refers to:  Kazakhstan</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Device</strong> means any device that can access the Service such "
+"as a computer, a cellphone or a digital tablet.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Personal Data</strong> is any information that relates to an "
+"identified or identifiable individual.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Service</strong> refers to the Website.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Service Provider</strong> means any natural or legal person who "
+"processes the data on behalf of the Company. It refers to third-party "
+"companies or individuals employed by the Company to facilitate the Service, "
+"to provide the Service on behalf of the Company, to perform services related "
+"to the Service or to assist the Company in analyzing how the Service is used."
+"</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Third-party Social Media Service</strong> refers to any website "
+"or any social network website through which a User can log in or create an "
+"account to use the Service.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Usage Data</strong> refers to data collected automatically, "
+"either generated by the use of the Service or from the Service "
+"infrastructure itself (for example, the duration of a page visit).</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Website</strong> refers to OpenCorporaKaz, accessible from <a "
+"href=\"http://opencorpora.kz\" rel=\"external nofollow noopener\" target="
+"\"_blank\">http://opencorpora.kz</a></p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>You</strong> means the individual accessing or using the Service, "
+"or the company, or other legal entity on behalf of which such individual is "
+"accessing or using the Service, as applicable.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<h1>Collecting and Using Your Personal Data</h1>\n"
+"<h2>Types of Data Collected</h2>\n"
+"<h3>Personal Data</h3>\n"
+"<p>While using Our Service, We may ask You to provide Us with certain "
+"personally identifiable information that can be used to contact or identify "
+"You. Personally identifiable information may include, but is not limited to:"
+"</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p>Email address</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>First name and last name</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>Usage Data</p>\n"
+"</li>\n"
+"</ul>\n"
+"<h3>Usage Data</h3>\n"
+"<p>Usage Data is collected automatically when using the Service.</p>\n"
+"<p>Usage Data may include information such as Your Device's Internet "
+"Protocol address (e.g. IP address), browser type, browser version, the pages "
+"of our Service that You visit, the time and date of Your visit, the time "
+"spent on those pages, unique device identifiers and other diagnostic data.</"
+"p>\n"
+"<p>When You access the Service by or through a mobile device, We may collect "
+"certain information automatically, including, but not limited to, the type "
+"of mobile device You use, Your mobile device unique ID, the IP address of "
+"Your mobile device, Your mobile operating system, the type of mobile "
+"Internet browser You use, unique device identifiers and other diagnostic "
+"data.</p>\n"
+"<p>We may also collect information that Your browser sends whenever You "
+"visit our Service or when You access the Service by or through a mobile "
+"device.</p>\n"
+"<h3>Information from Third-Party Social Media Services</h3>\n"
+"<p>The Company allows You to create an account and log in to use the Service "
+"through the following Third-party Social Media Services:</p>\n"
+"<ul>\n"
+"<li>Google</li>\n"
+"<li>Facebook</li>\n"
+"<li>Twitter</li>\n"
+"</ul>\n"
+"<p>If You decide to register through or otherwise grant us access to a Third-"
+"Party Social Media Service, We may collect Personal data that is already "
+"associated with Your Third-Party Social Media Service's account, such as "
+"Your name, Your email address, Your activities or Your contact list "
+"associated with that account.</p>\n"
+"<p>You may also have the option of sharing additional information with the "
+"Company through Your Third-Party Social Media Service's account. If You "
+"choose to provide such information and Personal Data, during registration or "
+"otherwise, You are giving the Company permission to use, share, and store it "
+"in a manner consistent with this Privacy Policy.</p>\n"
+"<h3>Tracking Technologies and Cookies</h3>\n"
+"<p>We use Cookies and similar tracking technologies to track the activity on "
+"Our Service and store certain information. Tracking technologies used are "
+"beacons, tags, and scripts to collect and track information and to improve "
+"and analyze Our Service. The technologies We use may include:</p>\n"
+"<ul>\n"
+"<li><strong>Cookies or Browser Cookies.</strong> A cookie is a small file "
+"placed on Your Device. You can instruct Your browser to refuse all Cookies "
+"or to indicate when a Cookie is being sent. However, if You do not accept "
+"Cookies, You may not be able to use some parts of our Service. Unless you "
+"have adjusted Your browser setting so that it will refuse Cookies, our "
+"Service may use Cookies.</li>\n"
+"<li><strong>Flash Cookies.</strong> Certain features of our Service may use "
+"local stored objects (or Flash Cookies) to collect and store information "
+"about Your preferences or Your activity on our Service. Flash Cookies are "
+"not managed by the same browser settings as those used for Browser Cookies. "
+"For more information on how You can delete Flash Cookies, please read &quot;"
+"Where can I change the settings for disabling, or deleting local shared "
+"objects?&quot; available at <a href=\"https://helpx.adobe.com/flash-player/"
+"kb/disable-local-shared-objects-flash."
+"html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_"
+"\" rel=\"external nofollow noopener\" target=\"_blank\">https://helpx.adobe."
+"com/flash-player/kb/disable-local-shared-objects-flash."
+"html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_</"
+"a></li>\n"
+"<li><strong>Web Beacons.</strong> Certain sections of our Service and our "
+"emails may contain small electronic files known as web beacons (also "
+"referred to as clear gifs, pixel tags, and single-pixel gifs) that permit "
+"the Company, for example, to count users who have visited those pages or "
+"opened an email and for other related website statistics (for example, "
+"recording the popularity of a certain section and verifying system and "
+"server integrity).</li>\n"
+"</ul>\n"
+"<p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. "
+"Persistent Cookies remain on Your personal computer or mobile device when "
+"You go offline, while Session Cookies are deleted as soon as You close Your "
+"web browser. Learn more about cookies: <a href=\"https://www."
+"freeprivacypolicy.com/blog/cookies/\" target=\"_blank\">Cookies: What Do "
+"They Do?</a>.</p>\n"
+"<p>We use both Session and Persistent Cookies for the purposes set out below:"
+"</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Necessary / Essential Cookies</strong></p>\n"
+"<p>Type: Session Cookies</p>\n"
+"<p>Administered by: Us</p>\n"
+"<p>Purpose: These Cookies are essential to provide You with services "
+"available through the Website and to enable You to use some of its features. "
+"They help to authenticate users and prevent fraudulent use of user accounts. "
+"Without these Cookies, the services that You have asked for cannot be "
+"provided, and We only use these Cookies to provide You with those services.</"
+"p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Cookies Policy / Notice Acceptance Cookies</strong></p>\n"
+"<p>Type: Persistent Cookies</p>\n"
+"<p>Administered by: Us</p>\n"
+"<p>Purpose: These Cookies identify if users have accepted the use of cookies "
+"on the Website.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Functionality Cookies</strong></p>\n"
+"<p>Type: Persistent Cookies</p>\n"
+"<p>Administered by: Us</p>\n"
+"<p>Purpose: These Cookies allow us to remember choices You make when You use "
+"the Website, such as remembering your login details or language preference. "
+"The purpose of these Cookies is to provide You with a more personal "
+"experience and to avoid You having to re-enter your preferences every time "
+"You use the Website.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<p>For more information about the cookies we use and your choices regarding "
+"cookies, please visit our Cookies Policy or the Cookies section of our "
+"Privacy Policy.</p>\n"
+"<h2>Use of Your Personal Data</h2>\n"
+"<p>The Company may use Personal Data for the following purposes:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>To provide and maintain our Service</strong>, including to "
+"monitor the usage of our Service.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>To manage Your Account:</strong> to manage Your registration as a "
+"user of the Service. The Personal Data You provide can give You access to "
+"different functionalities of the Service that are available to You as a "
+"registered user.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>For the performance of a contract:</strong> the development, "
+"compliance and undertaking of the purchase contract for the products, items "
+"or services You have purchased or of any other contract with Us through the "
+"Service.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>To contact You:</strong> To contact You by email, telephone "
+"calls, SMS, or other equivalent forms of electronic communication, such as a "
+"mobile application's push notifications regarding updates or informative "
+"communications related to the functionalities, products or contracted "
+"services, including the security updates, when necessary or reasonable for "
+"their implementation.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>To provide You</strong> with news, special offers and general "
+"information about other goods, services and events which we offer that are "
+"similar to those that you have already purchased or enquired about unless "
+"You have opted not to receive such information.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>To manage Your requests:</strong> To attend and manage Your "
+"requests to Us.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>For business transfers:</strong> We may use Your information to "
+"evaluate or conduct a merger, divestiture, restructuring, reorganization, "
+"dissolution, or other sale or transfer of some or all of Our assets, whether "
+"as a going concern or as part of bankruptcy, liquidation, or similar "
+"proceeding, in which Personal Data held by Us about our Service users is "
+"among the assets transferred.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>For other purposes</strong>: We may use Your information for "
+"other purposes, such as data analysis, identifying usage trends, determining "
+"the effectiveness of our promotional campaigns and to evaluate and improve "
+"our Service, products, services, marketing and your experience.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<p>We may share Your personal information in the following situations:</p>\n"
+"<ul>\n"
+"<li><strong>With Service Providers:</strong> We may share Your personal "
+"information with Service Providers to monitor and analyze the use of our "
+"Service,  to contact You.</li>\n"
+"<li><strong>For business transfers:</strong> We may share or transfer Your "
+"personal information in connection with, or during negotiations of, any "
+"merger, sale of Company assets, financing, or acquisition of all or a "
+"portion of Our business to another company.</li>\n"
+"<li><strong>With Affiliates:</strong> We may share Your information with Our "
+"affiliates, in which case we will require those affiliates to honor this "
+"Privacy Policy. Affiliates include Our parent company and any other "
+"subsidiaries, joint venture partners or other companies that We control or "
+"that are under common control with Us.</li>\n"
+"<li><strong>With business partners:</strong> We may share Your information "
+"with Our business partners to offer You certain products, services or "
+"promotions.</li>\n"
+"<li><strong>With other users:</strong> when You share personal information "
+"or otherwise interact in the public areas with other users, such information "
+"may be viewed by all users and may be publicly distributed outside. If You "
+"interact with other users or register through a Third-Party Social Media "
+"Service, Your contacts on the Third-Party Social Media Service may see Your "
+"name, profile, pictures and description of Your activity. Similarly, other "
+"users will be able to view descriptions of Your activity, communicate with "
+"You and view Your profile.</li>\n"
+"<li><strong>With Your consent</strong>: We may disclose Your personal "
+"information for any other purpose with Your consent.</li>\n"
+"</ul>\n"
+"<h2>Retention of Your Personal Data</h2>\n"
+"<p>The Company will retain Your Personal Data only for as long as is "
+"necessary for the purposes set out in this Privacy Policy. We will retain "
+"and use Your Personal Data to the extent necessary to comply with our legal "
+"obligations (for example, if we are required to retain your data to comply "
+"with applicable laws), resolve disputes, and enforce our legal agreements "
+"and policies.</p>\n"
+"<p>The Company will also retain Usage Data for internal analysis purposes. "
+"Usage Data is generally retained for a shorter period of time, except when "
+"this data is used to strengthen the security or to improve the functionality "
+"of Our Service, or We are legally obligated to retain this data for longer "
+"time periods.</p>\n"
+"<h2>Transfer of Your Personal Data</h2>\n"
+"<p>Your information, including Personal Data, is processed at the Company's "
+"operating offices and in any other places where the parties involved in the "
+"processing are located. It means that this information may be transferred to "
+"— and maintained on — computers located outside of Your state, province, "
+"country or other governmental jurisdiction where the data protection laws "
+"may differ than those from Your jurisdiction.</p>\n"
+"<p>Your consent to this Privacy Policy followed by Your submission of such "
+"information represents Your agreement to that transfer.</p>\n"
+"<p>The Company will take all steps reasonably necessary to ensure that Your "
+"data is treated securely and in accordance with this Privacy Policy and no "
+"transfer of Your Personal Data will take place to an organization or a "
+"country unless there are adequate controls in place including the security "
+"of Your data and other personal information.</p>\n"
+"<h2>Disclosure of Your Personal Data</h2>\n"
+"<h3>Business Transactions</h3>\n"
+"<p>If the Company is involved in a merger, acquisition or asset sale, Your "
+"Personal Data may be transferred. We will provide notice before Your "
+"Personal Data is transferred and becomes subject to a different Privacy "
+"Policy.</p>\n"
+"<h3>Law enforcement</h3>\n"
+"<p>Under certain circumstances, the Company may be required to disclose Your "
+"Personal Data if required to do so by law or in response to valid requests "
+"by public authorities (e.g. a court or a government agency).</p>\n"
+"<h3>Other legal requirements</h3>\n"
+"<p>The Company may disclose Your Personal Data in the good faith belief that "
+"such action is necessary to:</p>\n"
+"<ul>\n"
+"<li>Comply with a legal obligation</li>\n"
+"<li>Protect and defend the rights or property of the Company</li>\n"
+"<li>Prevent or investigate possible wrongdoing in connection with the "
+"Service</li>\n"
+"<li>Protect the personal safety of Users of the Service or the public</li>\n"
+"<li>Protect against legal liability</li>\n"
+"</ul>\n"
+"<h2>Security of Your Personal Data</h2>\n"
+"<p>The security of Your Personal Data is important to Us, but remember that "
+"no method of transmission over the Internet, or method of electronic storage "
+"is 100%% secure. While We strive to use commercially acceptable means to "
+"protect Your Personal Data, We cannot guarantee its absolute security.</p>\n"
+"<h1>Children's Privacy</h1>\n"
+"<p>Our Service does not address anyone under the age of 13. We do not "
+"knowingly collect personally identifiable information from anyone under the "
+"age of 13. If You are a parent or guardian and You are aware that Your child "
+"has provided Us with Personal Data, please contact Us. If We become aware "
+"that We have collected Personal Data from anyone under the age of 13 without "
+"verification of parental consent, We take steps to remove that information "
+"from Our servers.</p>\n"
+"<p>If We need to rely on consent as a legal basis for processing Your "
+"information and Your country requires consent from a parent, We may require "
+"Your parent's consent before We collect and use that information.</p>\n"
+"<h1>Links to Other Websites</h1>\n"
+"<p>Our Service may contain links to other websites that are not operated by "
+"Us. If You click on a third party link, You will be directed to that third "
+"party's site. We strongly advise You to review the Privacy Policy of every "
+"site You visit.</p>\n"
+"<p>We have no control over and assume no responsibility for the content, "
+"privacy policies or practices of any third party sites or services.</p>\n"
+"<h1>Changes to this Privacy Policy</h1>\n"
+"<p>We may update Our Privacy Policy from time to time. We will notify You of "
+"any changes by posting the new Privacy Policy on this page.</p>\n"
+"<p>We will let You know via email and/or a prominent notice on Our Service, "
+"prior to the change becoming effective and update the &quot;Last "
+"updated&quot; date at the top of this Privacy Policy.</p>\n"
+"<p>You are advised to review this Privacy Policy periodically for any "
+"changes. Changes to this Privacy Policy are effective when they are posted "
+"on this page.</p>\n"
+"<h1>Contact Us</h1>\n"
+"<p>If you have any questions about this Privacy Policy, You can contact us:</"
+"p>\n"
+"<ul>\n"
+"<li>\n"
+"<p>By email: haker3102@gmail.com</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>By phone number: 87007001466</p>\n"
+"</li>\n"
+"</ul>\n"
+msgstr ""
+"\n"
+"<p>Последнее изменение: 16 июня 2021 г.</p>\n"
+"<p>Эта Политика конфиденциальности описывает наши политики и процедуры по сбору, использованию и раскрытию вашей информации при использовании вами Сервиса, а также рассказывает вам о ваших правах на конфиденциальность и о том, как закон защищает вас.</p>\n"
+"<p>Мы используем ваши персональные данные для предоставления и улучшения Сервиса. Используя Сервис, вы соглашаетесь на сбор и использование информации в соответствии с настоящей Политикой конфиденциальности. Эта Политика конфиденциальности была создана с помощью <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=ru&amp;u=https://www.freeprivacypolicy.com/free-privacy-policy-generator/\" target=\"_blank\">Генератора Политики конфиденциальности</a> .</p>\n"
+"<h1>Толкование и определения</h1>\n"
+"<h2>Интерпретация</h2>\n"
+"<p>Слова, начальная буква которых написана с заглавной буквы, имеют значения, определенные при следующих условиях. Следующие ниже определения имеют одинаковое значение независимо от того, используются они в единственном или множественном числе.</p>\n"
+"<h2>Определения</h2>\n"
+"<p>Для целей настоящей Политики конфиденциальности:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Учетная запись</strong> означает уникальную учетную запись, созданную для вас для доступа к нашему Сервису или его частям.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Компания</strong> (именуемая в настоящем Соглашении «Компания», «Мы», «Нас» или «Наш») означает Казахский национальный университет им. Аль-Фараби, Алматы, ул. Аль-Фараби 71.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Файлы cookie</strong> - это небольшие файлы, которые размещаются на вашем компьютере, мобильном устройстве или любом другом устройстве веб-сайтом и содержат сведения о вашей истории просмотров на этом веб-сайте среди множества его использований.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Страна</strong> относится к: Казахстан</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Устройство</strong> означает любое устройство, которое может получить доступ к Сервису, например компьютер, мобильный телефон или цифровой планшет.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Персональные данные</strong> - это любая информация, которая относится к идентифицированному или идентифицируемому лицу.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Сервис</strong> относится к Веб-сайту.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Поставщик услуг</strong> означает любое физическое или юридическое лицо, которое обрабатывает данные от имени Компании. Это относится к сторонним компаниям или физическим лицам, нанятым Компанией для оказания содействия в предоставлении Сервиса, для предоставления Сервиса от имени Компании, для оказания услуг, связанных с Сервисом, или для помощи Компании в анализе того, как используется Сервис.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Сторонняя служба</strong> социальных сетей - это любой веб-сайт или веб-сайт социальной сети, через который Пользователь может войти в систему или создать учетную запись для использования Сервиса.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Данные</strong> об использовании - это данные, собираемые автоматически, либо сгенерированные при использовании Сервиса, либо из самой инфраструктуры Сервиса (например, продолжительность посещения страницы).</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Сайт</strong> ссылается на OpenCorporaKaz, доступный по адресу <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=ru&amp;u=http://opencorpora.kz\" rel=\"external nofollow noopener\" target=\"_blank\">http://opencorpora.kz</a></p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Вы</strong> означает физическое лицо, получающее доступ к Сервису или использующее его, или компанию, или другое юридическое лицо, от имени которого такое лицо получает доступ или использует Сервис, в зависимости от обстоятельств.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<h1>Сбор и использование ваших личных данных</h1>\n"
+"<h2>Типы собираемых данных</h2>\n"
+"<h3>Личные данные</h3>\n"
+"<p>При использовании нашего Сервиса мы можем попросить вас предоставить нам определенную личную информацию, которая может быть использована для связи или идентификации вас. Информация, позволяющая установить личность, может включать, но не ограничивается:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p>Адрес электронной почты</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>Имя и фамилия</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>Данные об использовании</p>\n"
+"</li>\n"
+"</ul>\n"
+"<h3>Данные об использовании</h3>\n"
+"<p>Данные об использовании собираются автоматически при использовании Сервиса.</p>\n"
+"<p>Данные об использовании могут включать такую &ZeroWidthSpace;&ZeroWidthSpace;информацию, как адрес интернет-протокола вашего устройства (например, IP-адрес), тип браузера, версия браузера, страницы нашего Сервиса, которые вы посещаете, время и дата вашего посещения, время, проведенное на этих страницах, уникальное устройство. идентификаторы и другие диагностические данные.</p>\n"
+"<p>Когда вы получаете доступ к Сервису с помощью мобильного устройства или через него, Мы можем собирать определенную информацию автоматически, включая, помимо прочего, тип используемого вами мобильного устройства, уникальный идентификатор вашего мобильного устройства, IP-адрес вашего мобильного устройства, ваш мобильный телефон. операционная система, тип используемого вами мобильного интернет-браузера, уникальные идентификаторы устройств и другие диагностические данные.</p>\n"
+"<p>Мы также можем собирать информацию, которую ваш браузер отправляет всякий раз, когда вы посещаете наш Сервис или когда вы получаете доступ к Сервису с помощью мобильного устройства.</p>\n"
+"<h3>Информация из сторонних социальных сетей</h3>\n"
+"<p>Компания позволяет Вам создать учетную запись и войти в систему для использования Сервиса через следующие Сторонние службы социальных сетей:</p>\n"
+"<ul>\n"
+"<li>Google</li>\n"
+"<li>Facebook</li>\n"
+"<li>Твиттер</li>\n"
+"</ul>\n"
+"<p>Если вы решите зарегистрироваться через Стороннюю службу социальных сетей или иным образом предоставить нам доступ к ней, мы можем собирать Личные данные, которые уже связаны с учетной записью вашей Сторонней службы социальных сетей, такие как ваше имя, ваш адрес электронной почты, ваши действия. или Ваш список контактов, связанный с этой учетной записью.</p>\n"
+"<p>Вы также можете иметь возможность поделиться дополнительной информацией с Компанией через свою учетную запись Сторонней службы социальных сетей. Если вы решите предоставить такую &ZeroWidthSpace;&ZeroWidthSpace;информацию и Персональные данные во время регистрации или иным образом, вы даете Компании разрешение использовать, передавать и хранить их в соответствии с настоящей Политикой конфиденциальности.</p>\n"
+"<h3>Технологии отслеживания и файлы cookie</h3>\n"
+"<p>Мы используем файлы cookie и аналогичные технологии отслеживания для отслеживания активности в нашем Сервисе и хранения определенной информации. Используемые технологии отслеживания - это маяки, теги и скрипты для сбора и отслеживания информации, а также для улучшения и анализа Нашего Сервиса. Используемые нами технологии могут включать:</p>\n"
+"<ul>\n"
+"<li><strong>Файлы cookie или файлы cookie браузера. </strong>Файл cookie - это небольшой файл, размещаемый на вашем устройстве. Вы можете указать своему браузеру отказаться от всех файлов cookie или указать, когда они отправляются. Однако, если вы не принимаете файлы cookie, вы не сможете использовать некоторые части нашего Сервиса. Если вы не изменили настройки своего браузера таким образом, чтобы он отказывался от файлов cookie, наш Сервис может использовать файлы cookie.</li>\n"
+"<li><strong>Флэш-файлы cookie. </strong>Некоторые функции нашего Сервиса могут использовать локальные сохраненные объекты (или файлы cookie Flash) для сбора и хранения информации о ваших предпочтениях или ваших действиях в нашем Сервисе. Файлы cookie Flash не управляются теми же настройками браузера, что используются для файлов cookie браузера. Для получения дополнительной информации о том, как удалить файлы cookie Flash, прочтите «Где я могу изменить настройки для отключения или удаления локальных общих объектов?» доступно по адресу <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=ru&amp;u=https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html%%23main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_\" rel=\"external nofollow noopener\" target=\"_blank\">https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_dispting__or_deleting_local_shared_objects_</a></li>\n"
+"<li><strong>Веб-маяки. </strong>Некоторые разделы нашего Сервиса и наши электронные письма могут содержать небольшие электронные файлы, известные как веб-маяки (также называемые прозрачными гифками, пиксельными тегами и однопиксельными гифками), которые позволяют Компании, например, подсчитывать пользователей, посетивших эти страницы. или открыл электронное письмо и другую связанную статистику веб-сайта (например, запись популярности определенного раздела и проверку целостности системы и сервера).</li>\n"
+"</ul>\n"
+"<p>Файлы cookie могут быть «постоянными» или «сеансовыми». Постоянные файлы cookie остаются на вашем персональном компьютере или мобильном устройстве, когда вы переходите в автономный режим, а сеансовые файлы cookie удаляются, как только вы закрываете свой веб-браузер. Узнайте больше о файлах cookie: <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=ru&amp;u=https://www.freeprivacypolicy.com/blog/cookies/\" target=\"_blank\">Файлы cookie: что они делают? </a>.</p>\n"
+"<p>Мы используем как сеансовые, так и постоянные файлы cookie для целей, изложенных ниже:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Необходимые / важные файлы cookie</strong></p>\n"
+"<p>Тип: файлы cookie сеанса</p>\n"
+"<p>Под управлением: Us</p>\n"
+"<p>Цель: эти файлы cookie необходимы для предоставления вам услуг, доступных через веб-сайт, и для использования вами некоторых из его функций. Они помогают аутентифицировать пользователей и предотвращать мошенническое использование учетных записей пользователей. Без этих файлов cookie услуги, которые вы запрашивали, не могут быть предоставлены, и мы используем эти файлы cookie только для предоставления вам этих услуг.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Политика в отношении файлов cookie / Файлы cookie принятия уведомлений</strong></p>\n"
+"<p>Тип: постоянные файлы cookie</p>\n"
+"<p>Под управлением: Us</p>\n"
+"<p>Цель: эти файлы cookie определяют, согласились ли пользователи на использование файлов cookie на веб-сайте.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Функциональные файлы cookie</strong></p>\n"
+"<p>Тип: постоянные файлы cookie</p>\n"
+"<p>Под управлением: Us</p>\n"
+"<p>Цель: эти файлы cookie позволяют нам запоминать выбор, который вы делаете при использовании веб-сайта, например, запоминание ваших данных для входа или языковых предпочтений. Цель этих файлов cookie - предоставить вам более личный опыт и избежать необходимости повторно вводить свои предпочтения каждый раз, когда вы используете веб-сайт.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<p>Для получения дополнительной информации о файлах cookie, которые мы используем, и вашем выборе в отношении файлов cookie, пожалуйста, посетите нашу Политику использования файлов cookie или раздел о файлах cookie нашей Политики конфиденциальности.</p>\n"
+"<h2>Использование ваших личных данных</h2>\n"
+"<p>Компания может использовать Персональные данные для следующих целей:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Для предоставления и поддержки нашего Сервиса</strong> , в том числе для отслеживания использования нашего Сервиса.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Для управления вашей учетной записью:</strong> для управления вашей регистрацией в качестве пользователя Сервиса. Предоставляемые вами персональные данные могут предоставить вам доступ к различным функциям Сервиса, которые доступны вам как зарегистрированному пользователю.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Для выполнения контракта:</strong> разработка, соблюдение и принятие контракта на покупку продуктов, предметов или услуг, которые вы приобрели, или любого другого контракта с Нами через Сервис.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Для связи с вами:</strong> для связи с вами по электронной почте, телефонным звонкам, SMS или другим эквивалентным формам электронной связи, таким как push-уведомления мобильного приложения об обновлениях или информационных сообщениях, связанных с функциями, продуктами или услугами по контракту, включая обновления безопасности, когда это необходимо или разумно для их выполнения.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Чтобы предоставить вам</strong> новости, специальные предложения и общую информацию о других товарах, услугах и событиях, которые мы предлагаем, которые аналогичны тем, которые вы уже приобрели или о которых запрашивали, если только вы не отказались от получения такой информации.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Для управления вашими запросами:</strong> для обслуживания и управления вашими запросами к Нам.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Для передачи бизнеса:</strong> Мы можем использовать вашу информацию для оценки или проведения слияния, разделения, реструктуризации, реорганизации, роспуска или другой продажи или передачи некоторых или всех наших активов, будь то в качестве непрерывного предприятия или в рамках банкротства, ликвидации, или аналогичная процедура, в которой Личные данные о пользователях нашего Сервиса, хранящиеся у нас, входят в число передаваемых активов.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Для других целей</strong> : мы можем использовать вашу информацию для других целей, таких как анализ данных, определение тенденций использования, определение эффективности наших рекламных кампаний, а также для оценки и улучшения нашей Услуги, продуктов, услуг, маркетинга и вашего опыта.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<p>Мы можем передавать вашу личную информацию в следующих ситуациях:</p>\n"
+"<ul>\n"
+"<li><strong>Поставщикам услуг:</strong> мы можем передавать вашу личную информацию Поставщикам услуг, чтобы отслеживать и анализировать использование нашего Сервиса и связываться с вами.</li>\n"
+"<li><strong>Для передачи бизнеса:</strong> мы можем делиться или передавать вашу личную информацию в связи или во время переговоров по любому слиянию, продаже активов Компании, финансированию или приобретению всего или части нашего бизнеса другой компании.</li>\n"
+"<li><strong>С аффилированными лицами:</strong> мы можем передавать вашу информацию нашим аффилированным лицам, и в этом случае мы потребуем от этих аффилированных лиц соблюдать настоящую Политику конфиденциальности. Аффилированные лица включают в себя Нашу материнскую компанию и любые другие дочерние компании, партнеров по совместным предприятиям или другие компании, которые Мы контролируем или которые находятся под общим с нами контролем.</li>\n"
+"<li><strong>С деловыми партнерами:</strong> Мы можем делиться вашей информацией с нашими деловыми партнерами, чтобы предлагать вам определенные продукты, услуги или рекламные акции.</li>\n"
+"<li><strong>С другими пользователями:</strong> когда вы делитесь личной информацией или иным образом взаимодействуете в общедоступных местах с другими пользователями, такая информация может просматриваться всеми пользователями и может быть публично распространена за пределами. Если вы взаимодействуете с другими пользователями или регистрируетесь через стороннюю службу социальных сетей, ваши контакты в сторонней службе социальных сетей могут видеть ваше имя, профиль, изображения и описание вашей деятельности. Точно так же другие пользователи смогут просматривать описания ваших действий, общаться с вами и просматривать ваш профиль.</li>\n"
+"<li><strong>С вашего согласия</strong> : Мы можем раскрыть вашу личную информацию для любых других целей с вашего согласия.</li>\n"
+"</ul>\n"
+"<h2>Хранение ваших личных данных</h2>\n"
+"<p>Компания будет хранить ваши персональные данные только до тех пор, пока это необходимо для целей, изложенных в настоящей Политике конфиденциальности. Мы будем хранить и использовать ваши персональные данные в той мере, в какой это необходимо для соблюдения наших юридических обязательств (например, если мы обязаны хранить ваши данные в соответствии с действующим законодательством), для разрешения споров и обеспечения соблюдения наших юридических соглашений и политик.</p>\n"
+"<p>Компания также будет хранить Данные об использовании для целей внутреннего анализа. Данные об использовании обычно хранятся в течение более короткого периода времени, за исключением случаев, когда эти данные используются для усиления безопасности или улучшения функциональности нашего Сервиса, или когда мы юридически обязаны хранить эти данные в течение более длительных периодов времени.</p>\n"
+"<h2>Передача ваших личных данных</h2>\n"
+"<p>Ваша информация, включая Персональные данные, обрабатывается в операционных офисах Компании и в любых других местах, где находятся стороны, участвующие в обработке. Это означает, что эта информация может передаваться и храниться на компьютерах, расположенных за пределами вашего штата, провинции, страны или другой государственной юрисдикции, где законы о защите данных могут отличаться от законов вашей юрисдикции.</p>\n"
+"<p>Ваше согласие с настоящей Политикой конфиденциальности, за которым следует предоставление такой информации, означает ваше согласие на такую &ZeroWidthSpace;&ZeroWidthSpace;передачу.</p>\n"
+"<p>Компания предпримет все разумно необходимые шаги для обеспечения безопасного обращения с вашими данными в соответствии с настоящей Политикой конфиденциальности, и никакая передача ваших персональных данных не будет происходить в организацию или страну, если не будет обеспечен надлежащий контроль, включая безопасность Ваши данные и другая личная информация.</p>\n"
+"<h2>Раскрытие ваших личных данных</h2>\n"
+"<h3>Деловые операции</h3>\n"
+"<p>Если Компания участвует в слиянии, приобретении или продаже активов, ваши личные данные могут быть переданы. Мы уведомим вас до того, как ваши персональные данные будут переданы и станут предметом другой Политики конфиденциальности.</p>\n"
+"<h3>Правоохранительные органы</h3>\n"
+"<p>При определенных обстоятельствах от Компании может потребоваться раскрыть Ваши Персональные данные, если это требуется по закону или в ответ на действительные запросы государственных органов (например, суда или государственного органа).</p>\n"
+"<h3>Прочие юридические требования</h3>\n"
+"<p>Компания может раскрыть Ваши Персональные данные, если будут добросовестно полагать, что такие действия необходимы для:</p>\n"
+"<ul>\n"
+"<li>Соблюдать юридические обязательства</li>\n"
+"<li>Защищать и защищать права или собственность Компании</li>\n"
+"<li>Предотвратить или расследовать возможные правонарушения в связи с Сервисом.</li>\n"
+"<li>Защищать личную безопасность пользователей Сервиса или общественности</li>\n"
+"<li>Защитить от юридической ответственности</li>\n"
+"</ul>\n"
+"<h2>Безопасность ваших личных данных</h2>\n"
+"<p>Безопасность ваших личных данных важна для нас, но помните, что ни один метод передачи через Интернет или метод электронного хранения не является безопасным на 100%%. Хотя мы стремимся использовать коммерчески приемлемые средства для защиты ваших личных данных, мы не можем гарантировать их абсолютную безопасность.</p>\n"
+"<h1>Конфиденциальность детей</h1>\n"
+"<p>Наша Служба не предназначена для лиц младше 13 лет. Мы сознательно не собираем личную информацию от лиц младше 13 лет. Если вы являетесь родителем или опекуном и знаете, что ваш ребенок предоставил нам личные данные, пожалуйста свяжитесь с нами. Если нам станет известно, что мы собрали персональные данные от кого-либо в возрасте до 13 лет без подтверждения согласия родителей, мы предпримем шаги для удаления этой информации с наших серверов.</p>\n"
+"<p>Если Нам необходимо полагаться на согласие как на правовое основание для обработки вашей информации, а для вашей страны требуется согласие одного из родителей, мы можем потребовать согласие вашего родителя, прежде чем мы собираем и используем эту информацию.</p>\n"
+"<h1>Ссылки на другие сайты</h1>\n"
+"<p>Наш Сервис может содержать ссылки на другие веб-сайты, которыми Мы не управляем. Если вы нажмете на ссылку третьей стороны, вы будете перенаправлены на сайт этой третьей стороны. Мы настоятельно рекомендуем вам ознакомиться с Политикой конфиденциальности каждого сайта, который вы посещаете.</p>\n"
+"<p>Мы не контролируем и не несем ответственности за контент, политику конфиденциальности или действия любых сторонних сайтов или сервисов.</p>\n"
+"<h1>Изменения в настоящей Политике конфиденциальности</h1>\n"
+"<p>Мы можем время от времени обновлять нашу Политику конфиденциальности. Мы уведомим Вас о любых изменениях, разместив новую Политику конфиденциальности на этой странице.</p>\n"
+"<p>Мы сообщим Вам об этом по электронной почте и / или в заметном уведомлении о Нашей Службе, прежде чем изменения вступят в силу, и обновим дату «Последнее обновление» в верхней части настоящей Политики конфиденциальности.</p>\n"
+"<p>Рекомендуется периодически просматривать эту Политику конфиденциальности на предмет изменений. Изменения в этой Политике конфиденциальности вступают в силу, когда они публикуются на этой странице.</p>\n"
+"<h1>Свяжитесь с нами</h1>\n"
+"<p>Если у вас есть какие-либо вопросы по поводу настоящей Политики конфиденциальности, вы можете связаться с нами:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p>По электронной почте: haker3102@gmail.com</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>По телефону: 87007001466</p>\n"
+"</li>\n"
+"</ul>\n"
+
+
+#: main/templates/openid/login.html:9
+msgid "OpenID Sign In"
+msgstr "Вход в OpenID"
+
+#: main/templates/socialaccount/authentication_error.html:5
+#: main/templates/socialaccount/authentication_error.html:8
+msgid "Social Network Login Failure"
+msgstr "Ошибка входа в социальную сеть"
+
+#: main/templates/socialaccount/authentication_error.html:10
+msgid ""
+"An error occurred while attempting to login via your social network account."
+msgstr ""
+"Произошла ошибка при попытке войти в систему через учетную запись социальной "
+"сети."
+
+#: main/templates/socialaccount/connections.html:5
+#: main/templates/socialaccount/connections.html:8
+msgid "Account Connections"
+msgstr "Подключения к аккаунту"
+
+#: main/templates/socialaccount/connections.html:11
+msgid ""
+"You can sign in to your account using any of the following third party "
+"accounts:"
+msgstr ""
+"Вы можете войти в свою учетную запись, используя любую из следующих "
+"сторонних учетных записей:"
+
+#: main/templates/socialaccount/connections.html:43
+msgid ""
+"You currently have no social network accounts connected to this account."
+msgstr ""
+"В настоящее время у вас нет учетных записей социальных сетей, связанных с "
+"этой учетной записью."
+
+#: main/templates/socialaccount/connections.html:46
+msgid "Add a 3rd Party Account"
+msgstr "Добавить стороннюю учетную запись"
+
+#: main/templates/socialaccount/login_cancelled.html:5
+#: main/templates/socialaccount/login_cancelled.html:9
+msgid "Login Cancelled"
+msgstr "Вход отменен"
+
+#: main/templates/socialaccount/login_cancelled.html:13
+#, python-format
+msgid ""
+"You decided to cancel logging in to our site using one of your existing "
+"accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
+"\">sign in</a>."
+msgstr ""
+"Вы решили отменить вход на наш сайт, используя одну из ваших существующих "
+"учетных записей. Если это была ошибка, перейдите к <a href=\"%(login_url)s"
+"\"> входу </a>"
+
+#: main/templates/socialaccount/messages/account_connected.txt:2
+msgid "The social account has been connected."
+msgstr "Социальная учетная запись подключена."
+
+#: main/templates/socialaccount/messages/account_connected_other.txt:2
+msgid "The social account is already connected to a different account."
+msgstr "Социальная учетная запись уже подключена к другой учетной записи."
+
+#: main/templates/socialaccount/messages/account_disconnected.txt:2
+msgid "The social account has been disconnected."
+msgstr "Социальная учетная запись отключена."
+
+#: main/templates/socialaccount/signup.html:10
+#, python-format
+msgid ""
+"You are about to use your %(provider_name)s account to login to\n"
+"%(site_name)s. As a final step, please complete the following form:"
+msgstr ""
+"Вы собираетесь использовать свою учетную запись %(provider_name)s для входа "
+"в\n"
+"%(site_name)s. В качестве последнего шага заполните следующую форму:"
+
+#: opencorpora/urls.py:25
+msgid "\"OpenCorporaKaz\" Administration"
+msgstr "Администрация \"OpenCorporaKaz\""
+
+#: opencorpora/urls.py:26
+msgid "Site Administration"
+msgstr "Администрация сайта"
+
+#: opencorpora/urls.py:27
+msgid "Site Management"
+msgstr "Управление сайтом"
+
+#: templates/admin/base_site.html:26
+msgid "Documentation"
+msgstr "Документация"
+
+#: templates/admin/base_site.html:30
+msgid "Change password"
+msgstr "Измени пароль"
+
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s"
+"\">sign up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+"Пожалуйста, войдите с помощью одного\n"
+"ваших существующих сторонних учетных записей. Или <a href=\"%(signup_url)s"
+"\">зарегистрируйтесь</a>\n"
+"для учетной записи %(site_name)s и войдите в систему ниже:"
+
+msgid "or"
+msgstr "или"
+
+msgid "Recent actions"
+msgstr "Последние действия"
+
+msgid "Cannot delete %(name)s"
+msgstr "Не удается удалить %(name)s"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr "Удалить выбранные %(verbose_name_plural)s"
+
+msgid "All"
+msgstr "Все"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Unknown"
+msgstr "Неизвестно"
+
+msgid "Any date"
+msgstr "Любая дата"
+
+msgid "Today"
+msgstr "Сегодня"
+
+msgid "Past 7 days"
+msgstr "Последние 7 дней"
+
+msgid "This month"
+msgstr "Этот месяц"
+
+msgid "This year"
+msgstr "Этот год"
+
+msgid "No date"
+msgstr "Дата не указана"
+
+msgid "Has date"
+msgstr "Дата указана"
+
+msgid "Empty"
+msgstr "Пусто"
+
+msgid "Not empty"
+msgstr "Не пусто"
+
+msgid ""
+"Please enter the correct %(username)s and password for a staff account. "
+"Note that both fields may be case-sensitive."
+msgstr ""
+"Пожалуйста, введите корректные %(username)s и пароль учётной записи. Оба "
+"поля могут быть чувствительны к регистру."
+
+msgid "Action:"
+msgstr "Действие:"
+
+msgid "Add another %(verbose_name)s"
+msgstr "Добавить еще один %(verbose_name)s"
+
+msgid "Addition"
+msgstr "Добавление"
+
+msgid "Change"
+msgstr "Изменить"
+
+msgid "Deletion"
+msgstr "Удаление"
+
+msgid "object repr"
+msgstr "представление объекта"
+
+msgid "log entry"
+msgstr "запись в журнале"
+
+msgid "log entries"
+msgstr "записи в журнале"
+
+msgid "Added “%(object)s”."
+msgstr "Добавлено “%(object)s“."
+
+msgid "Changed “%(object)s” — %(changes)s"
+msgstr "Изменено “%(object)s“ - %(changes)s"
+
+msgid "Deleted “%(object)s.”"
+msgstr "Удалено “%(object)s.“"
+
+msgid "LogEntry Object"
+msgstr "Запись в журнале"
+
+msgid "Added {name} “{object}”."
+msgstr "Добавлен {name} “{object}“."
+
+msgid "Added."
+msgstr "Добавлено."
+
+msgid "and"
+msgstr "и"
+
+msgid "Changed {fields} for {name} “{object}”."
+msgstr "Изменено {fields} у {name} “{object}“."
+
+msgid "Changed {fields}."
+msgstr "Изменено {fields}."
+
+msgid "Deleted {name} “{object}”."
+msgstr "Удален {name} “{object}“."
+
+msgid "No fields changed."
+msgstr "Ни одно поле не изменено."
+
+msgid "None"
+msgstr "Нет"
+
+msgid "Hold down “Control”, or “Command” on a Mac, to select more than one."
+msgstr ""
+"Удерживайте “Control“ (или “Command“ на Mac), чтобы выбрать несколько "
+"значений."
+
+msgid "The {name} “{obj}” was added successfully."
+msgstr "{name} \"{obj}\" был успешно добавлен."
+
+msgid "You may edit it again below."
+msgstr "Вы можете снова изменить этот объект ниже."
+
+msgid ""
+"The {name} “{obj}” was added successfully. You may add another {name} "
+"below."
+msgstr ""
+"{name} “{obj}“ был успешно добавлен. Вы можете добавить еще один {name} "
+"ниже."
+
+msgid ""
+"The {name} “{obj}” was changed successfully. You may edit it again below."
+msgstr ""
+"{name} “{obj}“ был изменен успешно. Вы можете отредактировать его снова "
+"ниже."
+
+msgid ""
+"The {name} “{obj}” was added successfully. You may edit it again below."
+msgstr ""
+"{name} “{obj}“ был успешно добавлен. Вы можете отредактировать его еще "
+"раз ниже."
+
+msgid ""
+"The {name} “{obj}” was changed successfully. You may add another {name} "
+"below."
+msgstr ""
+"{name} “{obj}“ был изменен. Вы можете добавить еще один {name} ниже."
+
+msgid "The {name} “{obj}” was changed successfully."
+msgstr "{name} “{obj}“ был успешно изменен."
+
+msgid ""
+"Items must be selected in order to perform actions on them. No items have "
+"been changed."
+msgstr ""
+"Чтобы произвести действия над объектами, необходимо их выбрать. Объекты "
+"не были изменены."
+
+msgid "No action selected."
+msgstr "Действие не выбрано."
+
+msgid "The %(name)s “%(obj)s” was deleted successfully."
+msgstr "%(name)s “%(obj)s“ был успешно удален."
+
+msgid "%(name)s with ID “%(key)s” doesn’t exist. Perhaps it was deleted?"
+msgstr "%(name)s с ID “%(key)s“ не существует. Возможно оно было удалено?"
+
+msgid "Add %s"
+msgstr "Добавить %s"
+
+msgid "Change %s"
+msgstr "Изменить %s"
+
+msgid "View %s"
+msgstr "Просмотреть %s"
+
+msgid "Database error"
+msgstr "Ошибка базы данных"
+
+msgid "%(count)s %(name)s was changed successfully."
+msgid_plural "%(count)s %(name)s were changed successfully."
+msgstr[0] "%(count)s %(name)s был успешно изменен."
+msgstr[1] "%(count)s %(name)s были успешно изменены."
+msgstr[2] "%(count)s %(name)s были успешно изменены."
+msgstr[3] "%(count)s %(name)s были успешно изменены."
+
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] "Выбран %(total_count)s"
+msgstr[1] "Выбраны все %(total_count)s"
+msgstr[2] "Выбраны все %(total_count)s"
+msgstr[3] "Выбраны все %(total_count)s"
+
+msgid "0 of %(cnt)s selected"
+msgstr "Выбрано 0 объектов из %(cnt)s "
+
+msgid "Change history: %s"
+msgstr "История изменений: %s"
+
+msgid "%(class_name)s %(instance)s"
+msgstr "%(class_name)s %(instance)s"
+
+msgid ""
+"Deleting %(class_name)s %(instance)s would require deleting the following "
+"protected related objects: %(related_objects)s"
+msgstr ""
+"Удаление объекта %(instance)s типа %(class_name)s будет требовать "
+"удаления следующих связанных объектов: %(related_objects)s"
+
+msgid "Django site admin"
+msgstr "Административный сайт Django"
+
+msgid "Django administration"
+msgstr "Администрирование Django"
+
+msgid "Site administration"
+msgstr "Администрирование сайта"
+
+msgid "Log in"
+msgstr "Войти"
+
+msgid "%(app)s administration"
+msgstr "Администрирование приложения «%(app)s»"
+
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+msgid "We’re sorry, but the requested page could not be found."
+msgstr "К сожалению, запрашиваемая вами страница не найдена."
+
+msgid "Server error"
+msgstr "Ошибка сервера"
+
+msgid "Server error (500)"
+msgstr "Ошибка сервера (500)"
+
+msgid "Server Error <em>(500)</em>"
+msgstr "Ошибка сервера <em>(500)</em>"
+
+msgid ""
+"There’s been an error. It’s been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"Произошла ошибка. О ней сообщено администраторам сайта по электронной "
+"почте, ошибка должна быть вскоре исправлена. Благодарим вас за терпение."
+
+msgid "Run the selected action"
+msgstr "Выполнить выбранное действие"
+
+msgid "Go"
+msgstr "Выполнить"
+
+msgid "Click here to select the objects across all pages"
+msgstr "Нажмите здесь, чтобы выбрать объекты на всех страницах"
+
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "Выбрать все %(module_name)s (%(total_count)s)"
+
+msgid "Clear selection"
+msgstr "Снять выделение"
+
+msgid "Models in the %(name)s application"
+msgstr "Модели в приложении %(name)s"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "View"
+msgstr "Просмотреть"
+
+msgid "You don’t have permission to view or edit anything."
+msgstr ""
+"У вас недостаточно полномочий для просмотра или изменения чего либо."
+
+msgid ""
+"First, enter a username and password. Then, you’ll be able to edit more "
+"user options."
+msgstr ""
+"Сначала введите имя пользователя и пароль. Затем вы сможете ввести больше "
+"информации о пользователе."
+
+msgid "Enter a username and password."
+msgstr "Введите имя пользователя и пароль."
+
+msgid "Please correct the error below."
+msgstr "Пожалуйста, исправьте ошибку ниже."
+
+msgid "Please correct the errors below."
+msgstr "Пожалуйста, исправьте ошибки ниже."
+
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+"Введите новый пароль для пользователя <strong>%(username)s</strong>."
+
+msgid "Welcome,"
+msgstr "Добро пожаловать,"
+
+msgid "View site"
+msgstr "Открыть сайт"
+
+msgid "Add %(name)s"
+msgstr "Добавить %(name)s"
+
+msgid "History"
+msgstr "История"
+
+msgid "View on site"
+msgstr "Смотреть на сайте"
+
+msgid "Clear all filters"
+msgstr "Сбросить все фильтры"
+
+msgid "Remove from sorting"
+msgstr "Удалить из сортировки"
+
+msgid "Sorting priority: %(priority_number)s"
+msgstr "Приоритет сортировки: %(priority_number)s"
+
+msgid "Toggle sorting"
+msgstr "Сортировать в другом направлении"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in "
+"deleting related objects, but your account doesn't have permission to "
+"delete the following types of objects:"
+msgstr ""
+"Удаление %(object_name)s '%(escaped_object)s' приведет к удалению "
+"связанных объектов, но ваша учетная запись не имеет прав для удаления "
+"следующих типов объектов:"
+
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting "
+"the following protected related objects:"
+msgstr ""
+"Удаление %(object_name)s '%(escaped_object)s' потребует удаления "
+"следующих связанных защищенных объектов:"
+
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s"
+"\"? All of the following related items will be deleted:"
+msgstr ""
+"Вы уверены, что хотите удалить %(object_name)s \"%(escaped_object)s\"? "
+"Все следующие связанные объекты также будут удалены:"
+
+msgid "Objects"
+msgstr "Объекты"
+
+msgid "Yes, I’m sure"
+msgstr "Да, я уверен"
+
+msgid "No, take me back"
+msgstr "Нет, отменить и вернуться к выбору"
+
+msgid "Delete multiple objects"
+msgstr "Удалить несколько объектов"
+
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+"Удаление выбранной %(objects_name)s приведет к удалению связанных "
+"объектов, но ваша учетная запись не имеет прав на удаление следующих "
+"типов объектов:"
+
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the "
+"following protected related objects:"
+msgstr ""
+"Удаление %(objects_name)s потребует удаления следующих связанных "
+"защищенных объектов:"
+
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+"Вы уверены, что хотите удалить %(objects_name)s? Все следующие объекты и "
+"связанные с ними элементы будут удалены:"
+
+msgid "Delete?"
+msgstr "Удалить?"
+
+msgid " By %(filter_title)s "
+msgstr "%(filter_title)s"
+
+msgid "Summary"
+msgstr "Краткая статистика"
+
+msgid "My actions"
+msgstr "Мои действия"
+
+msgid "None available"
+msgstr "Недоступно"
+
+msgid "Unknown content"
+msgstr "Неизвестный тип"
+
+msgid ""
+"Something’s wrong with your database installation. Make sure the "
+"appropriate database tables have been created, and make sure the database "
+"is readable by the appropriate user."
+msgstr ""
+"Ваша база данных неправильно настроена. Убедитесь, что соответствующие "
+"таблицы были созданы, и что соответствующему пользователю разрешен к ним "
+"доступ."
+
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access "
+"this page. Would you like to login to a different account?"
+msgstr ""
+"Вы вошли в систему как %(username)s, однако у вас недостаточно прав для "
+"просмотра данной страницы. Возможно, вы хотели бы войти в систему, "
+"используя другую учётную запись?"
+
+msgid "Forgotten your password or username?"
+msgstr "Забыли свой пароль или имя пользователя?"
+
+msgid "Date/time"
+msgstr "Дата и время"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid ""
+"This object doesn’t have a change history. It probably wasn’t added via "
+"this admin site."
+msgstr ""
+"Данный объект не имеет истории изменений. Возможно, он был добавлен не "
+"через данный административный сайт."
+
+msgid "Show all"
+msgstr "Показать все"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Popup closing…"
+msgstr "Всплывающее окно закрывается..."
+
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s результат"
+msgstr[1] "%(counter)s результата"
+msgstr[2] "%(counter)s результатов"
+msgstr[3] "%(counter)s результатов"
+
+msgid "%(full_result_count)s total"
+msgstr "%(full_result_count)s всего"
+
+msgid "Save as new"
+msgstr "Сохранить как новый объект"
+
+msgid "Save and add another"
+msgstr "Сохранить и добавить другой объект"
+
+msgid "Save and continue editing"
+msgstr "Сохранить и продолжить редактирование"
+
+msgid "Save and view"
+msgstr "Сохранить и просмотреть"
+
+msgid "Change selected %(model)s"
+msgstr "Изменить выбранный объект типа \"%(model)s\""
+
+msgid "Add another %(model)s"
+msgstr "Добавить ещё один объект типа \"%(model)s\""
+
+msgid "Delete selected %(model)s"
+msgstr "Удалить выбранный объект типа \"%(model)s\""
+
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Благодарим вас за время, проведенное на этом сайте."
+
+msgid "Log in again"
+msgstr "Войти снова"
+
+msgid ""
+"Please enter your old password, for security’s sake, and then enter your "
+"new password twice so we can verify you typed it in correctly."
+msgstr ""
+"В целях безопасности, пожалуйста, введите свой старый пароль, затем "
+"введите новый пароль дважды, чтобы мы могли убедиться в правильности "
+"написания."
+
+msgid "Change my password"
+msgstr "Изменить мой пароль"
+
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Ваш пароль был сохранен.  Теперь вы можете войти."
+
+msgid "Password reset confirmation"
+msgstr "Подтверждение восстановления пароля"
+
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Пожалуйста, введите новый пароль дважды, чтобы мы могли убедиться в "
+"правильности написания."
+
+msgid ""
+"We’ve emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"Мы отправили вам инструкцию по установке нового пароля на указанный адрес "
+"электронной почты (если в нашей базе данных есть такой адрес). Вы должны "
+"получить ее в ближайшее время."
+
+msgid ""
+"If you don’t receive an email, please make sure you’ve entered the "
+"address you registered with, and check your spam folder."
+msgstr ""
+"Если вы не получили письмо, пожалуйста, убедитесь, что вы ввели адрес с "
+"которым Вы зарегистрировались, и проверьте папку со спамом."
+
+msgid ""
+"You're receiving this email because you requested a password reset for "
+"your user account at %(site_name)s."
+msgstr ""
+"Вы получили это письмо, потому что вы (или кто-то другой) запросили "
+"восстановление пароля от учётной записи на сайте %(site_name)s, которая "
+"связана с этим адресом электронной почты."
+
+msgid "Please go to the following page and choose a new password:"
+msgstr "Пожалуйста, перейдите на эту страницу и введите новый пароль:"
+
+msgid "Your username, in case you’ve forgotten:"
+msgstr "Ваше имя пользователя (на случай, если вы его забыли):"
+
+msgid "Thanks for using our site!"
+msgstr "Спасибо, что используете наш сайт!"
+
+msgid "All dates"
+msgstr "Все даты"
+
+msgid "Select %s"
+msgstr "Выберите %s"
+
+msgid "Select %s to change"
+msgstr "Выберите %s для изменения"
+
+msgid "Select %s to view"
+msgstr "Выберите %s для просмотра"
+
+msgid "Date:"
+msgstr "Дата:"
+
+msgid "Time:"
+msgstr "Время:"
+
+msgid "Lookup"
+msgstr "Поиск"
+
+msgid "Currently:"
+msgstr "Сейчас:"
+
+msgid "Change:"
+msgstr "Изменить:"

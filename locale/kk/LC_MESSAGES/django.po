@@ -1,0 +1,2190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-16 22:42+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: main/apps.py:13
+msgid "Main"
+msgstr "Негізгі"
+
+#: main/models.py:13 main/models.py:35 main/models.py:139
+msgid "name"
+msgstr "аты"
+
+#: main/models.py:16
+msgid "authorization group"
+msgstr "Авторизация тобы"
+
+#: main/models.py:17
+msgid "authorization groups"
+msgstr "Авторизация тобтары"
+
+#: main/models.py:23 main/models.py:68
+msgid "group"
+msgstr "топ"
+
+#: main/models.py:24 main/models.py:80
+msgid "permission"
+msgstr "рұқсат"
+
+#: main/models.py:27
+msgid "Authorization group permission"
+msgstr "Авторизация тобына рұқсат"
+
+#: main/models.py:28
+msgid "Authorization group permissions"
+msgstr "Авторизация тобына рұқсаттар"
+
+#: main/models.py:36 main/models.py:115
+msgid "content type"
+msgstr "мазмұн түрі"
+
+#: main/models.py:37
+msgid "code name"
+msgstr "код атауы"
+
+#: main/models.py:40
+msgid "Authorization permission"
+msgstr "Авторизацияға рұқсат"
+
+#: main/models.py:41
+msgid "Authorization permissions"
+msgstr "Авторизацияға рұқсаттар"
+
+#: main/models.py:48
+msgid "password"
+msgstr "пароль"
+
+#: main/models.py:49
+msgid "last login"
+msgstr "соңғы кіру"
+
+#: main/models.py:50
+msgid "is superuser"
+msgstr "суперқолданушы"
+
+#: main/models.py:51
+msgid "username"
+msgstr "Қолданушы аты"
+
+#: main/models.py:52
+msgid "first name"
+msgstr "аты"
+
+#: main/models.py:53
+msgid "last name"
+msgstr "тегі"
+
+#: main/models.py:54
+msgid "email address"
+msgstr "электрондық почтаның адресі"
+
+#: main/models.py:55
+msgid "is staff"
+msgstr "персонал болып табылады"
+
+#: main/models.py:56
+msgid "is active"
+msgstr "белсенді"
+
+#: main/models.py:57
+msgid "date joined"
+msgstr "тіркелген күн"
+
+#: main/models.py:60
+msgid "Authorization user"
+msgstr "Авторизация қолданушысы"
+
+#: main/models.py:61
+msgid "Authorization users"
+msgstr "Авторизация қолданушылары"
+
+#: main/models.py:67 main/models.py:79 main/models.py:116
+msgid "user"
+msgstr "Қолданушы"
+
+#: main/models.py:71
+msgid "Authorization user group"
+msgstr "Авторизация қолданушы тобы"
+
+#: main/models.py:72
+msgid "Authorization user groups"
+msgstr "Авторизация қолданушылар топтары"
+
+#: main/models.py:83
+msgid "Authorization user permission"
+msgstr "Қолданушының авторизациясына рұқсат"
+
+#: main/models.py:84
+msgid "Authorization user permissions"
+msgstr "Қолданушының авторизациясына рұқсаттар"
+
+#: main/models.py:91
+msgid "Title"
+msgstr "Тақырыбы"
+
+#: main/models.py:92
+msgid "Text"
+msgstr "Мәтіні"
+
+#: main/models.py:93 main/templates/main/execute.html:48
+#: main/templates/main/index.html:46 main/templates/main/index.html:120
+msgid "Lemmatization"
+msgstr "Лемматизация"
+
+#: main/models.py:94 main/templates/main/execute.html:52
+#: main/templates/main/index.html:66 main/templates/main/index.html:124
+msgid "Morphological analysis"
+msgstr "Морфологиялық талдау"
+
+#: main/models.py:96 main/models.py:169
+msgid "Genre"
+msgstr "Жанр"
+
+#: main/models.py:97
+msgid "Key words"
+msgstr "Кілттік сөздер"
+
+#: main/models.py:98 main/templates/main/execute.html:40
+msgid "Annotation"
+msgstr "Мазмұны"
+
+#: main/models.py:100
+msgid "URL address"
+msgstr "URL мекенжайы"
+
+#: main/models.py:102 main/models.py:103
+msgid "Corpora"
+msgstr "Корпус"
+
+#: main/models.py:110
+msgid "action time"
+msgstr "әрекет уақыты"
+
+#: main/models.py:111
+msgid "object id"
+msgstr "объект идентификаторы"
+
+#: main/models.py:112
+msgid "object representation"
+msgstr "объектінің ұсынуы"
+
+#: main/models.py:113
+msgid "action flag"
+msgstr "әрекет белгісі"
+
+#: main/models.py:114
+msgid "change message"
+msgstr "хабарламаны өзгерту"
+
+#: main/models.py:119
+msgid "Django admin logs"
+msgstr "Django әкімшісінің журналдары"
+
+#: main/models.py:120
+msgid "Django admin log"
+msgstr "Django әкімшісінің журналы"
+
+#: main/models.py:126
+msgid "app label"
+msgstr "қолданба жапсырмасы"
+
+#: main/models.py:127
+msgid "model"
+msgstr "модель"
+
+#: main/models.py:130
+msgid "Django content types"
+msgstr "Django мазмұны түрлері"
+
+#: main/models.py:131
+msgid "Django content type"
+msgstr "Django мазмұны түрі"
+
+#: main/models.py:138
+msgid "app"
+msgstr "қолданба"
+
+#: main/models.py:140
+msgid "applied"
+msgstr "қолданылды"
+
+#: main/models.py:143
+msgid "Django migrations"
+msgstr "Django миграциялары"
+
+#: main/models.py:144
+msgid "Django migration"
+msgstr "Django миграциясы"
+
+#: main/models.py:150
+msgid "session key"
+msgstr "сессия кілті"
+
+#: main/models.py:151
+msgid "session data"
+msgstr "сессия деректері"
+
+#: main/models.py:152
+msgid "expire date"
+msgstr "қолданылу мерзімі"
+
+#: main/models.py:155
+msgid "Django sessions"
+msgstr "Django сесиялары"
+
+#: main/models.py:156
+msgid "Django session"
+msgstr "Django сесиясы"
+
+#: main/models.py:162 opencorpora/settings.py:171
+msgid "Russian"
+msgstr "Орысша"
+
+#: main/models.py:163 opencorpora/settings.py:170
+msgid "Kazakh"
+msgstr "Қазақша"
+
+#: main/models.py:164 opencorpora/settings.py:169
+msgid "English"
+msgstr "Ағылшынша"
+
+#: main/models.py:168 main/templates/main/index.html:87
+msgid "Genres"
+msgstr "Жанрлар"
+
+#: main/templates/account/account_inactive.html:5
+#: main/templates/account/account_inactive.html:8
+msgid "Account Inactive"
+msgstr "Аккаунт белсенді емес"
+
+#: main/templates/account/account_inactive.html:10
+msgid "This account is inactive."
+msgstr "Бұл аккаунт белсенді емес"
+
+#: main/templates/account/base.html:12
+msgid "Messages:"
+msgstr "Хабарламалар:"
+
+#: main/templates/account/email.html:5 main/templates/account/email.html:8
+msgid "E-mail Addresses"
+msgstr "Электронды почта:"
+
+#: main/templates/account/email.html:10
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+"Төмендегі электрондық пошта мекенжайлары сіздің аккаунтыңызбен байланысты"
+
+#: main/templates/account/email.html:24
+msgid "Verified"
+msgstr "Тексерілген"
+
+#: main/templates/account/email.html:26
+msgid "Unverified"
+msgstr "Тексерілмеген"
+
+#: main/templates/account/email.html:28
+msgid "Primary"
+msgstr "Негізгі"
+
+#: main/templates/account/email.html:34
+msgid "Make Primary"
+msgstr "Негізгі жасау"
+
+#: main/templates/account/email.html:35
+msgid "Re-send Verification"
+msgstr "Тексеруді қайта жіберу"
+
+#: main/templates/account/email.html:36
+#: main/templates/socialaccount/connections.html:35
+msgid "Remove"
+msgstr "Өшіру"
+
+#: main/templates/account/email.html:43
+msgid "Warning:"
+msgstr "Ескерту:"
+
+#: main/templates/account/email.html:43
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+"Қазіргі уақытта сізде ешқандай электрондық пошта мекенжайы орнатылмаған. Сіз "
+"электрондық пошта мекен-жайын қосу арқылы, хабарламалар аласыз, парольіңізді "
+"қалпына келтіресіз және т.б. мүмкіншіліктерге ие боласыз."
+
+#: main/templates/account/email.html:48
+msgid "Add E-mail Address"
+msgstr "Электронды почта мекенжайын қосу"
+
+#: main/templates/account/email.html:53
+msgid "Add E-mail"
+msgstr "Электронды почтаны қосу"
+
+#: main/templates/account/email.html:63
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr "Таңдалған электрондық пошта мекенжайын жойғыңыз келе ме?"
+
+#: main/templates/account/email/base_message.txt:1
+#, python-format
+msgid "Hello from %(site_name)s!"
+msgstr "Сәлем бұл %(site_name)s!"
+
+#: main/templates/account/email/base_message.txt:5
+#, python-format
+msgid ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+"Бізді %(site_name)s қолданғаныңыз үшін рахмет!\n"
+"%(site_domain)s"
+
+#: main/templates/account/email/email_confirmation_message.txt:5
+#, python-format
+msgid ""
+"You're receiving this e-mail because user %(user_display)s has given your e-"
+"mail address to register an account on %(site_domain)s.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s"
+msgstr ""
+"Сіз бұл электрондық поштаны алып отырсыз, өйткені пайдаланушы "
+"%(user_display)s сіздің электрондық поштаңыздың мекен-жайын %(site_domain)s "
+"сайтына аккаунт тіркеу үшін берген.\n"
+"\n"
+"Егер бұл сұрауды өзіңіз берген болсаңыз растау %(activate_url)s сілтемесіне "
+"өтіңіз."
+
+#: main/templates/account/email/email_confirmation_subject.txt:3
+msgid "Please Confirm Your E-mail Address"
+msgstr "Электрондық пошта мекен-жайыңызды растаңыз"
+
+#: main/templates/account/email/password_reset_key_message.txt:4
+msgid ""
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+msgstr ""
+"Сіз немесе басқа біреу сіздің пайдаланушы аккаунтыңыз үшін пароль "
+"сұрағандықтан, сіз бұл электрондық поштаны алып отырсыз.\n"
+"Егер сіз құпия сөзді қалпына келтіруді сұрамасаңыз, оны елемеуге болады. "
+"Құпия сөзді қалпына келтіру үшін төмендегі сілтемені басыңыз."
+
+#: main/templates/account/email/password_reset_key_message.txt:9
+#, python-format
+msgid "In case you forgot, your username is %(username)s."
+msgstr ""
+"Егер сіз ұмытып кеткен болсаңыз, сіздің пайдаланушы атыңыз %(username)s."
+
+#: main/templates/account/email/password_reset_key_subject.txt:3
+msgid "Password Reset E-mail"
+msgstr "Құпия сөзді өзгерту"
+
+#: main/templates/account/email_confirm.html:6
+#: main/templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr "Электронды мекенжайы:"
+
+#: main/templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+"Пайдаланушы  %(user_display)s үшін <a href=\"mailto:%(email)s\">%(email)s</"
+"a>  электрондық пошта мекенжайы екенін растаңыз."
+
+#: main/templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr "Растау"
+
+#: main/templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+"Бұл электрондық поштаны растау сілтемесінің мерзімі өткен немесе жарамсыз. "
+"<a href=\"%(email_url)s \"> электрондық поштаны растау туралы жаңа сұрау "
+"жіберіңіз.</a>"
+
+#: main/templates/account/login.html:6 main/templates/account/login.html:11
+#: main/templates/account/login.html:18 main/templates/account/login.html:40
+#: main/templates/base.html:41
+msgid "Sign In"
+msgstr "Кіру"
+
+#: main/templates/account/login.html:23 main/templates/account/signup.html:21
+msgid "Username"
+msgstr "Қолданушы аты"
+
+#: main/templates/account/login.html:27 main/templates/account/signup.html:33
+msgid "Password"
+msgstr "Құпия сөз"
+
+#: main/templates/account/login.html:31
+msgid "Remember me."
+msgstr "Мені есте сақта."
+
+#: main/templates/account/login.html:35
+#: main/templates/account/password_change.html:14
+msgid "Forgot Password?"
+msgstr "Құпия сөзді ұмыттыңызба?:"
+
+#: main/templates/account/login.html:41
+#, python-format
+msgid ""
+"If you have not created an account yet, then please \n"
+"            <a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+"Егер сіз әлі тіркелмеген болсаңыз, өтінемін алдымен\n"
+"<a href=\"%(signup_url)s\">тіркелу</a>."
+
+#: main/templates/account/login.html:45
+msgid "Sign in with Google"
+msgstr "Google-мен кіру"
+
+#: main/templates/account/login.html:48
+msgid "Sign in with VK"
+msgstr "VK-мен кіру "
+
+#: main/templates/account/logout.html:6 main/templates/account/logout.html:11
+#: main/templates/account/logout.html:21
+msgid "Sign Out"
+msgstr "Шығу"
+
+#: main/templates/account/logout.html:15
+msgid "Are you sure you want to sign out?"
+msgstr "Шынымен шыққыңыз келе ме?"
+
+#: main/templates/account/messages/cannot_delete_primary_email.txt:2
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr "Сіз өзіңіздің негізгі электрондық поштаңызды жоя алмайсыз (%(email)s)."
+
+#: main/templates/account/messages/email_confirmation_sent.txt:2
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr "Растау %(email)s электрондық поштасына жіберілді"
+
+#: main/templates/account/messages/email_confirmed.txt:2
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr "Сіз %(email)s растадыңыз."
+
+#: main/templates/account/messages/email_deleted.txt:2
+#, python-format
+msgid "Removed e-mail address %(email)s."
+msgstr "%(email)s электрондық пошта мекенжайы жойылды."
+
+# Official django translatation !edited Abilay
+# This file is distributed under the same license as the Django package.
+#
+# Translators:
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2015
+# Leo Trubach <leotrubach@gmail.com>, 2017
+# Nurlan Rakhimzhanov <nurlan.rakhimzhanov@gmail.com>, 2011
+# yun_man_ger <germanilyin@gmail.com>, 2011
+# "Project-Id-Version: django\n"
+# "Report-Msgid-Bugs-To: \n"
+# "POT-Creation-Date: 2019-01-16 20:42+0100\n"
+# "PO-Revision-Date: 2019-01-18 00:36+0000\n"
+# "Last-Translator: Ramiro Morales\n"
+# "Language-Team: Kazakh (http://www.transifex.com/django/django/language/kk/)\n"
+# "MIME-Version: 1.0\n"
+# "Content-Type: text/plain; charset=UTF-8\n"
+# "Content-Transfer-Encoding: 8bit\n"
+# "Language: kk\n"
+# "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+#: main/templates/account/messages/logged_in.txt:4
+#, python-format
+msgid "Successfully signed in as %(name)s."
+msgstr "%(name)s кіру сәтті орындалды."
+
+#: main/templates/account/messages/logged_out.txt:2
+msgid "You have signed out."
+msgstr "Сіз жүйеден шықтыңыз."
+
+#: main/templates/account/messages/password_changed.txt:2
+msgid "Password successfully changed."
+msgstr "Құпия сөз сәтті өзгертілді"
+
+#: main/templates/account/messages/password_set.txt:2
+msgid "Password successfully set."
+msgstr "Құпия сөз сәтті өзгертілді."
+
+#: main/templates/account/messages/primary_email_set.txt:2
+msgid "Primary e-mail address set."
+msgstr "Негізгі электрондық почтаның адресі"
+
+#: main/templates/account/messages/unverified_primary_email.txt:2
+msgid "Your primary e-mail address must be verified."
+msgstr "Сіздің негізгі электрондық поштаңыздың мекен-жайы тексерілуі керек."
+
+#: main/templates/account/password_change.html:5
+#: main/templates/account/password_change.html:8
+#: main/templates/account/password_change.html:13
+#: main/templates/account/password_reset_from_key.html:4
+#: main/templates/account/password_reset_from_key.html:7
+#: main/templates/account/password_reset_from_key_done.html:4
+#: main/templates/account/password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr "Құпия сөзді өзгерту"
+
+#: main/templates/account/password_reset.html:6
+#: main/templates/account/password_reset.html:10
+#: main/templates/account/password_reset_done.html:6
+#: main/templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr "Құпия сөзді өзгерту"
+
+#: main/templates/account/password_reset.html:15
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+"Құпия сөзді естен шығардыңызба? Төменге электронды почтаңызды енгізіңіз, біз "
+"сізге жаңа құпия сөз орнату жайлы нұсқаулық жібереміз."
+
+#: main/templates/account/password_reset.html:20
+msgid "Reset My Password"
+msgstr "Құпия сөзді жаңала"
+
+#: main/templates/account/password_reset.html:23
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr "Құпия сөзді қалпына келтіруде қиындықтар туындаса, бізге хабарласыңыз."
+
+#: main/templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+"Біз сіздің электронды поштаңызға хабарлама жібердік. Егер сіз оны бірнеше "
+"минут ішінде алмасаңыз, бізге хабарласыңыз."
+
+#: main/templates/account/password_reset_from_key.html:7
+msgid "Bad Token"
+msgstr "Token қате"
+
+#: main/templates/account/password_reset_from_key.html:11
+#, fuzzy, python-format
+#| msgid ""
+#| "The password reset link was invalid, possibly because it has already been "
+#| "used.  Please request a <a href=\"%(passwd_reset_url)s\">new password "
+#| "reset</a>."
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+"Құпия сөзді өзгерту байланыс дұрыс емес, мүмкін ол осыған дейін "
+"пайдаланылды.  Жаңа құпия сөзді өзгерту сұрау жіберіңіз."
+
+#: main/templates/account/password_reset_from_key.html:17
+msgid "change password"
+msgstr "құпия сөзді өзгерту"
+
+#: main/templates/account/password_reset_from_key.html:20
+#: main/templates/account/password_reset_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr "Құпия сөзіңіз өзгертілді."
+
+#: main/templates/account/password_set.html:5
+#: main/templates/account/password_set.html:8
+#: main/templates/account/password_set.html:13
+msgid "Set Password"
+msgstr "Құпия сөз ауыстыру"
+
+#: main/templates/account/signup.html:4 main/templates/account/signup.html:16
+#: main/templates/socialaccount/signup.html:5
+msgid "Signup"
+msgstr "Тіркелу"
+
+#: main/templates/account/signup.html:9 main/templates/account/signup.html:43
+#: main/templates/socialaccount/signup.html:8
+#: main/templates/socialaccount/signup.html:19
+msgid "Sign Up"
+msgstr "Тіркелу"
+
+#: main/templates/account/signup.html:26
+msgid "Email address"
+msgstr "электрондық почтаның адресі"
+
+#: main/templates/account/signup.html:38
+msgid "Confirm password"
+msgstr "Құпия сөзді қайта еңгіз"
+
+#: main/templates/account/signup.html:44
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr "Бұрын тіркелгенсіз бе? Онда <a href=\"%(login_url)s\">кіру</a>."
+
+#: main/templates/account/signup.html:47
+msgid "Sign up with Google"
+msgstr "Google-мен тіркелу"
+
+#: main/templates/account/signup.html:50
+msgid "Sign up with VK"
+msgstr "VK-мен тіркелу"
+
+#: main/templates/account/signup_closed.html:5
+#: main/templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr "Тіркелу жабылды"
+
+#: main/templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr "Кешірім сұраймыз, сіздің сұраған бетіңіз табылмады."
+
+#: main/templates/account/snippets/already_logged_in.html:5
+msgid "Note"
+msgstr "Ескерту"
+
+#: main/templates/account/snippets/already_logged_in.html:5
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr "сіз қазірдің өзінде %(user_display)s ретінде кірдіңіз."
+
+#: main/templates/account/verification_sent.html:5
+#: main/templates/account/verification_sent.html:8
+#: main/templates/account/verified_email_required.html:5
+#: main/templates/account/verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr "Электрондық почтаныңызжы растаңыз"
+
+#: main/templates/account/verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+"Тексеру үшін сізге электронды хат жібердік. Тіркелу процесін аяқтау үшін "
+"берілген сілтемеге өтіңіз. Егер сіз оны бірнеше минут ішінде алмасаңыз, "
+"бізге хабарласыңыз."
+
+#: main/templates/account/verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+"Сайттың бұл бөлігі біз сіз өзіңіздің кім\n"
+"екеніңізді растауымызды талап етеді. Осы мақсатта сізден\n"
+"электрондық пошта мекен-жайыңызда меншік құқығын растауды талап етеміз."
+
+#: main/templates/account/verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+"Тексеру үшін сізге электронды хат жібердік.\n"
+"Осы электрондық пошта ішіндегі сілтемені басыңыз.\n"
+"Егер сіз оны бірнеше минут ішінде алмасаңыз, бізге хабарласыңыз."
+
+#: main/templates/account/verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+"<strong>Ескерту:</strong> сіз әліде <a href=\"%(email_url)s\">электронды "
+"почта</a>ны өзгерте аласыз."
+
+#: main/templates/base.html:13 main/templates/main/index.html:6
+msgid "Kazakh Open Corpora"
+msgstr "Қазақша ашық корпус"
+
+#: main/templates/base.html:39 templates/admin/base_site.html:32
+msgid "Log out"
+msgstr "Шығу"
+
+#: main/templates/base.html:60
+msgid "Home"
+msgstr "Негізгі"
+
+#: main/templates/base.html:61
+msgid "Online execute"
+msgstr "Желіде орындау"
+
+#: main/templates/base.html:63
+msgid "Corpora API"
+msgstr "Corpora API"
+
+#: main/templates/base.html:64
+msgid "Genres API"
+msgstr "Genres API"
+
+#: main/templates/base.html:67
+msgid "Administration"
+msgstr "Әкімшілік"
+
+#: main/templates/base.html:69 main/templates/main/about.html:6
+#: main/templates/main/about.html:22 main/templates/main/about.html:29
+msgid "About Us"
+msgstr "Біз жайлы"
+
+#: main/templates/base.html:70 main/templates/main/privacy.html:6
+#: main/templates/main/privacy.html:23 main/templates/main/privacy.html:29
+msgid "Privacy & Terms"
+msgstr "Ережелер мен қауіпсіздіктер"
+
+#: main/templates/main/about.html:30
+msgid ""
+"\n"
+"<p>From 2018 to 2021, extensive work of scientific and technical nature was "
+"carried out on the project. The results of this diploma project cover a wide "
+"range of tasks in the field of intelligent information retrieval, such as "
+"modeling the presentation of documents, designing the architecture of search "
+"engines, classifying texts, semantic analysis of texts, derivation of "
+"keywords (phrases). increase the productivity of data collection and "
+"processing through texts, automatic synthesis of texts, the use of new "
+"distributed methods and technologies.</p>\n"
+"<p>A complete system of classification of suffixes and suffixes of the "
+"Kazakh language was developed for the analysis and segmentation of data. "
+"Determined limit state machines are designed for all parts of speech using "
+"all possible options for the addition of suffixes and suffixes to the Kazakh "
+"language. A lexical-free algorithm was created using a classification system "
+"developed for the completion of the Kazakh language. The special features of "
+"the created algorithm are its speed and very easy repetition.</p>\n"
+"<p>For the collection and processing of large data, a fixed case model and "
+"system have been developed, the features of which are advanced modules of "
+"data processing (tokenization, lemmatization, morphological analysis). "
+"Kazakh language. Software of algorithms (automatic assembly, classification "
+"and processing by various parameters) was implemented and processed, "
+"classified data in the Kazakh language were obtained.</p>\n"
+"<p>Development of various practical software for the analysis and processing "
+"of natural language text for the processing and analysis of unstructured and "
+"unstructured big data using the methods of artificial intelligence, thereby "
+"creating tools for semantic analysis. This module includes:</p>\n"
+"<ul id=\"ul\">\n"
+"<li>a modified approach to the production of keywords and phrases in the "
+"Kazakh language texts;</li>\n"
+"<li>Algorithm of text semantic analysis based on machine learning using the "
+"method of Word2Vec;</li>\n"
+"<li>method of summarizing texts in the Kazakh language. Concept analysis "
+"based on the Vectors Space model, along with modified keyword output and "
+"machine learning, is a tool for automatically summarizing text.</li>\n"
+"</ul>\n"
+"<p>According to the results of the project for 2018-2021, 3 editions were "
+"published.</p>\n"
+msgstr ""
+"\n"
+"<p>2018 - 2021 жылдар аралығында жоба бойынша ғылыми және техникалық сипаттағы көлемді жұмыс жасалды. Осы дипломдық жобада келтірілген нәтижелер ақылды ақпараттарды іздеу саласында шешілген кең ауқымды міндеттерді қамтиды, мысалы, құжаттардың презентациясын модельдеу, іздеу жүйелерінің архитектурасын жобалау, мәтіндерді жіктеу, мәтіндерді семантикалық талдау, кілт сөздерді (сөз тіркестерін) шығару. мәтіндерден, мәтіндерді автоматты түрде қорыту, жаңа таратылған әдістер мен технологияларды қолдану арқылы мәліметтерді жинау және өңдеу өнімділігін арттыру.</p>\n"
+"<p>Мәліметтерді талдау және сегменттеу үшін қазақ тілінің қосымшалары мен жұрнақтарын жіктеудің толық жүйесі жасалды. Детерминирленген шекті мемлекеттік машиналар әр түрлі сөйлеу бөліктері үшін қазақ тіліне септік жалғаулары мен жалғаулар қосудың барлық мүмкін нұсқаларын қолдана отырып жасалған. Қазақ тілінің аяқталуы үшін жасалған классификациялық жүйені қолдана отырып, лексикасыз алгоритм құрылды. Құрылған алгоритмнің айрықша ерекшеліктері - оның жылдамдығы және өте оңай қайталануы.</p>\n"
+"<p>Үлкен деректерді жинау және өңдеу үшін белгіленген корпустың моделі мен жүйесі жасалды, олардың ерекшеліктері - мәліметтерді өңдеудің дамыған модульдері (токенизация, лемматизация, морфологиялық талдау). Қазақ тілі. Алгоритмдерді бағдарламалық қамтамасыздандыру (автоматты түрде жинау, әр түрлі параметрлер бойынша жіктеу және өңдеу) жүзеге асырылды және өңделді, қазақ тіліндегі жіктелген мәліметтер алынды.</p>\n"
+"<p>Жасанды интеллект әдістерін қолдану арқылы құрылымданбаған және құрылымданбаған үлкен деректерді өңдеу және талдау үшін табиғи тілдік мәтінді талдауға және өңдеуге арналған әр түрлі практикалық бағдарламалық жасақтаманы құру, сол арқылы семантикалық талдау құралдары жасау. Бұл модульге мыналар кіреді:</p>\n"
+"<ul id=\"ul\">\n"
+"<li>қазақ тіліндегі мәтіндердің кілт сөздері мен сөз тіркестерін шығаруға өзгертілген тәсіл;</li>\n"
+"<li>Word2Vec әдісі арқылы машиналық оқытуға негізделген мәтіндік семантикалық талдау алгоритмі;</li>\n"
+"<li>қазақ тіліндегі мәтіндерді суммаризациялау әдісі. Өзгертілген кілт сөздерді шығару тәсілімен және машиналық оқытумен бірге Vectors Space model негізделген тұжырымдаманы талдаудың анализі - бұл мәтінді автоматты түрде қорытындылауға арналған құрал.</li>\n"
+"</ul>\n"
+"<p>2018-2021 жылдарға арналған жобаны іске асыру нәтижелері бойынша 3 басылым шығарылды.</p>\n"
+
+#: main/templates/main/execute.html:7
+msgid "Online NLP proccessing"
+msgstr "Онлайн табиғи тілді жөндеу процессі"
+
+#: main/templates/main/execute.html:13
+msgid "Online NLP proccessing on the text"
+msgstr "Мәтінге табиғи тілді жөндеу онлайн процессі"
+
+#: main/templates/main/execute.html:21
+msgid "Loading"
+msgstr "Жасалуда"
+
+#: main/templates/main/execute.html:29
+msgid "Input text"
+msgstr "Мәтін енгізу"
+
+#: main/templates/main/execute.html:30
+msgid "Enter same text... or drop text file"
+msgstr "Мәтінді осында еңгізіңіз... немесе құжатты осында сүйреңіз"
+
+#: main/templates/main/execute.html:31
+msgid ""
+"Your text must contain at least 1000 characters and the file size must be no "
+"more than 1MB."
+msgstr ""
+"Сіз енгізген мәтін 1000 символдан көп және енгізілген файл көлемі 1МБ аспауы "
+"қажет."
+
+#: main/templates/main/execute.html:34
+msgid "Submit"
+msgstr "Жіберу"
+
+#: main/templates/main/execute.html:44
+msgid "Keywords"
+msgstr "Кілттік сөздер"
+
+#: main/templates/main/execute.html:58
+msgid "Oops. Sorry you can you must be registered"
+msgstr "Ой. Кешіріңіз сізге тіркелу қажет"
+
+#: main/templates/main/index.html:12
+msgid "e.g.:"
+msgstr "Мысалы:"
+
+#: main/templates/main/index.html:16
+msgid "Search"
+msgstr "Іздеу"
+
+#: main/templates/main/index.html:26 main/templates/main/index.html:116
+msgid "Tokenization"
+msgstr "Токенизация"
+
+#: main/templates/main/index.html:36 main/templates/main/index.html:56
+#: main/templates/main/index.html:76
+msgid "Close"
+msgstr "Жабу"
+
+#: main/templates/main/index.html:37 main/templates/main/index.html:57
+#: main/templates/main/index.html:77
+msgid "Download"
+msgstr "Жүктеу"
+
+#: main/templates/main/index.html:84
+msgid "Filters"
+msgstr "Сүзгіш"
+
+#: main/templates/main/index.html:91
+msgid "Sections"
+msgstr "Бөлімдер"
+
+#: main/templates/main/index.html:136
+#, python-format
+msgid " About %(countitem)s results (%(dttime)s seconds.)"
+msgstr "Шамамен %(countitem)s нәтиже (%(dttime)s секунд.)"
+
+#: main/templates/main/index.html:139
+msgid "Oops. Sorry Corpora Not Found!!!"
+msgstr "Ой! кешіріңіз корпус табылмады!!!"
+
+#: main/templates/main/privacy.html:30
+#, python-format
+msgid ""
+"\n"
+"<p>Last updated: June 16, 2021</p>\n"
+"<p>This Privacy Policy describes Our policies and procedures on the "
+"collection, use and disclosure of Your information when You use the Service "
+"and tells You about Your privacy rights and how the law protects You.</p>\n"
+"<p>We use Your Personal data to provide and improve the Service. By using "
+"the Service, You agree to the collection and use of information in "
+"accordance with this Privacy Policy. This Privacy Policy has been created "
+"with the help of the <a href=\"https://www.freeprivacypolicy.com/free-"
+"privacy-policy-generator/\" target=\"_blank\">Privacy Policy Generator</a>.</"
+"p>\n"
+"<h1>Interpretation and Definitions</h1>\n"
+"<h2>Interpretation</h2>\n"
+"<p>The words of which the initial letter is capitalized have meanings "
+"defined under the following conditions. The following definitions shall have "
+"the same meaning regardless of whether they appear in singular or in plural."
+"</p>\n"
+"<h2>Definitions</h2>\n"
+"<p>For the purposes of this Privacy Policy:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Account</strong> means a unique account created for You to access "
+"our Service or parts of our Service.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Company</strong> (referred to as either &quot;the Company&quot;, "
+"&quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers "
+"to Al-Farabi Kazakh National University, Almaty, Al-Farabi 71.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Cookies</strong> are small files that are placed on Your "
+"computer, mobile device or any other device by a website, containing the "
+"details of Your browsing history on that website among its many uses.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Country</strong> refers to:  Kazakhstan</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Device</strong> means any device that can access the Service such "
+"as a computer, a cellphone or a digital tablet.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Personal Data</strong> is any information that relates to an "
+"identified or identifiable individual.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Service</strong> refers to the Website.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Service Provider</strong> means any natural or legal person who "
+"processes the data on behalf of the Company. It refers to third-party "
+"companies or individuals employed by the Company to facilitate the Service, "
+"to provide the Service on behalf of the Company, to perform services related "
+"to the Service or to assist the Company in analyzing how the Service is used."
+"</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Third-party Social Media Service</strong> refers to any website "
+"or any social network website through which a User can log in or create an "
+"account to use the Service.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Usage Data</strong> refers to data collected automatically, "
+"either generated by the use of the Service or from the Service "
+"infrastructure itself (for example, the duration of a page visit).</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Website</strong> refers to OpenCorporaKaz, accessible from <a "
+"href=\"http://opencorpora.kz\" rel=\"external nofollow noopener\" target="
+"\"_blank\">http://opencorpora.kz</a></p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>You</strong> means the individual accessing or using the Service, "
+"or the company, or other legal entity on behalf of which such individual is "
+"accessing or using the Service, as applicable.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<h1>Collecting and Using Your Personal Data</h1>\n"
+"<h2>Types of Data Collected</h2>\n"
+"<h3>Personal Data</h3>\n"
+"<p>While using Our Service, We may ask You to provide Us with certain "
+"personally identifiable information that can be used to contact or identify "
+"You. Personally identifiable information may include, but is not limited to:"
+"</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p>Email address</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>First name and last name</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>Usage Data</p>\n"
+"</li>\n"
+"</ul>\n"
+"<h3>Usage Data</h3>\n"
+"<p>Usage Data is collected automatically when using the Service.</p>\n"
+"<p>Usage Data may include information such as Your Device's Internet "
+"Protocol address (e.g. IP address), browser type, browser version, the pages "
+"of our Service that You visit, the time and date of Your visit, the time "
+"spent on those pages, unique device identifiers and other diagnostic data.</"
+"p>\n"
+"<p>When You access the Service by or through a mobile device, We may collect "
+"certain information automatically, including, but not limited to, the type "
+"of mobile device You use, Your mobile device unique ID, the IP address of "
+"Your mobile device, Your mobile operating system, the type of mobile "
+"Internet browser You use, unique device identifiers and other diagnostic "
+"data.</p>\n"
+"<p>We may also collect information that Your browser sends whenever You "
+"visit our Service or when You access the Service by or through a mobile "
+"device.</p>\n"
+"<h3>Information from Third-Party Social Media Services</h3>\n"
+"<p>The Company allows You to create an account and log in to use the Service "
+"through the following Third-party Social Media Services:</p>\n"
+"<ul>\n"
+"<li>Google</li>\n"
+"<li>Facebook</li>\n"
+"<li>Twitter</li>\n"
+"</ul>\n"
+"<p>If You decide to register through or otherwise grant us access to a Third-"
+"Party Social Media Service, We may collect Personal data that is already "
+"associated with Your Third-Party Social Media Service's account, such as "
+"Your name, Your email address, Your activities or Your contact list "
+"associated with that account.</p>\n"
+"<p>You may also have the option of sharing additional information with the "
+"Company through Your Third-Party Social Media Service's account. If You "
+"choose to provide such information and Personal Data, during registration or "
+"otherwise, You are giving the Company permission to use, share, and store it "
+"in a manner consistent with this Privacy Policy.</p>\n"
+"<h3>Tracking Technologies and Cookies</h3>\n"
+"<p>We use Cookies and similar tracking technologies to track the activity on "
+"Our Service and store certain information. Tracking technologies used are "
+"beacons, tags, and scripts to collect and track information and to improve "
+"and analyze Our Service. The technologies We use may include:</p>\n"
+"<ul>\n"
+"<li><strong>Cookies or Browser Cookies.</strong> A cookie is a small file "
+"placed on Your Device. You can instruct Your browser to refuse all Cookies "
+"or to indicate when a Cookie is being sent. However, if You do not accept "
+"Cookies, You may not be able to use some parts of our Service. Unless you "
+"have adjusted Your browser setting so that it will refuse Cookies, our "
+"Service may use Cookies.</li>\n"
+"<li><strong>Flash Cookies.</strong> Certain features of our Service may use "
+"local stored objects (or Flash Cookies) to collect and store information "
+"about Your preferences or Your activity on our Service. Flash Cookies are "
+"not managed by the same browser settings as those used for Browser Cookies. "
+"For more information on how You can delete Flash Cookies, please read &quot;"
+"Where can I change the settings for disabling, or deleting local shared "
+"objects?&quot; available at <a href=\"https://helpx.adobe.com/flash-player/"
+"kb/disable-local-shared-objects-flash."
+"html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_"
+"\" rel=\"external nofollow noopener\" target=\"_blank\">https://helpx.adobe."
+"com/flash-player/kb/disable-local-shared-objects-flash."
+"html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_</"
+"a></li>\n"
+"<li><strong>Web Beacons.</strong> Certain sections of our Service and our "
+"emails may contain small electronic files known as web beacons (also "
+"referred to as clear gifs, pixel tags, and single-pixel gifs) that permit "
+"the Company, for example, to count users who have visited those pages or "
+"opened an email and for other related website statistics (for example, "
+"recording the popularity of a certain section and verifying system and "
+"server integrity).</li>\n"
+"</ul>\n"
+"<p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. "
+"Persistent Cookies remain on Your personal computer or mobile device when "
+"You go offline, while Session Cookies are deleted as soon as You close Your "
+"web browser. Learn more about cookies: <a href=\"https://www."
+"freeprivacypolicy.com/blog/cookies/\" target=\"_blank\">Cookies: What Do "
+"They Do?</a>.</p>\n"
+"<p>We use both Session and Persistent Cookies for the purposes set out below:"
+"</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Necessary / Essential Cookies</strong></p>\n"
+"<p>Type: Session Cookies</p>\n"
+"<p>Administered by: Us</p>\n"
+"<p>Purpose: These Cookies are essential to provide You with services "
+"available through the Website and to enable You to use some of its features. "
+"They help to authenticate users and prevent fraudulent use of user accounts. "
+"Without these Cookies, the services that You have asked for cannot be "
+"provided, and We only use these Cookies to provide You with those services.</"
+"p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Cookies Policy / Notice Acceptance Cookies</strong></p>\n"
+"<p>Type: Persistent Cookies</p>\n"
+"<p>Administered by: Us</p>\n"
+"<p>Purpose: These Cookies identify if users have accepted the use of cookies "
+"on the Website.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Functionality Cookies</strong></p>\n"
+"<p>Type: Persistent Cookies</p>\n"
+"<p>Administered by: Us</p>\n"
+"<p>Purpose: These Cookies allow us to remember choices You make when You use "
+"the Website, such as remembering your login details or language preference. "
+"The purpose of these Cookies is to provide You with a more personal "
+"experience and to avoid You having to re-enter your preferences every time "
+"You use the Website.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<p>For more information about the cookies we use and your choices regarding "
+"cookies, please visit our Cookies Policy or the Cookies section of our "
+"Privacy Policy.</p>\n"
+"<h2>Use of Your Personal Data</h2>\n"
+"<p>The Company may use Personal Data for the following purposes:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>To provide and maintain our Service</strong>, including to "
+"monitor the usage of our Service.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>To manage Your Account:</strong> to manage Your registration as a "
+"user of the Service. The Personal Data You provide can give You access to "
+"different functionalities of the Service that are available to You as a "
+"registered user.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>For the performance of a contract:</strong> the development, "
+"compliance and undertaking of the purchase contract for the products, items "
+"or services You have purchased or of any other contract with Us through the "
+"Service.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>To contact You:</strong> To contact You by email, telephone "
+"calls, SMS, or other equivalent forms of electronic communication, such as a "
+"mobile application's push notifications regarding updates or informative "
+"communications related to the functionalities, products or contracted "
+"services, including the security updates, when necessary or reasonable for "
+"their implementation.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>To provide You</strong> with news, special offers and general "
+"information about other goods, services and events which we offer that are "
+"similar to those that you have already purchased or enquired about unless "
+"You have opted not to receive such information.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>To manage Your requests:</strong> To attend and manage Your "
+"requests to Us.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>For business transfers:</strong> We may use Your information to "
+"evaluate or conduct a merger, divestiture, restructuring, reorganization, "
+"dissolution, or other sale or transfer of some or all of Our assets, whether "
+"as a going concern or as part of bankruptcy, liquidation, or similar "
+"proceeding, in which Personal Data held by Us about our Service users is "
+"among the assets transferred.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>For other purposes</strong>: We may use Your information for "
+"other purposes, such as data analysis, identifying usage trends, determining "
+"the effectiveness of our promotional campaigns and to evaluate and improve "
+"our Service, products, services, marketing and your experience.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<p>We may share Your personal information in the following situations:</p>\n"
+"<ul>\n"
+"<li><strong>With Service Providers:</strong> We may share Your personal "
+"information with Service Providers to monitor and analyze the use of our "
+"Service,  to contact You.</li>\n"
+"<li><strong>For business transfers:</strong> We may share or transfer Your "
+"personal information in connection with, or during negotiations of, any "
+"merger, sale of Company assets, financing, or acquisition of all or a "
+"portion of Our business to another company.</li>\n"
+"<li><strong>With Affiliates:</strong> We may share Your information with Our "
+"affiliates, in which case we will require those affiliates to honor this "
+"Privacy Policy. Affiliates include Our parent company and any other "
+"subsidiaries, joint venture partners or other companies that We control or "
+"that are under common control with Us.</li>\n"
+"<li><strong>With business partners:</strong> We may share Your information "
+"with Our business partners to offer You certain products, services or "
+"promotions.</li>\n"
+"<li><strong>With other users:</strong> when You share personal information "
+"or otherwise interact in the public areas with other users, such information "
+"may be viewed by all users and may be publicly distributed outside. If You "
+"interact with other users or register through a Third-Party Social Media "
+"Service, Your contacts on the Third-Party Social Media Service may see Your "
+"name, profile, pictures and description of Your activity. Similarly, other "
+"users will be able to view descriptions of Your activity, communicate with "
+"You and view Your profile.</li>\n"
+"<li><strong>With Your consent</strong>: We may disclose Your personal "
+"information for any other purpose with Your consent.</li>\n"
+"</ul>\n"
+"<h2>Retention of Your Personal Data</h2>\n"
+"<p>The Company will retain Your Personal Data only for as long as is "
+"necessary for the purposes set out in this Privacy Policy. We will retain "
+"and use Your Personal Data to the extent necessary to comply with our legal "
+"obligations (for example, if we are required to retain your data to comply "
+"with applicable laws), resolve disputes, and enforce our legal agreements "
+"and policies.</p>\n"
+"<p>The Company will also retain Usage Data for internal analysis purposes. "
+"Usage Data is generally retained for a shorter period of time, except when "
+"this data is used to strengthen the security or to improve the functionality "
+"of Our Service, or We are legally obligated to retain this data for longer "
+"time periods.</p>\n"
+"<h2>Transfer of Your Personal Data</h2>\n"
+"<p>Your information, including Personal Data, is processed at the Company's "
+"operating offices and in any other places where the parties involved in the "
+"processing are located. It means that this information may be transferred to "
+"— and maintained on — computers located outside of Your state, province, "
+"country or other governmental jurisdiction where the data protection laws "
+"may differ than those from Your jurisdiction.</p>\n"
+"<p>Your consent to this Privacy Policy followed by Your submission of such "
+"information represents Your agreement to that transfer.</p>\n"
+"<p>The Company will take all steps reasonably necessary to ensure that Your "
+"data is treated securely and in accordance with this Privacy Policy and no "
+"transfer of Your Personal Data will take place to an organization or a "
+"country unless there are adequate controls in place including the security "
+"of Your data and other personal information.</p>\n"
+"<h2>Disclosure of Your Personal Data</h2>\n"
+"<h3>Business Transactions</h3>\n"
+"<p>If the Company is involved in a merger, acquisition or asset sale, Your "
+"Personal Data may be transferred. We will provide notice before Your "
+"Personal Data is transferred and becomes subject to a different Privacy "
+"Policy.</p>\n"
+"<h3>Law enforcement</h3>\n"
+"<p>Under certain circumstances, the Company may be required to disclose Your "
+"Personal Data if required to do so by law or in response to valid requests "
+"by public authorities (e.g. a court or a government agency).</p>\n"
+"<h3>Other legal requirements</h3>\n"
+"<p>The Company may disclose Your Personal Data in the good faith belief that "
+"such action is necessary to:</p>\n"
+"<ul>\n"
+"<li>Comply with a legal obligation</li>\n"
+"<li>Protect and defend the rights or property of the Company</li>\n"
+"<li>Prevent or investigate possible wrongdoing in connection with the "
+"Service</li>\n"
+"<li>Protect the personal safety of Users of the Service or the public</li>\n"
+"<li>Protect against legal liability</li>\n"
+"</ul>\n"
+"<h2>Security of Your Personal Data</h2>\n"
+"<p>The security of Your Personal Data is important to Us, but remember that "
+"no method of transmission over the Internet, or method of electronic storage "
+"is 100%% secure. While We strive to use commercially acceptable means to "
+"protect Your Personal Data, We cannot guarantee its absolute security.</p>\n"
+"<h1>Children's Privacy</h1>\n"
+"<p>Our Service does not address anyone under the age of 13. We do not "
+"knowingly collect personally identifiable information from anyone under the "
+"age of 13. If You are a parent or guardian and You are aware that Your child "
+"has provided Us with Personal Data, please contact Us. If We become aware "
+"that We have collected Personal Data from anyone under the age of 13 without "
+"verification of parental consent, We take steps to remove that information "
+"from Our servers.</p>\n"
+"<p>If We need to rely on consent as a legal basis for processing Your "
+"information and Your country requires consent from a parent, We may require "
+"Your parent's consent before We collect and use that information.</p>\n"
+"<h1>Links to Other Websites</h1>\n"
+"<p>Our Service may contain links to other websites that are not operated by "
+"Us. If You click on a third party link, You will be directed to that third "
+"party's site. We strongly advise You to review the Privacy Policy of every "
+"site You visit.</p>\n"
+"<p>We have no control over and assume no responsibility for the content, "
+"privacy policies or practices of any third party sites or services.</p>\n"
+"<h1>Changes to this Privacy Policy</h1>\n"
+"<p>We may update Our Privacy Policy from time to time. We will notify You of "
+"any changes by posting the new Privacy Policy on this page.</p>\n"
+"<p>We will let You know via email and/or a prominent notice on Our Service, "
+"prior to the change becoming effective and update the &quot;Last "
+"updated&quot; date at the top of this Privacy Policy.</p>\n"
+"<p>You are advised to review this Privacy Policy periodically for any "
+"changes. Changes to this Privacy Policy are effective when they are posted "
+"on this page.</p>\n"
+"<h1>Contact Us</h1>\n"
+"<p>If you have any questions about this Privacy Policy, You can contact us:</"
+"p>\n"
+"<ul>\n"
+"<li>\n"
+"<p>By email: haker3102@gmail.com</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>By phone number: 87007001466</p>\n"
+"</li>\n"
+"</ul>\n"
+
+
+msgstr ""
+"\n"
+"<p>Соңғы жаңартылған: 2021 жылғы 16 маусым</p>\n"
+"<p>Осы Құпиялылық саясаты Қызметті пайдаланған кезде ақпарат жинау, пайдалану және жария ету бойынша біздің саясатымыз бен процедураларымызды сипаттайды және сіздің жеке өміріңізге қатысты құқықтарыңыз туралы және заң сізді қалай қорғайтыны туралы айтады.</p>\n"
+"<p>Қызметті ұсыну және жақсарту үшін сіздің жеке деректеріңізді пайдаланамыз. Қызметті пайдалану арқылы сіз осы Құпиялылық саясатына сәйкес ақпарат жинауға және пайдалануға келісесіз. Бұл құпиялылық саясаты <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=kk&amp;u=https://www.freeprivacypolicy.com/free-privacy-policy-generator/\" target=\"_blank\">құпиялылық саясатының генераторының</a> көмегімен жасалған .</p>\n"
+"<h1>Түсіндіру және анықтамалар</h1>\n"
+"<h2>Түсіндіру</h2>\n"
+"<p>Бастапқы әріппен басталатын сөздер келесі шарттарда анықталған мағыналарға ие. Келесі анықтамалар олардың жекеше немесе көпше түрінде болуына қарамастан бірдей мағынаға ие болады.</p>\n"
+"<h2>Анықтамалар</h2>\n"
+"<p>Осы құпиялылық саясатының мақсаттары үшін:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Есептік жазба</strong> дегеніміз - сіздің қызметіңізге немесе біздің қызметіміздің бөліктеріне қол жеткізу үшін сіз үшін жасалған бірегей тіркелгі.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Компания</strong> (осы Келісімде «Компания», «Біз», «Біз» немесе «Біздің» деп аталады) әл-Фараби атындағы ҚазҰУ, Алматы, әл-Фараби 71 сілтеме жасайды.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Cookies</strong> - бұл сіздің компьютеріңізде, мобильді құрылғыңызда немесе веб-сайттың кез-келген басқа құрылғысында орналастырылатын, сол веб-сайтта сіздің шолу тарихыңыздың егжей-тегжейін қамтитын кішігірім файлдар.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Мемлекет</strong> : Қазақстанға сілтеме жасайды</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Құрылғы</strong> дегеніміз - қызмет, компьютер, ұялы телефон немесе сандық планшет сияқты қол жеткізе алатын кез-келген құрылғы.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Жеке деректер</strong> - бұл анықталған немесе анықталатын адамға қатысты кез-келген ақпарат.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Сервис</strong> веб-сайтқа сілтеме жасайды.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Қызмет көрсетуші</strong> - бұл компания атынан мәліметтерді өңдейтін кез-келген жеке немесе заңды тұлға. Бұл Сервисті жеңілдету, Серіктестіктің атынан Қызмет көрсету, Сервиске байланысты қызметтерді көрсету немесе Сервистің қалай қолданылатындығын талдауға көмектесу үшін Компанияда жұмыс істейтін үшінші тарап компанияларына немесе жеке адамдарға қатысты.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Үшінші тараптың әлеуметтік медиа қызметі</strong> кез-келген веб-сайтты немесе кез-келген әлеуметтік желінің веб-сайтына сілтеме жасайды, ол арқылы Қызметті пайдалану үшін пайдаланушы кіре алады немесе тіркелгі жасай алады.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Пайдалану деректері</strong> дегеніміз Сервисті пайдалану немесе Қызметтің инфрақұрылымының өзінен алынған (мысалы, параққа кіру ұзақтығы) автоматты түрде жиналатын <strong>деректерге</strong> жатады.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Веб-сайт </strong><a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=kk&amp;u=http://opencorpora.kz\" rel=\"external nofollow noopener\" target=\"_blank\">http://opencorpora.kz</a> мекен-жайы бойынша қол жетімді OpenCorporaKaz-қа сілтеме жасайды<a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=kk&amp;u=http://opencorpora.kz\" rel=\"external nofollow noopener\" target=\"_blank\"></a></p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Сіз</strong> бұл қызметке кіретін немесе оны пайдаланатын жеке тұлғаны немесе компания немесе оның атынан осындай жеке тұлға қызметке қол жеткізетін немесе қолданатын басқа заңды тұлғаны білдіреді.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<h1>Жеке деректерді жинау және пайдалану</h1>\n"
+"<h2>Жиналған мәліметтер түрлері</h2>\n"
+"<h3>Жеке деректер</h3>\n"
+"<p>Біздің қызметті пайдалану кезінде біз сізден байланысуға немесе сізді анықтауға болатын жеке анықталатын ақпаратты беруіңізді сұраймыз. Жеке сәйкестендірілетін ақпарат мыналарды қамтуы мүмкін, бірақ олармен шектелмейді:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p>Электрондық поштаның адресі</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>Аты-жөні</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>Пайдалану деректері</p>\n"
+"</li>\n"
+"</ul>\n"
+"<h3>Пайдалану деректері</h3>\n"
+"<p>Пайдалану деректері қызметті пайдалану кезінде автоматты түрде жиналады.</p>\n"
+"<p>Пайдалану деректері Құрылғыңыздың Интернет-протоколының мекен-жайы (мысалы, IP-мекен-жайы), браузер түрі, браузер нұсқасы, сіз кіретін Қызмет беттері, сапарыңыздың уақыты мен күні, сол беттерде болған уақыт, бірегей құрылғы сияқты ақпаратты қамтуы мүмкін. идентификаторлар және басқа диагностикалық мәліметтер.</p>\n"
+"<p>Сіз қызметке мобильді құрылғы арқылы немесе онымен кірген кезде біз белгілі бір ақпаратты, соның ішінде сіз қолданатын мобильді құрылғының түрін, сіздің мобильді құрылғыңыздың бірегей идентификаторын, сіздің мобильді құрылғыңыздың IP-мекен-жайын, сіздің ұялы телефоныңызды автоматты түрде жинай аламыз. операциялық жүйе, сіз пайдаланатын мобильді интернет-браузер түрі, бірегей құрылғы идентификаторлары және басқа диагностикалық деректер.</p>\n"
+"<p>Сондай-ақ, сіз біздің қызметке кірген кезде немесе сіз мобильді құрылғы арқылы немесе қызметке қол жеткізген кезде сіздің шолғышыңыз жіберетін ақпаратты жинай аламыз.</p>\n"
+"<h3>Үшінші тараптың әлеуметтік медиа қызметтерінен ақпарат</h3>\n"
+"<p>Компания сізге келесі үшінші тарап әлеуметтік медиа қызметтері арқылы тіркелгі құруға және қызметті пайдалану үшін кіруге мүмкіндік береді:</p>\n"
+"<ul>\n"
+"<li>Google</li>\n"
+"<li>Facebook</li>\n"
+"<li>Twitter</li>\n"
+"</ul>\n"
+"<p>Егер сіз үшінші тараптың әлеуметтік медиа қызметі арқылы тіркелуді немесе басқа жолмен бізге қол жеткізуді шешсеңіз, біз сіздің атыңыз, сіздің электрондық поштаңыздың мекен-жайы, сіздің іс-әрекеттеріңіз сияқты үшінші тараптың әлеуметтік медиа қызметінің тіркелгісімен байланысты жеке деректерді жинай аламыз. немесе сол есептік жазбаға байланысты сіздің байланыс тізіміңіз.</p>\n"
+"<p>Сондай-ақ Сізде Компаниямен үшінші тараптың әлеуметтік медиа қызметінің тіркелгісі арқылы қосымша ақпарат бөлісу мүмкіндігі болуы мүмкін. Егер сіз осындай ақпаратты және жеке деректерді тіркеу кезінде немесе басқаша түрде беруді қаласаңыз, онда сіз оны осы құпиялылық саясатына сәйкес пайдалануға, бөлуге және сақтауға Компанияға рұқсат бересіз.</p>\n"
+"<h3>Бақылау технологиялары мен куки</h3>\n"
+"<p>Біз cookies файлдарын және осыған ұқсас бақылау технологияларын біздің қызметтегі әрекеттерді бақылау және белгілі бір ақпаратты сақтау үшін қолданамыз. Бақылау технологиялары - бұл ақпаратты жинау және бақылау, сондай-ақ біздің қызметті жақсарту және талдау үшін маяктар, тегтер мен сценарийлер. Біз қолданатын технологиялар мыналарды қамтуы мүмкін:</p>\n"
+"<ul>\n"
+"<li><strong>Cookies файлдары немесе шолғыш cookies файлдары. </strong>Cookies - бұл сіздің құрылғыңызға орналастырылған шағын файл. Сіз өзіңіздің шолғышыңызға барлық cookies файлдарынан бас тартуға немесе cookie файлының қашан жіберілетінін көрсетуге нұсқау бере аласыз. Алайда, егер сіз «Cookies» файлдарын қабылдамасаңыз, онда біздің Қызметтің кейбір бөліктерін пайдалана алмауыңыз мүмкін. Егер сіз өзіңіздің шолғышыңыздың cookie файлдарынан бас тартатындай етіп реттемесеңіз, біздің қызмет cookies файлдарын қолдана алады.</li>\n"
+"<li><strong>Flash Cookies файлдары. </strong>Біздің Қызметтің кейбір функциялары Сіздің қалауыңыз немесе сіздің қызметіңіз туралы ақпаратты жинау және сақтау үшін жергілікті сақталған объектілерді (немесе Flash Cookies) пайдалана алады. Flash Cookies файлдары браузердің cookies файлдары үшін қолданылатын шолғыш параметрлерімен басқарылмайды. Flash Cookies файлдарын қалай жоюға болатыны туралы қосымша ақпарат алу үшін «Жергілікті ортақ объектілерді өшіру немесе жою параметрлерін қайда өзгертуге болады?» <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=kk&amp;u=https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html%%23main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_\" rel=\"external nofollow noopener\" target=\"_blank\">https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_</a> мекен- <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=kk&amp;u=https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html%%23main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_\" rel=\"external nofollow noopener\" target=\"_blank\">жайы бойынша</a> қол жетімді<a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=kk&amp;u=https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html%%23main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_\" rel=\"external nofollow noopener\" target=\"_blank\"></a></li>\n"
+"<li><strong>Веб-шамдар. </strong>Біздің қызметтің кейбір бөлімдері мен электронды хаттарында Компанияға, мысалы, сол беттерге кірген пайдаланушыларды санауға мүмкіндік беретін, веб-маяктар деп аталатын шағын электронды файлдар болуы мүмкін (сонымен қатар айқын GIF, пикселдік тегтер және бір пиксельді GIF-тер). немесе электрондық поштаны және басқа да қатысты веб-сайт статистикасын (мысалы, белгілі бір бөлімнің танымалдығын жазу және жүйенің және сервердің тұтастығын тексеру) ашты.</li>\n"
+"</ul>\n"
+"<p>Cookies файлдары «Тұрақты» немесе «Сессия» cookies файлдары болуы мүмкін. Тұрақты cookies файлдары оффлайн режимінде болған кезде сіздің жеке компьютеріңізде немесе мобильді құрылғыда қалады, ал сіздің веб-шолғышты жапқаннан кейін Session Cookies файлдары жойылады. <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=kk&amp;u=https://www.freeprivacypolicy.com/blog/cookies/\" target=\"_blank\">Печенье</a> туралы көбірек біліңіз: <a href=\"https://translate.google.com/translate?hl=ru&amp;prev=_t&amp;sl=en&amp;tl=kk&amp;u=https://www.freeprivacypolicy.com/blog/cookies/\" target=\"_blank\">куки: олар не істейді? </a>.</p>\n"
+"<p>Біз сессияны және тұрақты cookies файлдарын төменде көрсетілген мақсаттар үшін қолданамыз:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Қажетті / маңызды печенье</strong></p>\n"
+"<p>Түрі: сеанстық куки</p>\n"
+"<p>Біз басқарамыз</p>\n"
+"<p>Мақсаты: бұл cookies файлдары сізге веб-сайт арқылы қол жетімді қызметтерді ұсыну және оның кейбір мүмкіндіктерін пайдалану үшін өте маңызды. Олар пайдаланушылардың түпнұсқалығын растауға және пайдаланушы есептік жазбаларын алаяқтық жолмен пайдалануға жол бермеуге көмектеседі. Осы Cookies файлдары болмаса, сіз сұраған қызметтерді ұсыну мүмкін емес, және біз бұл cookies файлдарын сізге осы қызметтерді ұсыну үшін ғана қолданамыз.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Cookies файлдары туралы саясат / хабарламаны қабылдау</strong></p>\n"
+"<p>Түрі: тұрақты печенье</p>\n"
+"<p>Біз басқарамыз</p>\n"
+"<p>Мақсаты: бұл cookies файлдары пайдаланушылардың веб-сайтта cookie файлдарын пайдалануды қабылдаған-қабылдамағанын анықтайды.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Функционалды печенье</strong></p>\n"
+"<p>Түрі: тұрақты печенье</p>\n"
+"<p>Біз басқарамыз</p>\n"
+"<p>Мақсаты: Бұл cookies файлдары веб-сайтты пайдаланған кезде кіретін мәліметтерді немесе тілге қатысты қалауыңызды есте сақтау сияқты таңдауларыңызды есте сақтауға мүмкіндік береді. Осы cookies файлдарының мақсаты - сізге жеке тәжірибе ұсыну және веб-сайтты қолданған сайын өз қалауыңызды қайта енгізуден аулақ болу.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<p>Біз қолданатын cookies файлдары және cookiesке қатысты сіздің таңдауыңыз туралы көбірек ақпарат алу үшін cookies саясатына немесе Құпиялылық саясатының Cookies бөліміне кіріңіз.</p>\n"
+"<h2>Жеке деректеріңізді пайдалану</h2>\n"
+"<p>Компания дербес деректерді келесі мақсаттарда қолдана алады:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p><strong>Біздің қызметті ұсыну және қолдау</strong> , оның ішінде біздің қызметіміздің пайдаланылуын бақылау.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Есептік жазбаңызды</strong> басқару үшін <strong>:</strong> қызметтің пайдаланушысы ретінде тіркелуіңізді басқару. Сіз берген жеке деректер Сізге тіркелген пайдаланушы ретінде қол жетімді қызметтің әртүрлі функцияларына қол жеткізуге мүмкіндік береді.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Келісімшартты орындау үшін:</strong> Сіз сатып алған өнімдерді, заттарды немесе қызметтерді сатып алу туралы келісімшартты әзірлеу, сақтау және қабылдау, сондай-ақ Сервис арқылы бізбен жасалған кез келген басқа келісімшарттар.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Сізбен байланысу үшін:</strong> Сізбен электрондық пошта, телефон қоңыраулары, SMS немесе электронды байланыстың басқа баламалы түрлері, мысалы, мобильді қосымшаның жаңартулар немесе функционалдылықтарға, өнімдерге немесе келісімшартты қызметтерге, оның ішінде қауіпсіздік жаңартуларына қатысты ақпараттық байланыстарға қатысты хабарламалары, қажет болған жағдайда немесе оларды жүзеге асыру үшін ақылға қонымды.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Сізге</strong> жаңалықтар, арнайы ұсыныстар және біз ұсынатын басқа тауарлар, қызметтер мен оқиғалар туралы жалпы ақпарат, сіз сатып алған немесе сұрап білгенге ұқсас, егер сіз мұндай ақпаратты алмауды жөн көрмесеңіз.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Сіздің сұраныстарыңызды</strong> басқару үшін: Бізге келіп түсетін сұрауларға қатысу және басқару.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Бизнестің аударымдары үшін:</strong> біз сіздің ақпаратыңызды активтердің бір бөлігін немесе барлығын біріктіру, бөлу, қайта құру, қайта құру, тарату немесе басқа сату немесе беруді бағалауға немесе жүргізуге, банкроттық, тарату, немесе біздің қызмет пайдаланушылар туралы біздің қолымызда болатын Дербес деректер берілген активтер қатарында болатын осындай іс жүргізу.</p>\n"
+"</li>\n"
+"<li>\n"
+"<p><strong>Басқа мақсаттар үшін</strong> : біз сіздің ақпаратыңызды басқа мақсаттарда, мысалы, деректерді талдау, пайдалану тенденцияларын анықтау, жарнамалық кампанияларымыздың тиімділігін анықтау және біздің қызметімізді, өнімдерімізді, қызметтерімізді, маркетингті және сіздің тәжірибеңізді бағалау және жақсарту үшін пайдалана аламыз.</p>\n"
+"</li>\n"
+"</ul>\n"
+"<p>Біз сіздің жеке ақпаратыңызды келесі жағдайларда бөлісе аламыз:</p>\n"
+"<ul>\n"
+"<li><strong>Қызмет провайдерлерімен:</strong> біз сіздің қызметіңізді пайдалануды бақылау және талдау, сізбен байланысу үшін қызмет көрсетушілермен сіздің жеке ақпаратыңызды бөлісе аламыз.</li>\n"
+"<li><strong>Бизнес-трансферттер үшін:</strong> біз сіздің жеке ақпаратыңызды кез-келген бірігу, компания активтерін сату, қаржыландыру немесе біздің бизнесіміздің барлығын немесе оның бір бөлігін басқа компанияға сатып алуға байланысты немесе келіссөздер барысында бере аламыз немесе бере аламыз.</li>\n"
+"<li><strong>Серіктестермен:</strong> Біз сіздің ақпаратыңызды біздің аффилиирленген тұлғалармен бөлісуіміз мүмкін, бұл жағдайда біз сол серіктестіктерден осы Құпиялылық саясатын сақтауды талап етеміз. Филиалдарға біздің бас компаниямыз және кез-келген басқа еншілес компаниялар, бірлескен кәсіпорындар бойынша серіктестер немесе біз бақылайтын немесе бізбен ортақ бақылаудағы басқа компаниялар кіреді.</li>\n"
+"<li><strong>Іскери серіктестермен:</strong> Сізге белгілі бір өнімдер, қызметтер немесе жарнамалық акциялар ұсыну үшін сіздің ақпаратыңызды біздің серіктестерімізбен бөлісуіміз мүмкін.</li>\n"
+"<li><strong>Басқа пайдаланушылармен:</strong> сіз жеке ақпаратпен бөліскенде немесе жалпыға ортақ пайдалану орындарында басқа пайдаланушылармен өзара әрекеттескенде, мұндай ақпаратты барлық пайдаланушылар көре алады және сыртта көпшілікке таратылуы мүмкін. Егер сіз басқа қолданушылармен қарым-қатынас жасасаңыз немесе үшінші тараптың әлеуметтік медиа қызметі арқылы тіркелсеңіз, үшінші тараптың әлеуметтік медиа қызметіндегі сіздің контактілеріңіз сіздің атыңызды, профиліңізді, суреттеріңізді және сіздің сипаттамаларыңызды көруі мүмкін. Сол сияқты, басқа пайдаланушылар Сіздің әрекеттеріңіздің сипаттамаларын көре алады, Сізбен байланысады және сіздің профиліңізді көре алады.</li>\n"
+"<li><strong>Сіздің келісіміңіз бойынша</strong> : біз сіздің жеке ақпаратыңызды кез келген басқа мақсатта сіздің келісіміңізбен жариялай аламыз.</li>\n"
+"</ul>\n"
+"<h2>Сіздің жеке деректеріңізді сақтау</h2>\n"
+"<p>Компания Сіздің жеке деректеріңізді осы Құпиялылық саясатында көрсетілген мақсаттар үшін қажет болған жағдайда ғана сақтайды. Біз сіздің жеке деректеріңізді біздің заңды міндеттемелерімізді орындау үшін қажет мөлшерде сақтаймыз және қолданамыз (мысалы, егер біз сіздің деректеріңізді қолданыстағы заңдарға сәйкес сақтауды талап етсек), дауларды шешеміз және заңды келісімдеріміз бен ережелерімізді орындаймыз.</p>\n"
+"<p>Компания сонымен бірге ішкі талдау мақсатында Пайдалану деректерін сақтайды. Пайдалану деректері, әдетте, қысқа мерзім ішінде сақталады, тек егер бұл деректер қауіпсіздікті нығайту немесе біздің қызметіміздің функционалдығын жақсарту үшін пайдаланылса немесе біз заңды түрде бұл деректерді ұзақ уақыт сақтауға міндеттіміз.</p>\n"
+"<h2>Жеке деректеріңізді беру</h2>\n"
+"<p>Сіздің ақпараттарыңыз, соның ішінде Дербес деректер Компанияның кеңселерінде және өңдеуге қатысушы тараптар орналасқан басқа жерлерде өңделеді. Бұл ақпарат сіздің штатыңыздан, провинцияңыздан, еліңізден немесе басқа үкіметтік юрисдикциядан тыс орналасқан компьютерлерге берілуі және сақталуы мүмкін дегенді білдіреді, онда деректерді қорғау заңдары сіздің юрисдикцияңыздан өзгеше болуы мүмкін.</p>\n"
+"<p>Сіздің осы Құпиялылық саясатына келісіміңіз, содан кейін осындай ақпаратты беруіңіз сіздің осы тасымалдауға келісіміңізді білдіреді.</p>\n"
+"<p>Компания сіздің деректеріңіздің қауіпсіздігі және осы Құпиялылық саясатына сәйкес қаралуын қамтамасыз ету үшін барлық қажетті шараларды қабылдайды және сіздің жеке деректеріңіз ұйымда немесе елде берілмейді, егер қауіпсіздікті қоса, тиісті бақылау орындары болмаса. Сіздің деректеріңіз және басқа жеке ақпарат.</p>\n"
+"<h2>Сіздің жеке деректеріңізді жария ету</h2>\n"
+"<h3>Іскери операциялар</h3>\n"
+"<p>Егер Компания қосылуға, қосылуға немесе активтерді сатуға қатысты болса, Сіздің жеке деректеріңіз берілуі мүмкін. Біз сіздің жеке деректеріңіз берілмес бұрын және басқа құпиялылық саясатына сай болмай тұрып ескерту жасаймыз.</p>\n"
+"<h3>Құқық қорғау қызметі</h3>\n"
+"<p>Белгілі бір жағдайларда, егер заңнамаға сәйкес немесе мемлекеттік органдардың (мысалы, сот немесе мемлекеттік орган) дұрыс сұраныстарына жауап беру қажет болса, Компаниядан Сіздің жеке деректеріңізді жария ету талап етілуі мүмкін.</p>\n"
+"<h3>Басқа заңды талаптар</h3>\n"
+"<p>Компания сіздің жеке деректеріңізді келесі әрекеттер үшін қажет деп шын жүректен жария ете алады:</p>\n"
+"<ul>\n"
+"<li>Заңды міндеттемені орындаңыз</li>\n"
+"<li>Қоғамның құқықтарын немесе мүлкін қорғаңыз және қорғаңыз</li>\n"
+"<li>Қызметке байланысты ықтимал құқық бұзушылықтың алдын-алу немесе тергеу</li>\n"
+"<li>Қызмет пайдаланушыларының немесе халықтың жеке қауіпсіздігін қорғаңыз</li>\n"
+"<li>Заңды жауапкершіліктен қорғаңыз</li>\n"
+"</ul>\n"
+"<h2>Сіздің жеке деректеріңіздің қауіпсіздігі</h2>\n"
+"<p>Сіздің жеке деректеріңіздің қауіпсіздігі біз үшін маңызды, бірақ Интернет арқылы тарату әдісі немесе электронды сақтау әдісі 100%% қауіпсіз емес екенін ұмытпаңыз. Сіздің жеке деректеріңізді қорғау үшін коммерциялық тұрғыдан қолайлы құралдарды қолдануға тырысқанымызбен, біз оның абсолютті қауіпсіздігіне кепілдік бере алмаймыз.</p>\n"
+"<h1>Балалардың жеке өмірі</h1>\n"
+"<p>Біздің қызмет 13 жасқа толмаған адамдарға жүгінбейді. Біз 13 жасқа толмаған адамдардан білуге &ZeroWidthSpace;&ZeroWidthSpace;болатын ақпаратты біле отырып жинамаймыз. Егер сіз ата-анаңыз немесе қамқоршыңыз болсаңыз және сіздің балаңыз бізге жеке деректерді ұсынғанын білсеңіз, өтінеміз Бізбен хабарласыңыз. Егер біз жеке деректерді 13 жасқа толмаған кез-келген адамнан ата-анасының келісімінсіз жинадық деп білсек, біз бұл ақпаратты біздің серверлерден алып тастауға шаралар қолданамыз.</p>\n"
+"<p>Егер сіздің ақпаратыңызды өңдеу үшін заңды негіз ретінде келісімге сену қажет болса және сіздің еліңіз ата-ананың келісімін талап етсе, біз бұл ақпаратты жинамас бұрын және қолданар алдында сіздің ата-анаңыздың келісімін талап ете аламыз.</p>\n"
+"<h1>Басқа веб-сайттарға сілтемелер</h1>\n"
+"<p>Біздің қызметте біз пайдаланбайтын басқа веб-сайттарға сілтемелер болуы мүмкін. Егер сіз үшінші тарап сілтемесін бассаңыз, сіз сол үшінші тараптың сайтына бағытталасыз. Сіз кірген барлық сайттардың құпиялылық саясатын қарап шығуға кеңес береміз.</p>\n"
+"<p>Біз үшінші тарап сайттарының немесе қызметтерінің мазмұны, құпиялылық саясаты немесе тәжірибесі үшін ешқандай бақылау жасай алмаймыз және жауапкершілікті өз мойнымызға алмаймыз.</p>\n"
+"<h1>Осы құпиялылық саясатына енгізілген өзгерістер</h1>\n"
+"<p>Құпиялылық саясатымызды мезгіл-мезгіл жаңартып отыруымыз мүмкін. Сізге кез-келген өзгеріс туралы осы параққа жаңа құпиялылық саясатын орналастыру арқылы хабарлаймыз.</p>\n"
+"<p>Өзгерістер күшіне енгенге дейін біз сізге электрондық пошта арқылы және / немесе біздің қызметімізге белгілі ескерту арқылы хабарлаймыз және осы Құпиялылық саясатының жоғарғы жағындағы «Соңғы жаңартылған» күнді жаңартамыз.</p>\n"
+"<p>Кез келген өзгеріс үшін осы Құпиялылық саясатын мезгіл-мезгіл қарап отыруға кеңес береміз. Осы Құпиялылық саясатына енгізілген өзгертулер осы бетте жарияланған кезде күшіне енеді.</p>\n"
+"<h1>Бізбен хабарласыңыз</h1>\n"
+"<p>Осы құпиялылық саясатына қатысты сұрақтарыңыз болса, бізбен байланыса аласыз:</p>\n"
+"<ul>\n"
+"<li>\n"
+"<p>Электрондық пошта арқылы: haker3102@gmail.com</p>\n"
+"</li>\n"
+"<li>\n"
+"<p>Телефон нөмірі бойынша: 87007001466</p>\n"
+"</li>\n"
+"</ul>\n"
+
+#: main/templates/openid/login.html:9
+msgid "OpenID Sign In"
+msgstr "OpenID мен кіру"
+
+#: main/templates/socialaccount/authentication_error.html:5
+#: main/templates/socialaccount/authentication_error.html:8
+msgid "Social Network Login Failure"
+msgstr "Әлеуметтік желімен кіру жүзеге аспады"
+
+#: main/templates/socialaccount/authentication_error.html:10
+msgid ""
+"An error occurred while attempting to login via your social network account."
+msgstr "Әлеуметтік желі аккаунты арқылы кіру кезінде қате пайда болды."
+
+#: main/templates/socialaccount/connections.html:5
+#: main/templates/socialaccount/connections.html:8
+msgid "Account Connections"
+msgstr "Аккаунт қосылулары"
+
+#: main/templates/socialaccount/connections.html:11
+msgid ""
+"You can sign in to your account using any of the following third party "
+"accounts:"
+msgstr ""
+"Сіз өзіңіздің аккаунтыңызға келесі үшінші тұлғалардың кез келгенін пайдалана "
+"отырып кіре аласыз:"
+
+#: main/templates/socialaccount/connections.html:43
+msgid ""
+"You currently have no social network accounts connected to this account."
+msgstr ""
+"Қазіргі уақытта бұл аккаунтқа тіркелген әлеуметтік желі аккаунттары жоқ."
+
+#: main/templates/socialaccount/connections.html:46
+msgid "Add a 3rd Party Account"
+msgstr "Үшінші тарап есептік жазбасын қосу"
+
+#: main/templates/socialaccount/login_cancelled.html:5
+#: main/templates/socialaccount/login_cancelled.html:9
+msgid "Login Cancelled"
+msgstr "Кіру тоқтатылды"
+
+#: main/templates/socialaccount/login_cancelled.html:13
+#, python-format
+msgid ""
+"You decided to cancel logging in to our site using one of your existing "
+"accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
+"\">sign in</a>."
+msgstr ""
+"Сіз өзіңіздің қолданыстағы есептік жазбаларыңыздың бірін пайдаланып біздің "
+"сайтқа кіруден бас тарту туралы шешім қабылдадыңыз. Егер бұл қате болса, "
+"жүйеге <a href=\"%(login_url)s\">кіріңіз</a>."
+
+#: main/templates/socialaccount/messages/account_connected.txt:2
+msgid "The social account has been connected."
+msgstr "Әлеуметтік желі аккаунты қосылды."
+
+#: main/templates/socialaccount/messages/account_connected_other.txt:2
+msgid "The social account is already connected to a different account."
+msgstr "Бұл әлеуметтік желі аккаунты басқа аккаунтқа тіркелген."
+
+#: main/templates/socialaccount/messages/account_disconnected.txt:2
+msgid "The social account has been disconnected."
+msgstr "Әлеуметтік желі аккаунты өшірілді."
+
+#: main/templates/socialaccount/signup.html:10
+#, python-format
+msgid ""
+"You are about to use your %(provider_name)s account to login to\n"
+"%(site_name)s. As a final step, please complete the following form:"
+msgstr ""
+"%(provider_name)s есептік жазбасын %(site_name)s-ға кіру үшін қолданғалы "
+"отырсыз. Соңғы қадам ретінде келесі форманы толтырыңыз:"
+
+#: opencorpora/urls.py:25
+msgid "\"OpenCorporaKaz\" Administration"
+msgstr "\"OpenCorporaKaz\" әкімшілігі"
+
+#: opencorpora/urls.py:26
+msgid "Site Administration"
+msgstr "Сайт әкімшілігі"
+
+#: opencorpora/urls.py:27
+msgid "Site Management"
+msgstr "Сайтты басқару"
+
+#: templates/admin/base_site.html:26
+msgid "Documentation"
+msgstr "Құжаттама"
+
+#: templates/admin/base_site.html:30
+msgid "Change password"
+msgstr "Құпия сөзді өзгерту"
+
+msgid "Email address:"
+msgstr "Электронды почта:"
+
+msgid "Confirm password:"
+msgstr "Құпия сөзді қайта еңгіз:"
+
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s"
+"\">sign up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+"Бұрыннан бар үшінші тарап аккаунтының біреуімен кіріңіз. Немесе <a href="
+"\"%(signup_url)s\"> аккаунтты тіркеп</a>\n"
+"төменде %(site_name)s аккаунтына кіріңіз:"
+
+msgid "or"
+msgstr "немесе"
+
+msgid "Recent actions"
+msgstr "Соңғы әрекеттер"
+
+msgid ""
+"This password is too short. It must contain at least %(min_length)d "
+"character."
+msgid_plural ""
+"This password is too short. It must contain at least %(min_length)d "
+"characters."
+msgstr[0] ""
+"Бұл құпия сөз қысқа. Құпия сөз %(min_length)d таңбадан кем болмауы керек."
+msgstr[1] ""
+"Бұл құпия сөз қысқа. Құпия сөз %(min_length)d таңбалардан кем болмауы "
+"керек."
+
+msgid "Your password must contain at least %(min_length)d character."
+msgid_plural ""
+"Your password must contain at least %(min_length)d characters."
+msgstr[0] "Құпия сөз %(min_length)d таңбадан кем болмауы керек."
+msgstr[1] "Құпия сөз %(min_length)d таңбалардан кем болмауы керек."
+
+msgid "The password is too similar to the %(verbose_name)s."
+msgstr "Құпия сөз %(verbose_name)s жолына өте ұқсас."
+
+msgid ""
+"Your password can't be too similar to your other personal information."
+msgstr ""
+"Сіздің құпия сөзіңіз сіздің жеке ақпаратыңызға өте ұқсас бола алмайды."
+
+msgid "This password is too common."
+msgstr "Бұл құпия сөз өте кең таралған."
+
+msgid "Your password can't be a commonly used password."
+msgstr "Құпия сөзіңіз кең пайдаланылатын құпия сөз болуы мүмкін емес."
+
+msgid "This password is entirely numeric."
+msgstr "Бұл құпия сөз толығымен сандық."
+
+msgid "Your password can't be entirely numeric."
+msgstr "Сіздің құпия сөзіңіз тек сандық болуы мүмкін емес."
+
+msgid "Password reset on %(site_name)s"
+msgstr "%(site_name)s құпия сөзді өзгерту"
+
+msgid ""
+"Enter a valid username. This value may contain only English letters, "
+"numbers, and @/./+/-/_ characters."
+msgstr ""
+"Жарамды пайдаланушы атын енгізіңіз. Бұл мән тек ағылшын әріптерін, "
+"сандарын және @/./+/-/_ таңбаларын қамтуы мүмкін."
+
+msgid ""
+"First, enter a username and password. Then, you’ll be able to edit more "
+"user options."
+msgstr ""
+"Алдымен қолданушы аты мен құпия сөзді енгізіңіз. Содан кейін сіз "
+"қолданушының қосымша параметрлерін өңдей аласыз."
+
+msgid ""
+"Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr ""
+"Міндетті 150 символ немесе одан аз. Әріптер, сандар мен @/./+/-/_ ғана."
+
+msgid "Enter the same password as before, for verification."
+msgstr "Верификация үшін парольді қайта енгізіңіз."
+
+msgid "Your password must contain at least 8 characters."
+msgstr "Сіздің пароліңіз кем дегенде 8 символдан тұруы керек."
+
+msgid "Cannot delete %(name)s"
+msgstr "%(name)s өшіру мүмкін емес"
+
+msgid "Are you sure?"
+msgstr "Осыған сенімдісіз бе?"
+
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr "Таңдалған %(verbose_name_plural)s өшірілді"
+
+msgid "All"
+msgstr "Барлығы"
+
+msgid "Yes"
+msgstr "Иә"
+
+msgid "No"
+msgstr "Жоқ"
+
+msgid "Unknown"
+msgstr "Белгісіз"
+
+msgid "Any date"
+msgstr "Кез келген күн"
+
+msgid "Today"
+msgstr "Бүгін"
+
+msgid "Past 7 days"
+msgstr "Өткен 7 күн"
+
+msgid "This month"
+msgstr "Осы ай"
+
+msgid "This year"
+msgstr "Осы жыл"
+
+msgid "No date"
+msgstr "Күні жоқ"
+
+msgid "Has date"
+msgstr "Күні бар"
+
+msgid "Empty"
+msgstr "Бос"
+
+msgid "Not empty"
+msgstr "Бос емес"
+
+msgid ""
+"Please enter the correct %(username)s and password for a staff account. "
+"Note that both fields may be case-sensitive."
+msgstr ""
+"Өтінеміз, дұрыс %(username)s мен парольді енгізіңіз. Екі жолда регистрді "
+"ескеруі мүмкін."
+
+msgid "Action:"
+msgstr "Әрекет:"
+
+msgid "Add another %(verbose_name)s"
+msgstr "Тағы басқа %(verbose_name)s қос"
+
+msgid "Addition"
+msgstr "Қосу"
+
+msgid "Change"
+msgstr "Өзгетру"
+
+msgid "Deletion"
+msgstr "Жою"
+
+msgid "log entry"
+msgstr "Журналдағы жазба"
+
+msgid "log entries"
+msgstr "Журналдағы жазбалар"
+
+msgid "Added \"%(object)s\"."
+msgstr " \"%(object)s\" қосылды."
+
+msgid "Changed \"%(object)s\" - %(changes)s"
+msgstr "\"%(object)s\" - %(changes)s өзгертілді"
+
+msgid "Deleted \"%(object)s.\""
+msgstr "\"%(object)s.\" жойылды"
+
+msgid "LogEntry Object"
+msgstr "Журналдағы жазба"
+
+msgid "Added {name} \"{object}\"."
+msgstr "{name} \"{object}\" қосылды."
+
+msgid "Added."
+msgstr "Қосылды."
+
+msgid "and"
+msgstr "және"
+
+msgid "Changed {fields} for {name} \"{object}\"."
+msgstr "{name} \"{object}\" үшін {fields} өзгертілді."
+
+msgid "Changed {fields}."
+msgstr "{fields} өзгертілді."
+
+msgid "Deleted {name} \"{object}\"."
+msgstr "{name} \"{object}\" өшірілді."
+
+msgid "No fields changed."
+msgstr "Ешқандай толтырма өзгермеді."
+
+msgid "None"
+msgstr "Ешнәрсе"
+
+msgid ""
+"Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
+msgstr ""
+"Бірнешеуін белгілеу үшін \"Control\" батырмасын басып тұрыңыз (немесе Mac "
+"үшін \"Command\")"
+
+msgid "The {name} \"{obj}\" was added successfully."
+msgstr "{name} \"{obj}\" сәтті қосылды."
+
+msgid "You may edit it again below."
+msgstr "Бұл объектіні төменде қайта өзгерте аласыз."
+
+msgid ""
+"The {name} \"{obj}\" was added successfully. You may add another {name} "
+"below."
+msgstr ""
+"{name} \"{obj}\" сәтті қосылды. Сіз төменде тағыда {name} қоса аласыз."
+
+msgid ""
+"The {name} \"{obj}\" was changed successfully. You may edit it again "
+"below."
+msgstr "{name} \"{obj}\" сәтті өзгертілді. Сіз төменде өңдей аласыз."
+
+msgid ""
+"The {name} \"{obj}\" was added successfully. You may edit it again below."
+msgstr "{name} \"{obj}\" сәтті өзгертілді. Сіз төменде қайта өңдей аласыз."
+
+msgid ""
+"The {name} \"{obj}\" was changed successfully. You may add another {name} "
+"below."
+msgstr "{name} \"{obj}\" өзгертілді. Сіз тағыда бір {name} қоса аласыз."
+
+msgid "The {name} \"{obj}\" was changed successfully."
+msgstr "{name} \"{obj}\" сәтті өзгертілді"
+
+msgid ""
+"Items must be selected in order to perform actions on them. No items have "
+"been changed."
+msgstr ""
+"Бірнәрсені өзгерту үшін бірінші оларды таңдау керек. Ешнәрсе өзгертілмеді."
+
+msgid "No action selected."
+msgstr "Ешқандай әрекет таңдалмады."
+
+msgid "The %(name)s \"%(obj)s\" was deleted successfully."
+msgstr "%(name)s \"%(obj)s\" сәтті өшірілді."
+
+msgid "%(name)s with ID \"%(key)s\" doesn't exist. Perhaps it was deleted?"
+msgstr "ID \"%(key)s\" ішінде %(name)s жоқ. Мүмкін бұрын өшірілген."
+
+msgid "Add %s"
+msgstr "%s қосу"
+
+msgid "Change %s"
+msgstr "%s өзгету"
+
+msgid "View %s"
+msgstr "Көру %s"
+
+msgid "Database error"
+msgstr "Мәліметтер базасының қатесі"
+
+msgid "%(count)s %(name)s was changed successfully."
+msgid_plural "%(count)s %(name)s were changed successfully."
+msgstr[0] ""
+"one: %(count)s %(name)s өзгертілді.\n"
+"\n"
+"other: %(count)s %(name)s таңдалғандарының барі өзгертілді."
+msgstr[1] ""
+"one: %(count)s %(name)s өзгертілді.\n"
+"\n"
+"other: %(count)s %(name)s таңдалғандарының барі өзгертілді."
+
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] ""
+"one: %(total_count)s таңдалды\n"
+"\n"
+"other: Барлығы %(total_count)s таңдалды"
+msgstr[1] ""
+"one: %(total_count)s таңдалды\n"
+"\n"
+"other: Барлығы %(total_count)s таңдалды"
+
+msgid "0 of %(cnt)s selected"
+msgstr "0 of %(cnt)s-ден 0 таңдалды"
+
+msgid "Change history: %s"
+msgstr "Өзгерес тарихы: %s"
+
+msgid "%(class_name)s %(instance)s"
+msgstr "%(class_name)s %(instance)s"
+
+msgid ""
+"Deleting %(class_name)s %(instance)s would require deleting the following "
+"protected related objects: %(related_objects)s"
+msgstr ""
+"%(class_name)s типті %(instance)s объектісін жою үшін келесі байланысты: "
+"%(related_objects)s объектілерді жою қажет болады"
+
+msgid "Django site admin"
+msgstr "Django сайтының әкімі"
+
+msgid "Django administration"
+msgstr "Django әкімшілігі"
+
+msgid "Site administration"
+msgstr "Сайт әкімшілігі"
+
+msgid "Log in"
+msgstr "Кіру"
+
+msgid "%(app)s administration"
+msgstr "%(app)s қолданба әкімшілігі"
+
+msgid "Page not found"
+msgstr "Бет табылмады"
+
+msgid "Server error"
+msgstr "Сервердің қатесі"
+
+msgid "Server error (500)"
+msgstr "Сервердің қатесі (500)"
+
+msgid "Server Error <em>(500)</em>"
+msgstr "Сервердің қатесі <em>(500)</em>"
+
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"Қате орын алды. Бұл туралы сайт әкімшілеріне электрондық почта арқылы "
+"хабарланды және ол жақын арада жөнделеді. Сабырлылығыңыз үшін рахмет."
+
+msgid "Run the selected action"
+msgstr "Таңдалған әрәкетті іске қосу"
+
+msgid "Go"
+msgstr "Алға"
+
+msgid "Click here to select the objects across all pages"
+msgstr "Осы беттегі барлық объекттерді таңдау үшін осы жерді шертіңіз"
+
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "Осылардың %(total_count)s %(module_name)s барлығын таңдау"
+
+msgid "Clear selection"
+msgstr "Белгілерді өшіру"
+
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more "
+"user options."
+msgstr ""
+"Алдымен, қолданушының атын және құпия сөзді енгізіңіз. Содан соң, тағы "
+"басқа қолданушы параметрлерін енгізе аласыз."
+
+msgid "Enter a username and password."
+msgstr "Қолданушының атын және құпия сөзді енгізіңіз."
+
+msgid "Please correct the error below."
+msgstr "Өтінеміз қатені жөндеңіз."
+
+msgid "Please correct the errors below."
+msgstr "Өтінеміз қателерді жөндеңіз."
+
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+"<strong>%(username)s</strong> қолданушы үшін жаңа құпия сөзді енгізіңіз."
+
+msgid "Welcome,"
+msgstr "Қош келдіңіз,"
+
+msgid "View site"
+msgstr "Сайтты ашу"
+
+msgid "Add %(name)s"
+msgstr "%(name)s қосу"
+
+msgid "History"
+msgstr "Тарих"
+
+msgid "View on site"
+msgstr "Сайтта көру"
+
+msgid "Remove from sorting"
+msgstr "Сұрыптаудан алып тастау"
+
+msgid "Sorting priority: %(priority_number)s"
+msgstr "Басымдықты сұрыптау: %(priority_number)s"
+
+msgid "Toggle sorting"
+msgstr "Басқа бағытта сұрыптау"
+
+msgid "Delete"
+msgstr "Өшіру"
+
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in "
+"deleting related objects, but your account doesn't have permission to "
+"delete the following types of objects:"
+msgstr ""
+"%(object_name)s '%(escaped_object)s' объектты өшіруы байланысты "
+"объекттерін өшіруді қажет етеді, бырақ сізде осындай объектерді өшіру "
+"рұқсаты жоқ:"
+
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting "
+"the following protected related objects:"
+msgstr ""
+"%(object_name)s '%(escaped_object)s' объектті өшіру осындай байлансты "
+"объекттерды өшіруді қажет етеді:"
+
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s"
+"\"? All of the following related items will be deleted:"
+msgstr ""
+"%(object_name)s \"%(escaped_object)s\" объекттерді өшіруге сенімдісіз бе? "
+"Бұл байланысты элементтер де өшіріледі:"
+
+msgid "Objects"
+msgstr "Объектілер"
+
+msgid "Yes, I'm sure"
+msgstr "Иә, сенімдімін"
+
+msgid "No, take me back"
+msgstr "Жоқ, бас тарту және таңдауға оралу"
+
+msgid "Delete multiple objects"
+msgstr "Бірнеше объекттерді өшіру"
+
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+"%(objects_name)s объектты өшіруы байланысты объекттерін өшіруді қажет "
+"етеді, бырақ сізде осындай объектерді өшіру рұқсаты жоқ:"
+
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the "
+"following protected related objects:"
+msgstr ""
+"Таңдалған %(objects_name)s өшіру, онымен байланыстағы қорғалған "
+"объектілердің барлығын жояды:"
+
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+"Таңдаған %(objects_name)s объектіңізді өшіруге сенімдісіз бе? Себебі, "
+"таңдағын объектіліріңіз және онымен байланыстағы барлық элементтер "
+"жойылады:"
+
+msgid "View"
+msgstr "Көру"
+
+msgid "Delete?"
+msgstr "Өшіру?"
+
+msgid " By %(filter_title)s "
+msgstr " %(filter_title)s "
+
+msgid "Summary"
+msgstr "Қысқаша статистика"
+
+msgid "Models in the %(name)s application"
+msgstr "%(name)s қосымшасындағы модельдер"
+
+msgid "Add"
+msgstr "Қосу"
+
+msgid "You don't have permission to view or edit anything."
+msgstr "Сізде көруге немесе өңдеуге рұқсат жоқ."
+
+msgid "My actions"
+msgstr "Менің әрекеттерім"
+
+msgid "None available"
+msgstr "Қол жетімдісі жоқ"
+
+msgid "Unknown content"
+msgstr "Белгісіз мазмұн"
+
+msgid ""
+"Something's wrong with your database installation. Make sure the "
+"appropriate database tables have been created, and make sure the database "
+"is readable by the appropriate user."
+msgstr ""
+"Дерекқор орнатуыңызда бір қате бар. Дерекқор кестелері дұрыс құрылғаның "
+"және дерекқор көрсетілген дерекқор қолданушысында оқұ рұқсаты бар."
+
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access "
+"this page. Would you like to login to a different account?"
+msgstr ""
+"Сіз жүйеге %(username)s логинімен қосылдыңыз, бірақ та бұл парақты "
+"ашуыңызға құқықтар жеткіліксіз. Мүмкін сіз жүйеге басқа логинмен кіргіңіз "
+"келеді?"
+
+msgid "Forgotten your password or username?"
+msgstr "Құпия сөзіңіз немесе логиніңізді естен шығардыңыз ба?"
+
+msgid "Date/time"
+msgstr "Өшіру/Уақыт"
+
+msgid "User"
+msgstr "Қолданушы"
+
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via "
+"this admin site."
+msgstr ""
+"Бұл объекттың өзгерту тарихы жоқ. Мүмкін ол бұл сайт арқылы енгізілген "
+"жоқ."
+
+msgid "Show all"
+msgstr "Барлығын көрсету"
+
+msgid "Save"
+msgstr "Сақтау"
+
+msgid "Popup closing…"
+msgstr "Қалқымалы терезе жабылуда..."
+
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s нәтиже"
+msgstr[1] "%(counter)s нәтиже"
+
+msgid "%(full_result_count)s total"
+msgstr "Барлығы %(full_result_count)s"
+
+msgid "Save as new"
+msgstr "Жаңадан сақтау"
+
+msgid "Save and add another"
+msgstr "Сақта және жаңасын қос"
+
+msgid "Save and continue editing"
+msgstr "Сақта және өзгертуді жалғастыр"
+
+msgid "Save and view"
+msgstr "Сақтау жіне көру"
+
+msgid "Change selected %(model)s"
+msgstr "Белгіленген %(model)s типті объектіні өзгерту"
+
+msgid "Add another %(model)s"
+msgstr "Тағы бір %(model)s типті объект қосу"
+
+msgid "Delete selected %(model)s"
+msgstr "Белгіленген %(model)s типті объектіні жою"
+
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Бүгін Веб-торапқа уақыт бөлгеніңіз үшін рахмет."
+
+msgid "Log in again"
+msgstr "Қайтадан кіріңіз"
+
+msgid ""
+"Please enter your old password, for security’s sake, and then enter your "
+"new password twice so we can verify you typed it in correctly."
+msgstr ""
+"Ескі құпия сөзіңізді енгізіңіз, содан сон сенімді болу үшін жаңа құпия "
+"сөзіңізді екі рет енгізіңіз."
+
+msgid "Authentication and Authorization"
+msgstr "Аутентификация және авторизация"
+
+msgid ""
+"Your password can’t be too similar to your other personal information."
+msgstr "Құпия сөз сіздің жеке ақпаратыңызға өте ұқсас болмауы керек."
+
+msgid "Your password can’t be a commonly used password."
+msgstr "Құпия сөзіңіз көп қолданылатын пароль бола алмайды."
+
+msgid "Your password can’t be entirely numeric."
+msgstr "Сіздің паролыңыз тек сандық болуы мүмкін емес."
+
+msgid "Change my password"
+msgstr "Құпия сөзімді өзгерту"
+
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Сіздің құпия сөзіңіз енгізілді.  Жүйеге кіруіңізге болады."
+
+msgid "Password reset confirmation"
+msgstr "Құпия сөзді өзгерту растау"
+
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr "Сенімді болу үшін жаңа құпия сөзіңізді екі рет енгізіңіз."
+
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"Біз сізге көрсетілген электрондық почта мекен-жайына жаңа құпия сөзді "
+"қалай орнату туралы нұсқаулық жібердік (егер біздің дерекқорда осындай "
+"мекен-жай болса). Сіз оны жақын арада алуыңыз керек."
+
+msgid ""
+"If you don't receive an email, please make sure you've entered the "
+"address you registered with, and check your spam folder."
+msgstr ""
+"Электрондық почтаңызға хат келмеген болса, тіркелген электрондық почта "
+"екеніне көз жеткізіңіз, немесе спам-папкаңызды тексеріп көріңіз."
+
+msgid ""
+"You're receiving this email because you requested a password reset for "
+"your user account at %(site_name)s."
+msgstr ""
+"Сіз (немесе басқа біреу) осы электрондық почта мекенжайымен байланысты "
+"%(site_name)s сайтына тіркелген логиннің құпия сөзін қалпына келтіруді "
+"сұрағандықтан, бұл электрондық почтаны алдыңыз."
+
+msgid "Please go to the following page and choose a new password:"
+msgstr "Жаңа құпия сөзді тандау үшін мынау бетке кіріңіз:"
+
+msgid "Your username, in case you've forgotten:"
+msgstr "Егер сіз ұмытып қалған болсаңыз, қолданушы атыңыз:"
+
+msgid "Thanks for using our site!"
+msgstr "Біздің веб-торабын қолданғаныңыз үшін рахмет!"
+
+msgid "All dates"
+msgstr "Барлық мерзімдер"
+
+msgid "Select %s"
+msgstr "%s таңда"
+
+msgid "Select %s to change"
+msgstr "%s өзгерту үщін таңда"
+
+msgid "Select %s to view"
+msgstr "Көру үшін %s таңдаңыз"
+
+msgid "Date:"
+msgstr "Күнтізбелік күн:"
+
+msgid "Time:"
+msgstr "Уақыт:"
+
+msgid "Lookup"
+msgstr "Іздеу"
+
+msgid "Currently:"
+msgstr "Қазіргі:"
+
+msgid "Change:"
+msgstr "Өзгерту:"
