@@ -1,5 +1,5 @@
 import re
-from Global import (TF_IDF, tf_idf, bigram, bi_tf_idf, sozgebolu)
+from .Global import (TF_IDF, tf_idf, bigram, bi_tf_idf, sozgebolu)
 import os,glob
 from tqdm import tqdm
 from time import monotonic

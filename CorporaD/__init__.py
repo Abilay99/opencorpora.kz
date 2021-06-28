@@ -1,4 +1,4 @@
-from .Global import *
+from . import *
 from sys import platform
 OS = "unknown"
 if platform == "linux" or platform == "linux2":

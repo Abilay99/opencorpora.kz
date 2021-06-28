@@ -1,7 +1,9 @@
 import pymysql as sql
 import pymysql.err as err
 from pymysql.cursors import DictCursor
-err_file = "/home/haker3102/CorporaD/errors/error.log"
+import os
+papka_korpus = os.path.dirname(os.path.abspath(__file__))
+err_file = os.path.join(papka_korpus, "errors/error.log")
 class corporaDB():
 #DQ - DEREKTER QORY, DQK - DEREKTER QORYNDAGY KESTE, DB - DATA BASE
     __host = ''
@@ -13,7 +15,7 @@ class corporaDB():
         return self.__user
     def getPassword(self):
         return self.__password
-    def __init__(self, host = 'localhost', user = 'haker3102', password = 'Abilayxan99'):
+    def __init__(self, host = 'localhost', user = '', password = ''):
         self.__host = host
         self.__user = user
         self.__password = password

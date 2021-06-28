@@ -194,16 +194,3 @@ STATICFILES_DIRS = [
 STATIC_URL = '/static/'
 
 SITE_ID = 1
-
-'''SOCIALACCOUNT_PROVIDERS = {
-    'google': {
-        # For each OAuth based provider, either add a ``SocialApp``
-        # (``socialaccount`` app) containing the required client
-        # credentials, or list them here:
-        'APP': {
-            'client_id': '278408553353-0u05oj0gs8gnnnspvptta0rs2l0infj8.apps.googleusercontent.com',
-            'secret': '4SPazZc3oHuKJ77pwSxcmAOV',
-            'key': ''
-        }
-    }
-}'''
