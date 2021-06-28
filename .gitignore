@@ -1,0 +1,8 @@
+/bin
+/lib
+/lib64
+/share
+pyvenv.cfg
+.gitignore
+/api/migrations
+/main/migrations
