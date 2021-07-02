@@ -1,9 +1,11 @@
 import collections
-import os,glob
-import fnmatch
+import os
+import glob
 import math
+
+
 class tf_idf(object):
-    def __init__(self, text, papka_train, length_keywords = 15):
+    def __init__(self, text, papka_train, length_keywords=15):
         self.__tf = collections.Counter(text[0])
         for i in range(len(text[0])):
             if len(str(text[0][i])) < 2:
@@ -14,14 +16,15 @@ class tf_idf(object):
         self.__papka = papka_train
         self.__length_keywords = length_keywords
         for i in range(len(text[1])):
-            if str(text[1][i]) != str('<n>') and str(text[1][i]) != str('<np>') and str(text[1][i]) != str('<unknown>'):
+            if (str(text[1][i]) != str('<n>')
+                    and str(text[1][i]) != str('<np>')
+                    and str(text[1][i]) != str('<unknown>')):
                 del self.__tf[text[0][i]]
-        
 
-    #===tf===
+    # ===tf===
     def tf_esepteu(self):
         for i in self.__tf:
-            self.__tf[i] =  self.__tf[i] / float(self.__len_text)
+            self.__tf[i] = self.__tf[i] / float(self.__len_text)
 
         new_tf = dict()
         kol = 0
@@ -32,8 +35,10 @@ class tf_idf(object):
             if kol == self.__length_keywords:
                 break
         return new_tf
-        #{w:self.__tf[w] for w in sorted(self.__tf, key=self.__tf.get, reverse=True)}
-    #===idf===
+        # {w:self.__tf[w] for w in sorted(self.__tf,
+        #               key=self.__tf.get, reverse=True)}
+
+    # ===idf===
     def idf_esepteu(self):
         nf = len(glob.glob(os.path.join(self.__papka, '*.tr')))
         for i in self.__tf:
@@ -56,9 +61,10 @@ class tf_idf(object):
             if kol == self.__length_keywords:
                 break
         return new_idf
-        #{w:self.__idf[w] for w in sorted(self.__idf, key=self.__idf.get, reverse=True)}
-    
-    #===tf_idf===
+        # {w:self.__idf[w] for w in sorted(self.__idf,
+        #               key=self.__idf.get, reverse=True)}
+
+    # ===tf_idf===
     def tf_idf_esepteu(self):
         for i in self.__tf:
             self.__tf_idf[i] = self.__idf[i]*self.__tf[i]
@@ -71,7 +77,5 @@ class tf_idf(object):
             if kol == self.__length_keywords:
                 break
         return new_tf_idf
-        #{w:self.__tf_idf[w] for w in sorted(self.__tf_idf, key=self.__tf_idf.get, reverse=True)}
-    
-    
-#------------------------------------------------------------------------------------------
+        # {w:self.__tf_idf[w] for w in sorted(self.__tf_idf,
+        #                   key=self.__tf_idf.get, reverse=True)}
