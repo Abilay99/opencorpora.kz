@@ -74,8 +74,8 @@ class bigram(object):
                 del res[i]
                 length -= 1
                 i -= 1
-            elif str(res[i][0]).lower() not in "abcdefghigklmnopqrstuvwxyz" \
-                    "аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщьыъіэюя1234567890- ":
+            elif str(res[i][0]).lower() not in "abcdefghigklmnopqrstuvwxyz\
+аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщьыъіэюя1234567890- ":
                 res[i] = res[i][1:]
             i += 1
         return res
