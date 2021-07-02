@@ -1,6 +1,8 @@
 import re
-import os
+
 from ..util import sozgebolu
+
+
 class bigram(object):
     def __init__(self, text):
         soilemder = self.soilemgebolu(text)
@@ -15,13 +17,14 @@ class bigram(object):
             qq = map(' '.join, bigrm)
             self.newlemm.extend(list(qq))
             self.lastlemm.extend(soz)
-    
+
     def utir(self, args):
         hist = []
         for i in range(len(args)):
             if r"," == args[i]:
                 hist.append(i)
         return hist
+
     def kombinacia(self, args):
         if len(args) == 0:
             args.append(-1)
@@ -38,6 +41,7 @@ class bigram(object):
                 hist.append(i)
                 yield tuple(hist)
                 del hist[0]
+
     def soilemgebolu(self, text):
         res = re.split(r"[.]|[?]|[!]", text)
         if res[len(res)-1] == '':
@@ -70,12 +74,18 @@ class bigram(object):
                 del res[i]
                 length -= 1
                 i -= 1
-            elif str(res[i][0]).lower() not in "abcdefghigklmnopqrstuvwxyzаәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщьыъіэюя1234567890- ":
+            elif str(res[i][0]).lower() not in "abcdefghigklmnopqrstuvwxyz" \
+                    "аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщьыъіэюя1234567890- ":
                 res[i] = res[i][1:]
             i += 1
         return res
+
     def bigrams(self, arr, tag, m):
-        UaqytAtaulary = ['ғасыр', 'ғ', 'жыл', 'жылы', 'ай', 'күн', 'апта', 'қаңтар', 'ақпан', 'наурыз', 'сәуір', 'мамыр', 'маусым', 'шілде', 'тамыз', 'қыркүйек', 'қазан', 'қараша', 'желтоқсан']
+        UaqytAtaulary = ['ғасыр', 'ғ', 'жыл', 'жылы', 'ай',
+                         'күн', 'апта', 'қаңтар', 'ақпан',
+                         'наурыз', 'сәуір', 'мамыр',
+                         'маусым', 'шілде', 'тамыз',
+                         'қыркүйек', 'қазан', 'қараша', 'желтоқсан']
         for i in range(m-1):
             if tag[i] == str(r'<adj>') and tag[i+1] == str(r'<n>'):
                 yield tuple([arr[i], arr[i+1]])
