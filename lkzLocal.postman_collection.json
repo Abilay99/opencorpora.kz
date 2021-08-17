@@ -1,0 +1,443 @@
+{
+	"info": {
+		"_postman_id": "5b67696a-77d3-4854-8394-e5aad845d6f0",
+		"name": "lkzLocal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "Registration",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"full_name\": \"Bekzhan Rakhmetzhan\",\n    \"mobile\": \"7472095672\",\n    \"code\": \"2710\",\n    \"bin\": \"891222456789\",\n    \"email\": \"rakhmetzhan.bekzhan@mail.ru\",\n    \"password\": \"admin123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:5010/auth/register",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SendSMSCode",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"mobile\": \"7007001466\",\n    \"send_type\": \"send_type2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:5010/auth/sms",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"auth",
+								"sms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Log in",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"bin\": \"931227450493\",\n    \"password\": \"admin123\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:5010/auth/login",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Forgot password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"mobile\": \"7007001466\",\n    \"code\": \"7551\",\n    \"password1\": \"admin123\",\n    \"password2\": \"admin123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:5010/auth/reset-password",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"auth",
+								"reset-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Log out",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mjg2Nzc4OTIsIm5iZiI6MTYyODY3Nzg5MiwianRpIjoiZWYzYTg3NzQtYzZjMy00ZWNiLWEyNTItNTE0MzFjNGM0MGZiIiwiZXhwIjoxNjI5NTQxODkyLCJpZGVudGl0eSI6IjFlMzNkMDkyLTZmZWUtNGVmMi05MWFjLWQ1ODcyZjdkN2E2OCIsImZyZXNoIjpmYWxzZSwidHlwZSI6ImFjY2VzcyJ9.Ww8EwW9kcjBSdUfQb500oIvuN3S7njp5VH2bXy_AOBA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:5010/auth/revoke_access",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"auth",
+								"revoke_access"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Refresh token",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mjg2Nzc4OTIsIm5iZiI6MTYyODY3Nzg5MiwianRpIjoiOTAyNzkwYjUtMDgzMi00NDQ1LThjYTgtMGY4YWE0NmFjODIwIiwiZXhwIjoxNjMxMjY5ODkyLCJpZGVudGl0eSI6IjFlMzNkMDkyLTZmZWUtNGVmMi05MWFjLWQ1ODcyZjdkN2E2OCIsInR5cGUiOiJyZWZyZXNoIn0.gbfFkbtCrNDlQ0Gckck_EttfbTIoOwi_Zjogtsra8uQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:5010/auth/refresh",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"auth",
+								"refresh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "My action",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mjg3OTYxNDUsIm5iZiI6MTYyODc5NjE0NSwianRpIjoiNzFkZTcyMjAtODZiYy00Y2ViLThiMmMtMTcyMDFiYzU0MjhjIiwiZXhwIjoxNjI5NjYwMTQ1LCJpZGVudGl0eSI6IjFlMzNkMDkyLTZmZWUtNGVmMi05MWFjLWQ1ODcyZjdkN2E2OCIsImZyZXNoIjpmYWxzZSwidHlwZSI6ImFjY2VzcyJ9.p3ybBVkNG97pShA-HSHDISoXKdwcqMN3LU6qNo3KMT8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:5010/api/v1/my-action",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"api",
+								"v1",
+								"my-action"
+							],
+							"query": [
+								{
+									"key": "requester_iin",
+									"value": "931227450493",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create My Appeal",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mjg3OTY0NTYsIm5iZiI6MTYyODc5NjQ1NiwianRpIjoiOTQ0YjQzZmYtMGViOC00NWZjLTlkNzItYTEyNTU4ZDk3YjY5IiwiZXhwIjoxNjI5NjYwNDU2LCJpZGVudGl0eSI6IjFlMzNkMDkyLTZmZWUtNGVmMi05MWFjLWQ1ODcyZjdkN2E2OCIsImZyZXNoIjpmYWxzZSwidHlwZSI6ImFjY2VzcyJ9.qbOqHVeCEMz_okDA3MfDaQGEfCbqqBdj-Njo7u2UqSA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"RequestId\": \"10109001240440\",\n    \"descreption\": \"Rakhmet jyldam qyzmet korsetkenderinizge!\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:5010/api/v1/my-appeal",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"api",
+								"v1",
+								"my-appeal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get My Appeal",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mjg3OTY0NTYsIm5iZiI6MTYyODc5NjQ1NiwianRpIjoiOTQ0YjQzZmYtMGViOC00NWZjLTlkNzItYTEyNTU4ZDk3YjY5IiwiZXhwIjoxNjI5NjYwNDU2LCJpZGVudGl0eSI6IjFlMzNkMDkyLTZmZWUtNGVmMi05MWFjLWQ1ODcyZjdkN2E2OCIsImZyZXNoIjpmYWxzZSwidHlwZSI6ImFjY2VzcyJ9.qbOqHVeCEMz_okDA3MfDaQGEfCbqqBdj-Njo7u2UqSA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"RequestId\": \"10109001240440\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:5010/api/v1/my-appeal",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"api",
+								"v1",
+								"my-appeal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "My Profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mjg2NzgxNzIsIm5iZiI6MTYyODY3ODE3MiwianRpIjoiZGQyZTUyOTAtNzhkZi00MzA4LWJhYTktNTBhNDgyZjI3NjUyIiwiZXhwIjoxNjI5NTQyMTcyLCJpZGVudGl0eSI6IjFlMzNkMDkyLTZmZWUtNGVmMi05MWFjLWQ1ODcyZjdkN2E2OCIsImZyZXNoIjpmYWxzZSwidHlwZSI6ImFjY2VzcyJ9.7n_rJgEku_Honsn5uWccw4s_0pG6oNuJr1napwfNZ9k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:5010/api/v1/my-profile",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"api",
+								"v1",
+								"my-profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "My Profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2Mjg3OTY0NTYsIm5iZiI6MTYyODc5NjQ1NiwianRpIjoiOTQ0YjQzZmYtMGViOC00NWZjLTlkNzItYTEyNTU4ZDk3YjY5IiwiZXhwIjoxNjI5NjYwNDU2LCJpZGVudGl0eSI6IjFlMzNkMDkyLTZmZWUtNGVmMi05MWFjLWQ1ODcyZjdkN2E2OCIsImZyZXNoIjpmYWxzZSwidHlwZSI6ImFjY2VzcyJ9.qbOqHVeCEMz_okDA3MfDaQGEfCbqqBdj-Njo7u2UqSA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/home/haker3102/Pictures/Webcam/2021-01-22-224033.jpg"
+								},
+								{
+									"key": "email",
+									"value": "haker3102@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "admin1",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:5010/api/v1/my-profile",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5010",
+							"path": [
+								"api",
+								"v1",
+								"my-profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "My Notification",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

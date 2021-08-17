@@ -1,0 +1,51 @@
+# WARNING: this file is not suitable for production, please use with caution
+version: '3'
+
+volumes:
+  auth_db_vol:
+
+networks:
+  auth_service_network:
+    external:
+      name: auth_service_network
+
+services:
+  postgres:
+    image: postgres:12
+    container_name: auth-service-db
+    volumes:
+      - auth_db_vol:/var/lib/postgresql/data
+    environment:
+      - TZ:Asia/Qyzylorda
+      - PGTZ:Asia/Qyzylorda
+      - POSTGRES_HOST=localhost
+      - POSTGRES_PASSWORD=admin123
+      - POSTGRES_DB=auth_service_db
+    ports:
+      - "15033:5432"
+    networks:
+      - auth_service_network
+    restart: always
+
+  web:
+    image: auth_service_api
+    build:
+      context: .
+    container_name: auth-service-api
+    command: uwsgi --http 0.0.0.0:5000 --module auth_service_api.wsgi:app
+    env_file:
+      - .flaskenv
+    environment:
+      - DATABASE_URI=postgres://postgres:admin123@postgres:5432/auth_service_db
+      - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq
+      - CELERY_RESULT_BACKEND_URL=redis://redis
+    volumes:
+      - ./auth_service_api:/code/auth_service_api
+      - ./db/:/db/
+    ports:
+      - "5010:5000"
+    depends_on:
+      - postgres
+    networks:
+      - auth_service_network
+    restart: always
